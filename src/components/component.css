@@ -1,0 +1,12 @@
+.component-container {
+  width: 1087px;
+  height: 822px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-style: dashed;
+  border-width: 1px;
+  flex-direction: column;
+  justify-content: center;
+}
