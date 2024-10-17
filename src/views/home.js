@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react'
+import { Link } from 'react-router-dom'
 
 import Script from 'dangerous-html/react'
 import { Helmet } from 'react-helmet'
@@ -952,7 +953,14 @@ const Home = (props) => {
           </div>
         </div>
       </div>
-      <div className="home-container108"></div>
+      <div className="home-container108">
+        <Link to="/imprint" className="home-navlink1">
+          Imprint
+        </Link>
+        <Link to="/privacy-policy" className="home-navlink2">
+          Privacy-Policy
+        </Link>
+      </div>
     </div>
   )
 }

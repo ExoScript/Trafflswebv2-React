@@ -9,7 +9,8 @@ import {
 
 import './style.css'
 import Home from './views/home'
-import Page from './views/page'
+import Imprint from './views/imprint'
+import PrivacyPolicy from './views/privacy-policy'
 import NotFound from './views/not-found'
 
 const App = () => {
@@ -17,7 +18,8 @@ const App = () => {
     <Router>
       <Switch>
         <Route component={Home} exact path="/" />
-        <Route component={Page} exact path="/page" />
+        <Route component={Imprint} exact path="/imprint" />
+        <Route component={PrivacyPolicy} exact path="/privacy-policy" />
         <Route component={NotFound} path="**" />
         <Redirect to="**" />
       </Switch>

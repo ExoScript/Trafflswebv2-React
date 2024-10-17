@@ -1476,6 +1476,7 @@
   object-fit: cover;
 }
 .home-container108 {
+  gap: 20px;
   width: 100%;
   height: auto;
   display: flex;
@@ -1483,6 +1484,12 @@
   align-items: center;
   flex-direction: column;
   background-color: #D9D9D9;
+}
+.home-navlink1 {
+  text-decoration: none;
+}
+.home-navlink2 {
+  text-decoration: none;
 }
 @media(max-width: 991px) {
   .home-slider {
