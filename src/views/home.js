@@ -876,15 +876,20 @@ const Home = (props) => {
                 Praesent fermentum posuere tellus non scelerisque.
               </span>
             </span>
-            <div className="btn-1">
-              <span>Book a Call</span>
-            </div>
+            <a href="#cld" className="home-link8">
+              <div className="home-container89 btn-1">
+                <span>Book a Call</span>
+              </div>
+            </a>
           </div>
         </div>
       </div>
       <div id="contact" className="home-container90">
         <div className="home-container91">
-          <span className="title">Contact Us</span>
+          <span className="title">
+            <span className="home-text247">Contact</span>
+            <span> Us</span>
+          </span>
           <span className="txt">
             Have questions or need more information? Fill out the contact form
             below, and we will get back to you shortly.
@@ -894,7 +899,7 @@ const Home = (props) => {
           <div className="home-container93">
             <div className="home-container94">
               <div className="home-container95">
-                <span className="home-text248">First name*</span>
+                <span className="home-text250">First name*</span>
                 <div className="home-container96">
                   <input
                     type="text"
@@ -904,7 +909,7 @@ const Home = (props) => {
                 </div>
               </div>
               <div className="home-container97">
-                <span className="home-text249">Last name*</span>
+                <span className="home-text251">Last name*</span>
                 <div className="home-container98">
                   <input
                     type="text"
@@ -916,7 +921,7 @@ const Home = (props) => {
             </div>
             <div className="home-container99">
               <div className="home-container100">
-                <span className="home-text250">Email*</span>
+                <span className="home-text252">Email*</span>
                 <div className="home-container101">
                   <input
                     type="text"
@@ -926,7 +931,7 @@ const Home = (props) => {
                 </div>
               </div>
               <div className="home-container102">
-                <span className="home-text251">Phone (Optional)</span>
+                <span className="home-text253">Phone (Optional)</span>
                 <div className="home-container103">
                   <input
                     type="text"
@@ -938,7 +943,7 @@ const Home = (props) => {
             </div>
             <div className="home-container104">
               <div className="home-container105">
-                <span className="home-text252">Message*</span>
+                <span className="home-text254">Message*</span>
                 <div className="home-container106">
                   <textarea
                     placeholder="Please write your message here..."
