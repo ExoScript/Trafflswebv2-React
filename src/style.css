@@ -494,6 +494,9 @@
   justify-content: center;
   background-color: var(--dl-color-traffls-main);
 }
+.btn-1:hover {
+  background-color: #513181;
+}
 .btn-2 {
   flex: 0 0 auto;
   width: 175px;
@@ -506,6 +509,9 @@
   border-radius: 25px;
   flex-direction: column;
   justify-content: center;
+}
+.btn-2:hover {
+  background-color: #cfb8ef;
 }
 .Content {
   font-size: 16px;

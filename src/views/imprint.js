@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
@@ -34,37 +35,39 @@ const Imprint = (props) => {
           </div>
         </div>
         <div className="imprint-container14">
-          <div className="imprint-container15 menu-btn">
-            <span>Home</span>
-          </div>
-          <a href="#aboutUs" className="imprint-link1">
+          <Link to="/" className="imprint-navlink1">
+            <div className="imprint-container15 menu-btn">
+              <span>Home</span>
+            </div>
+          </Link>
+          <Link to="/" className="imprint-navlink2">
             <div className="imprint-container16 menu-btn">
               <span>About us</span>
             </div>
-          </a>
-          <a href="#pricing" className="imprint-link2">
+          </Link>
+          <Link to="/" className="imprint-navlink3">
             <div className="imprint-container17 menu-btn">
               <span>Pricing</span>
             </div>
-          </a>
-          <a href="#howItWork" className="imprint-link3">
+          </Link>
+          <Link to="/" className="imprint-navlink4">
             <div className="imprint-container18 menu-btn">
               <span>How it Works</span>
             </div>
-          </a>
-          <a href="#testimonials" className="imprint-link4">
+          </Link>
+          <Link to="/" className="imprint-navlink5">
             <div className="imprint-container19 menu-btn">
               <span>Testimonials</span>
             </div>
-          </a>
-          <a href="#contact" className="imprint-link5">
+          </Link>
+          <Link to="/" className="imprint-navlink6">
             <div className="imprint-container20 menu-btn">
               <span>Contact us</span>
             </div>
-          </a>
+          </Link>
         </div>
         <div className="imprint-container21">
-          <a href="#cld" className="imprint-link6">
+          <a href="#cld" className="imprint-link">
             <div className="imprint-container22 btn-1">
               <span>Book a Call</span>
             </div>

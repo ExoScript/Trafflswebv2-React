@@ -49,14 +49,18 @@
   flex-direction: row;
   justify-content: center;
 }
+.imprint-navlink1 {
+  display: contents;
+}
 .imprint-container15 {
   cursor: pointer;
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: center;
+  text-decoration: none;
 }
-.imprint-link1 {
+.imprint-navlink2 {
   display: contents;
 }
 .imprint-container16 {
@@ -67,7 +71,7 @@
   justify-content: center;
   text-decoration: none;
 }
-.imprint-link2 {
+.imprint-navlink3 {
   display: contents;
 }
 .imprint-container17 {
@@ -78,7 +82,7 @@
   justify-content: center;
   text-decoration: none;
 }
-.imprint-link3 {
+.imprint-navlink4 {
   display: contents;
 }
 .imprint-container18 {
@@ -89,7 +93,7 @@
   justify-content: center;
   text-decoration: none;
 }
-.imprint-link4 {
+.imprint-navlink5 {
   display: contents;
 }
 .imprint-container19 {
@@ -100,7 +104,7 @@
   justify-content: center;
   text-decoration: none;
 }
-.imprint-link5 {
+.imprint-navlink6 {
   display: contents;
 }
 .imprint-container20 {
@@ -120,7 +124,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.imprint-link6 {
+.imprint-link {
   display: contents;
 }
 .imprint-container22 {
