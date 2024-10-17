@@ -20,7 +20,7 @@ const PrivacyPolicy = (props) => {
         />
         <meta
           property="og:image"
-          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/37438957-1937-49c8-919d-bbaaa2990153/55f1a96a-7390-467c-957c-e2ed6ab27f98?org_if_sml=1&amp;force_format=original"
+          content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/37438957-1937-49c8-919d-bbaaa2990153/376e1323-8f7f-45d1-a446-e12e4a47f9d9?org_if_sml=1&amp;force_format=original"
         />
       </Helmet>
       <div className="privacy-policy-container11">
