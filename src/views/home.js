@@ -35,7 +35,7 @@ const Home = (props) => {
               <img
                 alt="image"
                 src="/logo_lila_cut-200w.png"
-                className="home-image1"
+                className="home-image10"
               />
             </div>
           </div>
@@ -133,7 +133,7 @@ const Home = (props) => {
               </div>
             </div>
             <div className="home-container29">
-              <img alt="image" src="/b1-600h.webp" className="home-image2" />
+              <img alt="image" src="/b1-600h.webp" className="home-image11" />
             </div>
           </div>
         </div>
@@ -145,48 +145,7 @@ const Home = (props) => {
           <span className="home-text123 txt">
             Trusted by leading SaaS Companies in Europe
           </span>
-          <div className="home-container31">
-            <div
-              data-thq="slider"
-              data-loop="true"
-              data-autoplay="true"
-              data-navigation="true"
-              data-pagination="true"
-              className="home-slider1 swiper"
-            >
-              <div data-thq="slider-wrapper" className="swiper-wrapper">
-                <div
-                  data-thq="slider-slide"
-                  className="home-slider-slide1 swiper-slide"
-                ></div>
-                <div
-                  data-thq="slider-slide"
-                  className="home-slider-slide2 swiper-slide"
-                ></div>
-              </div>
-              <div
-                data-thq="slider-pagination"
-                className="home-slider-pagination1 swiper-pagination swiper-pagination-bullets swiper-pagination-horizontal"
-              >
-                <div
-                  data-thq="slider-pagination-bullet"
-                  className="swiper-pagination-bullet swiper-pagination-bullet-active"
-                ></div>
-                <div
-                  data-thq="slider-pagination-bullet"
-                  className="swiper-pagination-bullet"
-                ></div>
-              </div>
-              <div
-                data-thq="slider-button-prev"
-                className="swiper-button-prev"
-              ></div>
-              <div
-                data-thq="slider-button-next"
-                className="swiper-button-next"
-              ></div>
-            </div>
-          </div>
+          <div className="home-container31"></div>
         </div>
         <div id="aboutUs" className="home-container32">
           <div className="home-container33">
@@ -216,27 +175,24 @@ const Home = (props) => {
                   growth goal faster and with less risk
                 </span>
               </div>
-              <div className="btn-1">
-                <span>Book a Call</span>
-              </div>
+              <a href="#cld" className="home-link8">
+                <div className="home-container36 btn-1">
+                  <span>Book a Call</span>
+                </div>
+              </a>
             </div>
             <div className="home-container37">
-              <img alt="image" src="/b3-1000h.webp" className="home-image3" />
+              <img alt="image" src="/b3-1000h.webp" className="home-image12" />
             </div>
           </div>
           <div className="home-container38">
             <div className="home-container39">
               <div className="home-container40">
-                <svg width="32" height="32" viewBox="0 0 32 32">
-                  <path
-                    d="M19 14a3 3 0 1 0-3-3a3 3 0 0 0 3 3m0-4a1 1 0 1 1-1 1a1 1 0 0 1 1-1"
-                    fill="currentColor"
-                  ></path>
-                  <path
-                    d="M26 4H6a2 2 0 0 0-2 2v20a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2m0 22H6v-6l5-5l5.59 5.59a2 2 0 0 0 2.82 0L21 19l5 5Zm0-4.83l-3.59-3.59a2 2 0 0 0-2.82 0L18 19.17l-5.59-5.59a2 2 0 0 0-2.82 0L6 17.17V6h20Z"
-                    fill="currentColor"
-                  ></path>
-                </svg>
+                <img
+                  src="/user-engagement-200h.png"
+                  alt="image"
+                  className="home-image13"
+                />
               </div>
               <div className="home-container41">
                 <span className="home-text131">Guaranteed Leads</span>
@@ -248,16 +204,11 @@ const Home = (props) => {
             </div>
             <div className="home-container42">
               <div className="home-container43">
-                <svg width="32" height="32" viewBox="0 0 32 32">
-                  <path
-                    d="M19 14a3 3 0 1 0-3-3a3 3 0 0 0 3 3m0-4a1 1 0 1 1-1 1a1 1 0 0 1 1-1"
-                    fill="currentColor"
-                  ></path>
-                  <path
-                    d="M26 4H6a2 2 0 0 0-2 2v20a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2m0 22H6v-6l5-5l5.59 5.59a2 2 0 0 0 2.82 0L21 19l5 5Zm0-4.83l-3.59-3.59a2 2 0 0 0-2.82 0L18 19.17l-5.59-5.59a2 2 0 0 0-2.82 0L6 17.17V6h20Z"
-                    fill="currentColor"
-                  ></path>
-                </svg>
+                <img
+                  src="/growing-business-200h.png"
+                  alt="image"
+                  className="home-image14"
+                />
               </div>
               <div className="home-container44">
                 <span className="home-text133">Guaranteed positive ROI</span>
@@ -292,7 +243,13 @@ const Home = (props) => {
           <div className="home-container47">
             <div className="home-container48">
               <div className="home-container49">
-                <div className="home-container50"></div>
+                <div className="home-container50">
+                  <img
+                    src="/badge-200h.png"
+                    alt="image"
+                    className="home-image15"
+                  />
+                </div>
                 <span className="home-text139">No Upfront Costs</span>
                 <span className="home-text140">
                   The onboarding, the system setup, and everything else is on
@@ -301,7 +258,13 @@ const Home = (props) => {
                 </span>
               </div>
               <div className="home-container51">
-                <div className="home-container52"></div>
+                <div className="home-container52">
+                  <img
+                    src="/calendar-200h.png"
+                    alt="image"
+                    className="home-image16"
+                  />
+                </div>
                 <span className="home-text141">No Monthly Fee</span>
                 <span className="home-text142">
                   There is also no monthly fee, as we do believe in performance.
@@ -312,7 +275,13 @@ const Home = (props) => {
             </div>
             <div className="home-container53">
               <div className="home-container54">
-                <div className="home-container55"></div>
+                <div className="home-container55">
+                  <img
+                    src="/paper-200h.png"
+                    alt="image"
+                    className="home-image17"
+                  />
+                </div>
                 <span className="home-text143">No Minimum Contract</span>
                 <span className="home-text144">
                   So we also do not believe in lenghty contract durations. If
@@ -321,7 +290,13 @@ const Home = (props) => {
                 </span>
               </div>
               <div className="home-container56">
-                <div className="home-container57"></div>
+                <div className="home-container57">
+                  <img
+                    src="/collaboration-200h.png"
+                    alt="image"
+                    className="home-image18"
+                  />
+                </div>
                 <span className="home-text145">Ongoing Support</span>
                 <span className="home-text146">
                   You will always have access to our team and your dedicated
@@ -551,12 +526,12 @@ const Home = (props) => {
             data-navigation="true"
             data-pagination="true"
             data-pause-autoplay-on-mouse-enter="true"
-            className="home-slider2 swiper"
+            className="home-slider swiper"
           >
             <div data-thq="slider-wrapper" className="swiper-wrapper">
               <div
                 data-thq="slider-slide"
-                className="home-slider-slide3 swiper-slide"
+                className="home-slider-slide1 swiper-slide"
               >
                 <div className="home-column1 thq-card">
                   <div className="home-stars1">
@@ -623,7 +598,7 @@ const Home = (props) => {
               </div>
               <div
                 data-thq="slider-slide"
-                className="home-slider-slide4 swiper-slide"
+                className="home-slider-slide2 swiper-slide"
               >
                 <div className="home-column3 thq-card">
                   <div className="home-stars3">
@@ -691,7 +666,7 @@ const Home = (props) => {
             </div>
             <div
               data-thq="slider-pagination"
-              className="home-slider-pagination2 swiper-pagination swiper-pagination-bullets swiper-pagination-horizontal"
+              className="home-slider-pagination swiper-pagination swiper-pagination-bullets swiper-pagination-horizontal"
             >
               <div
                 data-thq="slider-pagination-bullet"
@@ -924,7 +899,7 @@ const Home = (props) => {
                   nunc. Praesent fermentum posuere tellus non scelerisque.
                 </span>
               </span>
-              <a href="#cld" className="home-link8">
+              <a href="#cld" className="home-link9">
                 <div className="home-container89 btn-1">
                   <span>Book a Call</span>
                 </div>
@@ -1002,7 +977,7 @@ const Home = (props) => {
               </div>
             </div>
             <div className="home-container107">
-              <img alt="image" src="/b2-600h.webp" className="home-image4" />
+              <img alt="image" src="/b2-600h.webp" className="home-image19" />
             </div>
           </div>
         </div>
