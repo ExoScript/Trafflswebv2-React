@@ -6,11 +6,12 @@ import { Helmet } from 'react-helmet'
 
 import Pricing4 from '../components/pricing4'
 import AskedQuestions from '../components/asked-questions'
+import Mobilv from '../components/mobilv'
 import './home.css'
 
 const Home = (props) => {
   return (
-    <div className="home-container100">
+    <div className="home-container10">
       <Helmet>
         <title>Traffls</title>
         <meta
@@ -27,10 +28,10 @@ const Home = (props) => {
           content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/37438957-1937-49c8-919d-bbaaa2990153/376e1323-8f7f-45d1-a446-e12e4a47f9d9?org_if_sml=1&amp;force_format=original"
         />
       </Helmet>
-      <div className="home-container101">
-        <div className="home-container102">
-          <div className="home-container103">
-            <div className="home-container104">
+      <div className="home-webv">
+        <div className="home-container11">
+          <div className="home-container12">
+            <div className="home-container13">
               <img
                 alt="image"
                 src="/logo_lila_cut-200w.png"
@@ -38,47 +39,47 @@ const Home = (props) => {
               />
             </div>
           </div>
-          <div className="home-container105">
-            <div className="home-container106 menu-btn">
+          <div className="home-container14">
+            <div className="home-container15 menu-btn">
               <span>Home</span>
             </div>
             <a href="#aboutUs" className="home-link1">
-              <div className="home-container107 menu-btn">
+              <div className="home-container16 menu-btn">
                 <span>About us</span>
               </div>
             </a>
             <a href="#pricing" className="home-link2">
-              <div className="home-container108 menu-btn">
+              <div className="home-container17 menu-btn">
                 <span>Pricing</span>
               </div>
             </a>
             <a href="#howItWork" className="home-link3">
-              <div className="home-container109 menu-btn">
+              <div className="home-container18 menu-btn">
                 <span>How it Works</span>
               </div>
             </a>
             <a href="#testimonials" className="home-link4">
-              <div className="home-container110 menu-btn">
+              <div className="home-container19 menu-btn">
                 <span>Testimonials</span>
               </div>
             </a>
             <a href="#contact" className="home-link5">
-              <div className="home-container111 menu-btn">
+              <div className="home-container20 menu-btn">
                 <span>Contact us</span>
               </div>
             </a>
           </div>
-          <div className="home-container112">
+          <div className="home-container21">
             <a href="#cld" className="home-link6">
-              <div className="home-container113 btn-1">
+              <div className="home-container22 btn-1">
                 <span>Book a Call</span>
               </div>
             </a>
           </div>
         </div>
-        <div className="home-container114">
-          <div className="home-container115">
-            <div className="home-container116">
+        <div className="home-container23">
+          <div className="home-container24">
+            <div className="home-container25">
               <span className="home-text107">
                 <span className="home-text108">Increase</span>
                 <span> your</span>
@@ -120,9 +121,9 @@ const Home = (props) => {
                   }}
                 />
               </span>
-              <div className="home-container117">
+              <div className="home-container26">
                 <a href="#cld" className="home-link7">
-                  <div className="home-container118 btn-1">
+                  <div className="home-container27 btn-1">
                     <span>Book a Call</span>
                   </div>
                 </a>
@@ -131,12 +132,12 @@ const Home = (props) => {
                 </div>
               </div>
             </div>
-            <div className="home-container120">
+            <div className="home-container29">
               <img alt="image" src="/b1-600h.webp" className="home-image2" />
             </div>
           </div>
         </div>
-        <div className="home-container121">
+        <div className="home-container30">
           <span className="home-text120 title">
             <span className="home-text121">B2B Leads</span>
             <span> without Risk</span>
@@ -144,11 +145,52 @@ const Home = (props) => {
           <span className="home-text123 txt">
             Trusted by leading SaaS Companies in Europe
           </span>
-          <div className="home-container122"></div>
+          <div className="home-container31">
+            <div
+              data-thq="slider"
+              data-loop="true"
+              data-autoplay="true"
+              data-navigation="true"
+              data-pagination="true"
+              className="home-slider1 swiper"
+            >
+              <div data-thq="slider-wrapper" className="swiper-wrapper">
+                <div
+                  data-thq="slider-slide"
+                  className="home-slider-slide1 swiper-slide"
+                ></div>
+                <div
+                  data-thq="slider-slide"
+                  className="home-slider-slide2 swiper-slide"
+                ></div>
+              </div>
+              <div
+                data-thq="slider-pagination"
+                className="home-slider-pagination1 swiper-pagination swiper-pagination-bullets swiper-pagination-horizontal"
+              >
+                <div
+                  data-thq="slider-pagination-bullet"
+                  className="swiper-pagination-bullet swiper-pagination-bullet-active"
+                ></div>
+                <div
+                  data-thq="slider-pagination-bullet"
+                  className="swiper-pagination-bullet"
+                ></div>
+              </div>
+              <div
+                data-thq="slider-button-prev"
+                className="swiper-button-prev"
+              ></div>
+              <div
+                data-thq="slider-button-next"
+                className="swiper-button-next"
+              ></div>
+            </div>
+          </div>
         </div>
-        <div id="aboutUs" className="home-container123">
-          <div className="home-container124">
-            <div className="home-container125">
+        <div id="aboutUs" className="home-container32">
+          <div className="home-container33">
+            <div className="home-container34">
               <span className="home-text124">
                 <span>
                   Why Choose
@@ -160,7 +202,7 @@ const Home = (props) => {
                 </span>
                 <span className="home-text126">traffls?</span>
               </span>
-              <div className="home-container126">
+              <div className="home-container35">
                 <span className="home-text127">
                   traffls is the only service that not only guarantees you leads
                   but also guarantees a positive ROI on these leads. So you can
@@ -178,13 +220,13 @@ const Home = (props) => {
                 <span>Book a Call</span>
               </div>
             </div>
-            <div className="home-container128">
+            <div className="home-container37">
               <img alt="image" src="/b3-1000h.webp" className="home-image3" />
             </div>
           </div>
-          <div className="home-container129">
-            <div className="home-container130">
-              <div className="home-container131">
+          <div className="home-container38">
+            <div className="home-container39">
+              <div className="home-container40">
                 <svg width="32" height="32" viewBox="0 0 32 32">
                   <path
                     d="M19 14a3 3 0 1 0-3-3a3 3 0 0 0 3 3m0-4a1 1 0 1 1-1 1a1 1 0 0 1 1-1"
@@ -196,7 +238,7 @@ const Home = (props) => {
                   ></path>
                 </svg>
               </div>
-              <div className="home-container132">
+              <div className="home-container41">
                 <span className="home-text131">Guaranteed Leads</span>
                 <span className="home-text132">
                   If we do not deliver, there is no cost involved. But do not
@@ -204,8 +246,8 @@ const Home = (props) => {
                 </span>
               </div>
             </div>
-            <div className="home-container133">
-              <div className="home-container134">
+            <div className="home-container42">
+              <div className="home-container43">
                 <svg width="32" height="32" viewBox="0 0 32 32">
                   <path
                     d="M19 14a3 3 0 1 0-3-3a3 3 0 0 0 3 3m0-4a1 1 0 1 1-1 1a1 1 0 0 1 1-1"
@@ -217,7 +259,7 @@ const Home = (props) => {
                   ></path>
                 </svg>
               </div>
-              <div className="home-container135">
+              <div className="home-container44">
                 <span className="home-text133">Guaranteed positive ROI</span>
                 <span className="home-text134">
                   After getting to know your business we will establish a ROI
@@ -228,8 +270,8 @@ const Home = (props) => {
             </div>
           </div>
         </div>
-        <div className="home-container136">
-          <div className="home-container137">
+        <div className="home-container45">
+          <div className="home-container46">
             <span className="home-text135 title">
               <span>
                 Start Your
@@ -247,10 +289,10 @@ const Home = (props) => {
               customers.
             </span>
           </div>
-          <div className="home-container138">
-            <div className="home-container139">
-              <div className="home-container140">
-                <div className="home-container141"></div>
+          <div className="home-container47">
+            <div className="home-container48">
+              <div className="home-container49">
+                <div className="home-container50"></div>
                 <span className="home-text139">No Upfront Costs</span>
                 <span className="home-text140">
                   The onboarding, the system setup, and everything else is on
@@ -258,8 +300,8 @@ const Home = (props) => {
                   other than closing more leads
                 </span>
               </div>
-              <div className="home-container142">
-                <div className="home-container143"></div>
+              <div className="home-container51">
+                <div className="home-container52"></div>
                 <span className="home-text141">No Monthly Fee</span>
                 <span className="home-text142">
                   There is also no monthly fee, as we do believe in performance.
@@ -268,9 +310,9 @@ const Home = (props) => {
                 </span>
               </div>
             </div>
-            <div className="home-container144">
-              <div className="home-container145">
-                <div className="home-container146"></div>
+            <div className="home-container53">
+              <div className="home-container54">
+                <div className="home-container55"></div>
                 <span className="home-text143">No Minimum Contract</span>
                 <span className="home-text144">
                   So we also do not believe in lenghty contract durations. If
@@ -278,8 +320,8 @@ const Home = (props) => {
                   anytime. The question is if this will ever happen
                 </span>
               </div>
-              <div className="home-container147">
-                <div className="home-container148"></div>
+              <div className="home-container56">
+                <div className="home-container57"></div>
                 <span className="home-text145">Ongoing Support</span>
                 <span className="home-text146">
                   You will always have access to our team and your dedicated
@@ -290,7 +332,7 @@ const Home = (props) => {
             </div>
           </div>
         </div>
-        <div id="howItWork" className="home-container149">
+        <div id="howItWork" className="home-container58">
           <span className="home-text147">
             <span className="home-text148">Getting More Leads</span>
             <span>
@@ -304,15 +346,15 @@ const Home = (props) => {
             </span>
             <span className="home-text150">Easy</span>
           </span>
-          <div className="home-container150">
-            <div className="home-container151">
-              <div className="home-container152">
-                <div className="home-container153">
-                  <div className="home-container154">
+          <div className="home-container59">
+            <div className="home-container60">
+              <div className="home-container61">
+                <div className="home-container62">
+                  <div className="home-container63">
                     <span className="home-text151">1</span>
                   </div>
                 </div>
-                <div className="home-container155">
+                <div className="home-container64">
                   <span className="home-text152">Book A Call</span>
                   <span className="home-text153">
                     We will get you know your company and answer some questions
@@ -320,13 +362,13 @@ const Home = (props) => {
                   </span>
                 </div>
               </div>
-              <div className="home-container156">
-                <div className="home-container157">
-                  <div className="home-container158">
+              <div className="home-container65">
+                <div className="home-container66">
+                  <div className="home-container67">
                     <span className="home-text154">2</span>
                   </div>
                 </div>
-                <div className="home-container159">
+                <div className="home-container68">
                   <span className="home-text155">Offer</span>
                   <span className="home-text156">
                     We will send you an offer which fulfills your needs so that
@@ -335,14 +377,14 @@ const Home = (props) => {
                 </div>
               </div>
             </div>
-            <div className="home-container160">
-              <div className="home-container161">
-                <div className="home-container162">
-                  <div className="home-container163">
+            <div className="home-container69">
+              <div className="home-container70">
+                <div className="home-container71">
+                  <div className="home-container72">
                     <span className="home-text157">3</span>
                   </div>
                 </div>
-                <div className="home-container164">
+                <div className="home-container73">
                   <span className="home-text158">Onboarding</span>
                   <span className="home-text159">
                     We will prepare everything on our side and setup the system
@@ -350,13 +392,13 @@ const Home = (props) => {
                   </span>
                 </div>
               </div>
-              <div className="home-container165">
-                <div className="home-container166">
-                  <div className="home-container167">
+              <div className="home-container74">
+                <div className="home-container75">
+                  <div className="home-container76">
                     <span className="home-text160">4</span>
                   </div>
                 </div>
-                <div className="home-container168">
+                <div className="home-container77">
                   <span className="home-text161">Done</span>
                   <span className="home-text162">
                     You are now ready to get more leads on a constant basis to
@@ -367,8 +409,8 @@ const Home = (props) => {
             </div>
           </div>
         </div>
-        <div id="pricing" className="home-container169">
-          <div className="home-container170">
+        <div id="pricing" className="home-container78">
+          <div className="home-container79">
             <span className="title">
               <span className="home-text164">Pricing</span>
               <span> that fits you</span>
@@ -484,8 +526,8 @@ const Home = (props) => {
             }
           ></Pricing4>
         </div>
-        <div id="testimonials" className="home-container171">
-          <div className="home-container172">
+        <div id="testimonials" className="home-container80">
+          <div className="home-container81">
             <span className="title">
               <span>
                 Hear from Our
@@ -509,12 +551,12 @@ const Home = (props) => {
             data-navigation="true"
             data-pagination="true"
             data-pause-autoplay-on-mouse-enter="true"
-            className="home-slider swiper"
+            className="home-slider2 swiper"
           >
             <div data-thq="slider-wrapper" className="swiper-wrapper">
               <div
                 data-thq="slider-slide"
-                className="home-slider-slide1 swiper-slide"
+                className="home-slider-slide3 swiper-slide"
               >
                 <div className="home-column1 thq-card">
                   <div className="home-stars1">
@@ -581,7 +623,7 @@ const Home = (props) => {
               </div>
               <div
                 data-thq="slider-slide"
-                className="home-slider-slide2 swiper-slide"
+                className="home-slider-slide4 swiper-slide"
               >
                 <div className="home-column3 thq-card">
                   <div className="home-stars3">
@@ -649,7 +691,7 @@ const Home = (props) => {
             </div>
             <div
               data-thq="slider-pagination"
-              className="home-slider-pagination swiper-pagination swiper-pagination-bullets swiper-pagination-horizontal"
+              className="home-slider-pagination2 swiper-pagination swiper-pagination-bullets swiper-pagination-horizontal"
             >
               <div
                 data-thq="slider-pagination-bullet"
@@ -670,8 +712,8 @@ const Home = (props) => {
             ></div>
           </div>
         </div>
-        <div id="cld" className="home-container173">
-          <div className="home-container174">
+        <div id="cld" className="home-container82">
+          <div className="home-container83">
             <span className="title">
               <span>
                 Book a
@@ -690,8 +732,8 @@ const Home = (props) => {
               achieve your goals.
             </span>
           </div>
-          <div className="home-container175">
-            <div className="home-container176">
+          <div className="home-container84">
+            <div className="home-container85">
               <React.Fragment>
                 <React.Fragment>
                   {/* Calendly inline widget begin */}
@@ -711,7 +753,7 @@ const Home = (props) => {
             </div>
           </div>
         </div>
-        <div className="home-container177">
+        <div className="home-container86">
           <span className="title">
             <span>
               Frequently Asked
@@ -723,7 +765,7 @@ const Home = (props) => {
             </span>
             <span className="home-text206">Questions</span>
           </span>
-          <div className="home-container178">
+          <div className="home-container87">
             <AskedQuestions
               text={
                 <Fragment>
@@ -862,7 +904,7 @@ const Home = (props) => {
                 </Fragment>
               }
             ></AskedQuestions>
-            <div className="home-container179">
+            <div className="home-container88">
               <span className="home-text239">Do you have more questions?</span>
               <span className="home-text240">
                 <span>
@@ -883,15 +925,15 @@ const Home = (props) => {
                 </span>
               </span>
               <a href="#cld" className="home-link8">
-                <div className="home-container180 btn-1">
+                <div className="home-container89 btn-1">
                   <span>Book a Call</span>
                 </div>
               </a>
             </div>
           </div>
         </div>
-        <div id="contact" className="home-container181">
-          <div className="home-container182">
+        <div id="contact" className="home-container90">
+          <div className="home-container91">
             <span className="title">
               <span className="home-text247">Contact</span>
               <span> Us</span>
@@ -901,12 +943,12 @@ const Home = (props) => {
               below, and we will get back to you shortly.
             </span>
           </div>
-          <div className="home-container183">
-            <div className="home-container184">
-              <div className="home-container185">
-                <div className="home-container186">
+          <div className="home-container92">
+            <div className="home-container93">
+              <div className="home-container94">
+                <div className="home-container95">
                   <span className="home-text250">First name*</span>
-                  <div className="home-container187">
+                  <div className="home-container96">
                     <input
                       type="text"
                       placeholder="John"
@@ -914,9 +956,9 @@ const Home = (props) => {
                     />
                   </div>
                 </div>
-                <div className="home-container188">
+                <div className="home-container97">
                   <span className="home-text251">Last name*</span>
-                  <div className="home-container189">
+                  <div className="home-container98">
                     <input
                       type="text"
                       placeholder="Doe"
@@ -925,10 +967,10 @@ const Home = (props) => {
                   </div>
                 </div>
               </div>
-              <div className="home-container190">
-                <div className="home-container191">
+              <div className="home-container99">
+                <div className="home-container100">
                   <span className="home-text252">Email*</span>
-                  <div className="home-container192">
+                  <div className="home-container101">
                     <input
                       type="text"
                       placeholder="john.doe@gmail.com"
@@ -936,9 +978,9 @@ const Home = (props) => {
                     />
                   </div>
                 </div>
-                <div className="home-container193">
+                <div className="home-container102">
                   <span className="home-text253">Phone (Optional)</span>
-                  <div className="home-container194">
+                  <div className="home-container103">
                     <input
                       type="text"
                       placeholder="+1 23 456 789"
@@ -947,10 +989,10 @@ const Home = (props) => {
                   </div>
                 </div>
               </div>
-              <div className="home-container195">
-                <div className="home-container196">
+              <div className="home-container104">
+                <div className="home-container105">
                   <span className="home-text254">Message*</span>
-                  <div className="home-container197">
+                  <div className="home-container106">
                     <textarea
                       placeholder="Please write your message here..."
                       className="home-textarea textarea"
@@ -959,12 +1001,12 @@ const Home = (props) => {
                 </div>
               </div>
             </div>
-            <div className="home-container198">
+            <div className="home-container107">
               <img alt="image" src="/b2-600h.webp" className="home-image4" />
             </div>
           </div>
         </div>
-        <div className="home-container199">
+        <div className="home-container108">
           <Link to="/imprint" className="home-navlink1">
             Imprint
           </Link>
@@ -973,6 +1015,7 @@ const Home = (props) => {
           </Link>
         </div>
       </div>
+      <Mobilv></Mobilv>
     </div>
   )
 }

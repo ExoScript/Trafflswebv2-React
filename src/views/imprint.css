@@ -186,6 +186,13 @@
   font-style: normal;
   font-weight: 700;
 }
-.imprint-text38 {
+.imprint-text41 {
   text-align: center;
+}
+@media(max-width: 479px) {
+  .imprint-text37 {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+  }
 }

@@ -1,11 +1,13 @@
 :root {
   --dl-size-size-large: 144px;
   --dl-size-size-small: 48px;
+  --dl-color-gray-white: #FFFFFF;
   --dl-size-size-medium: 96px;
   --dl-size-size-xlarge: 192px;
   --dl-size-size-xsmall: 16px;
   --dl-space-space-unit: 16px;
   --dl-size-size-xxlarge: 288px;
+  --dl-color-primary-lila: #6840a5ff;
   --dl-color-traffls-main: #6840a5ff;
   --dl-size-size-maxwidth: 1400px;
   --dl-color-theme-accent1: #FFFFFF;
@@ -513,6 +515,19 @@
 .btn-2:hover {
   background-color: #cfb8ef;
 }
+.text {
+  font-size: 16px;
+  font-style: normal;
+  text-align: left;
+  font-weight: 300;
+  line-height: 1.75;
+  letter-spacing: 1px;
+}
+.titel-2 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+}
 .Content {
   font-size: 16px;
   font-family: "Open Sans";
@@ -521,3 +536,4 @@
   text-transform: none;
   text-decoration: none;
 }
+

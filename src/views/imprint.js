@@ -104,9 +104,11 @@ const Imprint = (props) => {
           <span className="imprint-text36">E-Mail: info@traffls.com</span>
         </div>
         <span className="imprint-text37">
-          Verbraucherstreitbeilegung/Universalschlichtungsstelle
+          <span>Verbraucherstreitbeilegung/</span>
+          <br></br>
+          <span>Universalschlichtungsstelle</span>
         </span>
-        <span className="imprint-text38">
+        <span className="imprint-text41">
           <span>
             Wir sind nicht bereit oder verpflichtet, an
             Streitbeilegungsverfahren vor einer
