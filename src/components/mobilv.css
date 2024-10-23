@@ -1160,6 +1160,7 @@
   }
   .mobilv-container22 {
     gap: 20px;
+    display: none;
     padding-top: 70px;
     border-color: var(--dl-color-traffls-border);
     border-style: solid;
