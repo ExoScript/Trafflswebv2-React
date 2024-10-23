@@ -1,6 +1,4 @@
-import React, { useState, Fragment } from 'react'
-
-import PropTypes from 'prop-types'
+import React, { useState } from 'react'
 
 import './asked-questions.css'
 
@@ -21,20 +19,8 @@ const AskedQuestions = (props) => {
         className="asked-questions-quest1"
       >
         <div className="asked-questions-container2">
-          <span>
-            {props.text ?? (
-              <Fragment>
-                <span className="asked-questions-text41">
-                  Have questions or need more information? Fill out the contact
-                  form
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </Fragment>
-            )}
+          <span className="asked-questions-text1">
+            Does the setup cost anything?
           </span>
           <svg width="32" height="32" viewBox="0 0 32 32">
             <path
@@ -45,28 +31,11 @@ const AskedQuestions = (props) => {
         </div>
         {q1 === true && (
           <div className="asked-questions-container3">
-            <span>
-              {props.text1 ?? (
-                <Fragment>
-                  <span className="asked-questions-text33">
-                    <span>
-                      Have questions or need more information? Fill out the
-                      contact form below, and we will get back to you shortly.
-                    </span>
-                    <br></br>
-                    <span>
-                      Have questions or need more information? Fill out the
-                      contact form below, and we will get back to you shortly.
-                    </span>
-                    <br></br>
-                    <span>
-                      Have questions or need more information? Fill out the
-                      contact form below, and we will get back to you shortly.
-                    </span>
-                    <br></br>
-                  </span>
-                </Fragment>
-              )}
+            <span className="asked-questions-text2">
+              No, there is no setup fee. We believe in the long-term value of
+              our service, so we focus on delivering results without any upfront
+              costs. This allows you to start without any financial barriers,
+              trusting that our service will prove its value over time.
             </span>
           </div>
         )}
@@ -81,21 +50,7 @@ const AskedQuestions = (props) => {
         className="asked-questions-quest2"
       >
         <div className="asked-questions-container4">
-          <span>
-            {props.text2 ?? (
-              <Fragment>
-                <span className="asked-questions-text40">
-                  Have questions or need more information? Fill out the contact
-                  form
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </Fragment>
-            )}
-          </span>
+          <span className="asked-questions-text3">Is there a monthly fee?</span>
           <svg width="32" height="32" viewBox="0 0 32 32">
             <path
               d="M17 15V5h-2v10H5v2h10v10h2V17h10v-2z"
@@ -105,28 +60,11 @@ const AskedQuestions = (props) => {
         </div>
         {q2 === true && (
           <div className="asked-questions-container5">
-            <span>
-              {props.text11 ?? (
-                <Fragment>
-                  <span className="asked-questions-text42">
-                    <span>
-                      Have questions or need more information? Fill out the
-                      contact form below, and we will get back to you shortly.
-                    </span>
-                    <br></br>
-                    <span>
-                      Have questions or need more information? Fill out the
-                      contact form below, and we will get back to you shortly.
-                    </span>
-                    <br></br>
-                    <span>
-                      Have questions or need more information? Fill out the
-                      contact form below, and we will get back to you shortly.
-                    </span>
-                    <br></br>
-                  </span>
-                </Fragment>
-              )}
+            <span className="asked-questions-text4">
+              No, there is no monthly or minimum fee. You only pay for the leads
+              we generate, and the cost per lead is determined upfront. This
+              ensures that you only pay for results, giving you full
+              transparency and control over your investment.
             </span>
           </div>
         )}
@@ -141,20 +79,8 @@ const AskedQuestions = (props) => {
         className="asked-questions-quest3"
       >
         <div className="asked-questions-container6">
-          <span>
-            {props.text22 ?? (
-              <Fragment>
-                <span className="asked-questions-text18">
-                  Have questions or need more information? Fill out the contact
-                  form
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </Fragment>
-            )}
+          <span className="asked-questions-text5">
+            Is there a minimum contract time?
           </span>
           <svg width="32" height="32" viewBox="0 0 32 32">
             <path
@@ -165,28 +91,11 @@ const AskedQuestions = (props) => {
         </div>
         {q3 === true && (
           <div className="asked-questions-container7">
-            <span>
-              {props.text112 ?? (
-                <Fragment>
-                  <span className="asked-questions-text26">
-                    <span>
-                      Have questions or need more information? Fill out the
-                      contact form below, and we will get back to you shortly.
-                    </span>
-                    <br></br>
-                    <span>
-                      Have questions or need more information? Fill out the
-                      contact form below, and we will get back to you shortly.
-                    </span>
-                    <br></br>
-                    <span>
-                      Have questions or need more information? Fill out the
-                      contact form below, and we will get back to you shortly.
-                    </span>
-                    <br></br>
-                  </span>
-                </Fragment>
-              )}
+            <span className="asked-questions-text6">
+              No, there is no minimum contract duration. You have the
+              flexibility to stay as long as you like. However, we are confident
+              in the value we provide and believe that once you start working
+              with us, you won’t want to leave!
             </span>
           </div>
         )}
@@ -201,20 +110,8 @@ const AskedQuestions = (props) => {
         className="asked-questions-quest4"
       >
         <div className="asked-questions-container8">
-          <span>
-            {props.text21 ?? (
-              <Fragment>
-                <span className="asked-questions-text49">
-                  Have questions or need more information? Fill out the contact
-                  form
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </Fragment>
-            )}
+          <span className="asked-questions-text7">
+            How do you determine the price for a lead?
           </span>
           <svg width="32" height="32" viewBox="0 0 32 32">
             <path
@@ -225,56 +122,21 @@ const AskedQuestions = (props) => {
         </div>
         {q4 === true && (
           <div className="asked-questions-container9">
-            <span>
-              {props.text111 ?? (
-                <Fragment>
-                  <span className="asked-questions-text19">
-                    <span>
-                      Have questions or need more information? Fill out the
-                      contact form below, and we will get back to you shortly.
-                    </span>
-                    <br></br>
-                    <span>
-                      Have questions or need more information? Fill out the
-                      contact form below, and we will get back to you shortly.
-                    </span>
-                    <br></br>
-                    <span>
-                      Have questions or need more information? Fill out the
-                      contact form below, and we will get back to you shortly.
-                    </span>
-                    <br></br>
-                  </span>
-                </Fragment>
-              )}
+            <span className="asked-questions-text8">
+              Thanks to our vast experience in B2B lead generation, we begin
+              with an initial interview where we assess several key factors: the
+              typical cost of a lead in your industry, the probability of
+              closing these leads, and the average lifetime value of your
+              customers. Based on this information, we calculate what is
+              necessary to ensure a positive ROI for you. We will only provide a
+              quote if we are confident we can deliver leads at the agreed price
+              that align with your business goals.
             </span>
           </div>
         )}
       </div>
     </div>
   )
-}
-
-AskedQuestions.defaultProps = {
-  text22: undefined,
-  text111: undefined,
-  text112: undefined,
-  text1: undefined,
-  text2: undefined,
-  text: undefined,
-  text11: undefined,
-  text21: undefined,
-}
-
-AskedQuestions.propTypes = {
-  text22: PropTypes.element,
-  text111: PropTypes.element,
-  text112: PropTypes.element,
-  text1: PropTypes.element,
-  text2: PropTypes.element,
-  text: PropTypes.element,
-  text11: PropTypes.element,
-  text21: PropTypes.element,
 }
 
 export default AskedQuestions

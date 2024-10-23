@@ -1214,46 +1214,6 @@
   display: flex;
   align-items: flex-start;
 }
-.home-text207 {
-  display: inline-block;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-}
-.home-text208 {
-  display: inline-block;
-  line-height: 1.6;
-}
-.home-text215 {
-  display: inline-block;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-}
-.home-text216 {
-  display: inline-block;
-  line-height: 1.6;
-}
-.home-text223 {
-  display: inline-block;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-}
-.home-text224 {
-  display: inline-block;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-}
-.home-text225 {
-  display: inline-block;
-  line-height: 1.6;
-}
-.home-text232 {
-  display: inline-block;
-  line-height: 1.6;
-}
 .home-container88 {
   gap: 40px;
   flex: 0.5;
@@ -1272,14 +1232,14 @@
   justify-content: center;
   background-color: #fff;
 }
-.home-text239 {
+.home-text207 {
   font-size: 28px;
   font-style: normal;
   text-align: center;
   font-weight: 700;
 }
-.home-text240 {
-  text-align: center;
+.home-text208 {
+  line-height: 1.6;
 }
 .home-link9 {
   display: contents;
@@ -1306,7 +1266,7 @@
   align-items: center;
   flex-direction: column;
 }
-.home-text247 {
+.home-text211 {
   color: var(--dl-color-traffls-main);
   font-style: normal;
   font-weight: 700;
@@ -1345,7 +1305,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-text250 {
+.home-text214 {
   font-style: normal;
   font-weight: 700;
 }
@@ -1376,7 +1336,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-text251 {
+.home-text215 {
   font-style: normal;
   font-weight: 700;
 }
@@ -1414,7 +1374,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-text252 {
+.home-text216 {
   font-style: normal;
   font-weight: 700;
 }
@@ -1445,7 +1405,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-text253 {
+.home-text217 {
   font-style: normal;
   font-weight: 700;
 }
@@ -1483,7 +1443,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.home-text254 {
+.home-text218 {
   font-style: normal;
   font-weight: 700;
 }

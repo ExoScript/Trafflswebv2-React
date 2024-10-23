@@ -29,12 +29,20 @@
   align-items: center;
   justify-content: space-between;
 }
+.asked-questions-text1 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+}
 .asked-questions-container3 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
   display: flex;
   align-items: center;
+}
+.asked-questions-text2 {
+  line-height: 1.6;
 }
 .asked-questions-quest2 {
   gap: 20px;
@@ -57,12 +65,20 @@
   align-items: center;
   justify-content: space-between;
 }
+.asked-questions-text3 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+}
 .asked-questions-container5 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
   display: flex;
   align-items: center;
+}
+.asked-questions-text4 {
+  line-height: 1.6;
 }
 .asked-questions-quest3 {
   gap: 20px;
@@ -85,12 +101,20 @@
   align-items: center;
   justify-content: space-between;
 }
+.asked-questions-text5 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+}
 .asked-questions-container7 {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
   display: flex;
   align-items: center;
+}
+.asked-questions-text6 {
+  line-height: 1.6;
 }
 .asked-questions-quest4 {
   gap: 20px;
@@ -113,6 +137,11 @@
   align-items: center;
   justify-content: space-between;
 }
+.asked-questions-text7 {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+}
 .asked-questions-container9 {
   flex: 0 0 auto;
   width: 100%;
@@ -120,43 +149,6 @@
   display: flex;
   align-items: center;
 }
-.asked-questions-text18 {
-  display: inline-block;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-}
-.asked-questions-text19 {
-  display: inline-block;
+.asked-questions-text8 {
   line-height: 1.6;
-}
-.asked-questions-text26 {
-  display: inline-block;
-  line-height: 1.6;
-}
-.asked-questions-text33 {
-  display: inline-block;
-  line-height: 1.6;
-}
-.asked-questions-text40 {
-  display: inline-block;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-}
-.asked-questions-text41 {
-  display: inline-block;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-}
-.asked-questions-text42 {
-  display: inline-block;
-  line-height: 1.6;
-}
-.asked-questions-text49 {
-  display: inline-block;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
 }
