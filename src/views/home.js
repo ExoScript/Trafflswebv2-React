@@ -43,34 +43,34 @@ const Home = (props) => {
             <div className="home-container15 menu-btn">
               <span>Home</span>
             </div>
-            <a href="#aboutUs" className="home-link1">
+            <a href="#aboutUs" className="home-link10">
               <div className="home-container16 menu-btn">
                 <span>About us</span>
               </div>
             </a>
-            <a href="#pricing" className="home-link2">
+            <a href="#pricing" className="home-link11">
               <div className="home-container17 menu-btn">
                 <span>Pricing</span>
               </div>
             </a>
-            <a href="#howItWork" className="home-link3">
+            <a href="#howItWork" className="home-link12">
               <div className="home-container18 menu-btn">
                 <span>How it Works</span>
               </div>
             </a>
-            <a href="#testimonials" className="home-link4">
+            <a href="#testimonials" className="home-link13">
               <div className="home-container19 menu-btn">
                 <span>Testimonials</span>
               </div>
             </a>
-            <a href="#contact" className="home-link5">
+            <a href="#contact" className="home-link14">
               <div className="home-container20 menu-btn">
                 <span>Contact us</span>
               </div>
             </a>
           </div>
           <div className="home-container21">
-            <a href="#cld" className="home-link6">
+            <a href="#cld" className="home-link15">
               <div className="home-container22 btn-1">
                 <span>Book a Call</span>
               </div>
@@ -122,14 +122,16 @@ const Home = (props) => {
                 />
               </span>
               <div className="home-container26">
-                <a href="#cld" className="home-link7">
+                <a href="#cld" className="home-link16">
                   <div className="home-container27 btn-1">
                     <span>Book a Call</span>
                   </div>
                 </a>
-                <div className="btn-2">
-                  <span>Our Services</span>
-                </div>
+                <a href="#howItWork" className="home-link17">
+                  <div className="home-container28 btn-2">
+                    <span>Our Services</span>
+                  </div>
+                </a>
               </div>
             </div>
             <div className="home-container29">
@@ -175,14 +177,14 @@ const Home = (props) => {
                   growth goal faster and with less risk
                 </span>
               </div>
-              <a href="#cld" className="home-link8">
+              <a href="#cld" className="home-link18">
                 <div className="home-container36 btn-1">
                   <span>Book a Call</span>
                 </div>
               </a>
             </div>
             <div className="home-container37">
-              <img alt="image" src="/b3-1000h.webp" className="home-image12" />
+              <img alt="image" src="/b3-900h.webp" className="home-image12" />
             </div>
           </div>
           <div className="home-container38">
@@ -750,7 +752,7 @@ const Home = (props) => {
                 and would love to assist you in any way we can. Don’t hesitate
                 to contact us – we’re just a message away!
               </span>
-              <a href="#cld" className="home-link9">
+              <a href="#cld" className="home-link19">
                 <div className="home-container89 btn-1">
                   <span>Book a Call</span>
                 </div>
