@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 
+import PropTypes from 'prop-types'
+
 import './asked-questions.css'
 
 const AskedQuestions = (props) => {
@@ -8,7 +10,7 @@ const AskedQuestions = (props) => {
   const [q2, setQ2] = useState(false)
   const [q3, setQ3] = useState(false)
   return (
-    <div className="asked-questions-container1">
+    <div className={`asked-questions-container1 ${props.rootClassName} `}>
       <div
         onClick={() => {
           setQ3(false)
@@ -137,6 +139,14 @@ const AskedQuestions = (props) => {
       </div>
     </div>
   )
+}
+
+AskedQuestions.defaultProps = {
+  rootClassName: '',
+}
+
+AskedQuestions.propTypes = {
+  rootClassName: PropTypes.string,
 }
 
 export default AskedQuestions

@@ -13,12 +13,15 @@
   width: 100%;
   cursor: pointer;
   display: flex;
-  padding: 20px;
   align-items: flex-start;
+  padding-top: 10px;
   border-color: var(--dl-color-traffls-border);
   border-width: 1px;
+  padding-left: 20px;
   border-radius: var(--dl-radius-radius-radius8);
+  padding-right: 20px;
   flex-direction: column;
+  padding-bottom: 10px;
   background-color: #fff;
 }
 .asked-questions-container2 {
@@ -49,12 +52,15 @@
   width: 100%;
   cursor: pointer;
   display: flex;
-  padding: 20px;
   align-items: flex-start;
+  padding-top: 10px;
   border-color: var(--dl-color-traffls-border);
   border-width: 1px;
+  padding-left: 20px;
   border-radius: var(--dl-radius-radius-radius8);
+  padding-right: 20px;
   flex-direction: column;
+  padding-bottom: 10px;
   background-color: #fff;
 }
 .asked-questions-container4 {
@@ -85,12 +91,15 @@
   width: 100%;
   cursor: pointer;
   display: flex;
-  padding: 20px;
   align-items: flex-start;
+  padding-top: 10px;
   border-color: var(--dl-color-traffls-border);
   border-width: 1px;
+  padding-left: 20px;
   border-radius: var(--dl-radius-radius-radius8);
+  padding-right: 20px;
   flex-direction: column;
+  padding-bottom: 10px;
   background-color: #fff;
 }
 .asked-questions-container6 {
@@ -121,12 +130,15 @@
   width: 100%;
   cursor: pointer;
   display: flex;
-  padding: 20px;
   align-items: flex-start;
+  padding-top: 10px;
   border-color: var(--dl-color-traffls-border);
   border-width: 1px;
+  padding-left: 20px;
   border-radius: var(--dl-radius-radius-radius8);
+  padding-right: 20px;
   flex-direction: column;
+  padding-bottom: 10px;
   background-color: #fff;
 }
 .asked-questions-container8 {
@@ -151,4 +163,22 @@
 }
 .asked-questions-text8 {
   line-height: 1.6;
+}
+
+@media(max-width: 479px) {
+  .asked-questions-text1 {
+    line-height: 1.6;
+  }
+  .asked-questions-text3 {
+    line-height: 1.6;
+  }
+  .asked-questions-text5 {
+    line-height: 1.6;
+  }
+  .asked-questions-text7 {
+    line-height: 1.6;
+  }
+  .asked-questionsroot-class-name {
+    width: 100%;
+  }
 }
