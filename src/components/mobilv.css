@@ -1497,7 +1497,19 @@
     height: 229px;
   }
   .mobilv-container71 {
-    width: 100%;
+    gap: 40px;
+    height: auto;
+    align-self: stretch;
+    padding-top: 70px;
+    border-color: var(--dl-color-traffls-border);
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 40px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
   }
   .mobilv-text170 {
     font-size: 28px;
@@ -1628,6 +1640,7 @@
   .mobilv-text192 {
     font-size: 18px;
     font-style: normal;
+    text-align: center;
     font-weight: 700;
     letter-spacing: 1.5px;
   }
