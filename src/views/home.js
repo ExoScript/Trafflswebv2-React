@@ -31,11 +31,13 @@ const Home = (props) => {
         <div className="home-container101">
           <div className="home-container102">
             <div className="home-container103">
-              <img
-                alt="image"
-                src="/logo_lila_cut-200w.png"
-                className="home-image10"
-              />
+              <Link to="/page" className="home-navlink1">
+                <img
+                  alt="image"
+                  src="/logo_lila_cut-200w.png"
+                  className="home-image10"
+                />
+              </Link>
             </div>
           </div>
           <div className="home-container104">
@@ -405,66 +407,66 @@ const Home = (props) => {
             </div>
             <div className="home-container172">
               <div className="home-container173">
-                <svg height="24" width="24" viewBox="0 0 24 24">
+                <svg width="24" height="24" viewBox="0 0 24 24">
                   <path
+                    d="m5 13l4 4L19 7"
                     fill="none"
                     stroke="currentColor"
+                    stroke-width="1.5"
                     stroke-linecap="round"
                     stroke-linejoin="round"
-                    stroke-width="1.5"
-                    d="m5 13l4 4L19 7"
                   ></path>
                 </svg>
                 <span>Tailored lead generation</span>
               </div>
               <div className="home-container174">
-                <svg height="24" width="24" viewBox="0 0 24 24">
+                <svg width="24" height="24" viewBox="0 0 24 24">
                   <path
+                    d="m5 13l4 4L19 7"
                     fill="none"
                     stroke="currentColor"
+                    stroke-width="1.5"
                     stroke-linecap="round"
                     stroke-linejoin="round"
-                    stroke-width="1.5"
-                    d="m5 13l4 4L19 7"
                   ></path>
                 </svg>
                 <span>Positive ROI leads</span>
               </div>
               <div className="home-container175">
-                <svg height="24" width="24" viewBox="0 0 24 24">
+                <svg width="24" height="24" viewBox="0 0 24 24">
                   <path
+                    d="m5 13l4 4L19 7"
                     fill="none"
                     stroke="currentColor"
+                    stroke-width="1.5"
                     stroke-linecap="round"
                     stroke-linejoin="round"
-                    stroke-width="1.5"
-                    d="m5 13l4 4L19 7"
                   ></path>
                 </svg>
                 <span>Dedicated account manager</span>
               </div>
               <div className="home-container176">
-                <svg height="24" width="24" viewBox="0 0 24 24">
+                <svg width="24" height="24" viewBox="0 0 24 24">
                   <path
+                    d="m5 13l4 4L19 7"
                     fill="none"
                     stroke="currentColor"
+                    stroke-width="1.5"
                     stroke-linecap="round"
                     stroke-linejoin="round"
-                    stroke-width="1.5"
-                    d="m5 13l4 4L19 7"
                   ></path>
                 </svg>
                 <span>Guaranteed leads</span>
               </div>
               <div className="home-container177">
-                <svg height="24" width="24" viewBox="0 0 24 24">
+                <svg width="24" height="24" viewBox="0 0 24 24">
                   <path
+                    d="m5 13l4 4L19 7"
                     fill="none"
                     stroke="currentColor"
+                    stroke-width="1.5"
                     stroke-linecap="round"
                     stroke-linejoin="round"
-                    stroke-width="1.5"
-                    d="m5 13l4 4L19 7"
                   ></path>
                 </svg>
                 <span>No minimum contract</span>
@@ -886,12 +888,12 @@ const Home = (props) => {
             </div>
             <div className="home-container222">
               <span className="home-text219 titel-2">SUPPORT</span>
-              <Link to="/privacy-policy" className="home-navlink1">
+              <Link to="/privacy-policy" className="home-navlink2">
                 <div className="home-container223">
                   <span className="text home-text220">Privacy Policy</span>
                 </div>
               </Link>
-              <Link to="/imprint" className="home-navlink2">
+              <Link to="/imprint" className="home-navlink3">
                 <div className="home-container224">
                   <span className="text home-text221">Imprint</span>
                 </div>
