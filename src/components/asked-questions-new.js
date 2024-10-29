@@ -5,10 +5,10 @@ import PropTypes from 'prop-types'
 import './asked-questions-new.css'
 
 const AskedQuestionsNew = (props) => {
-  const [g1, setG1] = useState(false)
   const [g2, setG2] = useState(false)
-  const [g3, setG3] = useState(false)
   const [g4, setG4] = useState(false)
+  const [g3, setG3] = useState(false)
+  const [g1, setG1] = useState(false)
   return (
     <div className="asked-questions-new-asked-questions-new">
       {g1 === true && (
@@ -21,7 +21,7 @@ const AskedQuestionsNew = (props) => {
             <span>
               {props.text1 ?? (
                 <Fragment>
-                  <span className="asked-questions-new-text26">
+                  <span className="asked-questions-new-text32">
                     Does the setup cost anything?
                   </span>
                 </Fragment>
@@ -32,7 +32,7 @@ const AskedQuestionsNew = (props) => {
             <span>
               {props.text8 ?? (
                 <Fragment>
-                  <span className="asked-questions-new-text27">
+                  <span className="asked-questions-new-text41">
                     No, there is no setup fee. We believe in the long-term value
                     of our service, so we focus on delivering results without
                     any upfront costs. This allows you to start without any
@@ -48,10 +48,10 @@ const AskedQuestionsNew = (props) => {
       {g1 === false && (
         <div
           onClick={() => {
+            setG4(false)
             setG1(true)
             setG2(false)
             setG3(false)
-            setG4(false)
           }}
           className="asked-questions-new-container14"
         >
@@ -59,14 +59,14 @@ const AskedQuestionsNew = (props) => {
             <span>
               {props.text13 ?? (
                 <Fragment>
-                  <span className="asked-questions-new-text34">+</span>
+                  <span className="asked-questions-new-text39">+</span>
                 </Fragment>
               )}
             </span>
             <span>
               {props.text14 ?? (
                 <Fragment>
-                  <span className="asked-questions-new-text35">
+                  <span className="asked-questions-new-text33">
                     Does the setup cost anything?
                   </span>
                 </Fragment>
@@ -85,7 +85,7 @@ const AskedQuestionsNew = (props) => {
             <span>
               {props.text12 ?? (
                 <Fragment>
-                  <span className="asked-questions-new-text28">
+                  <span className="asked-questions-new-text38">
                     Is there a monthly fee?
                   </span>
                 </Fragment>
@@ -96,7 +96,7 @@ const AskedQuestionsNew = (props) => {
             <span>
               {props.text82 ?? (
                 <Fragment>
-                  <span className="asked-questions-new-text29">
+                  <span className="asked-questions-new-text28">
                     No, there is no setup fee. We believe in the long-term value
                     of our service, so we focus on delivering results without
                     any upfront costs. This allows you to start without any
@@ -113,9 +113,9 @@ const AskedQuestionsNew = (props) => {
         <div
           onClick={() => {
             setG1(false)
+            setG4(false)
             setG2(true)
             setG3(false)
-            setG4(false)
           }}
           className="asked-questions-new-container20"
         >
@@ -123,14 +123,14 @@ const AskedQuestionsNew = (props) => {
             <span>
               {props.text102 ?? (
                 <Fragment>
-                  <span className="asked-questions-new-text36">+</span>
+                  <span className="asked-questions-new-text31">+</span>
                 </Fragment>
               )}
             </span>
             <span>
               {props.text122 ?? (
                 <Fragment>
-                  <span className="asked-questions-new-text37">
+                  <span className="asked-questions-new-text34">
                     Is there a monthly fee?
                   </span>
                 </Fragment>
@@ -149,7 +149,7 @@ const AskedQuestionsNew = (props) => {
             <span>
               {props.text121 ?? (
                 <Fragment>
-                  <span className="asked-questions-new-text30">
+                  <span className="asked-questions-new-text37">
                     Is there a minimum contract time?
                   </span>
                 </Fragment>
@@ -160,7 +160,7 @@ const AskedQuestionsNew = (props) => {
             <span>
               {props.text821 ?? (
                 <Fragment>
-                  <span className="asked-questions-new-text31">
+                  <span className="asked-questions-new-text40">
                     No, there is no setup fee. We believe in the long-term value
                     of our service, so we focus on delivering results without
                     any upfront costs. This allows you to start without any
@@ -176,10 +176,10 @@ const AskedQuestionsNew = (props) => {
       {g3 === false && (
         <div
           onClick={() => {
-            setG3(true)
             setG1(false)
             setG2(false)
             setG4(false)
+            setG3(true)
           }}
           className="asked-questions-new-container26"
         >
@@ -187,14 +187,14 @@ const AskedQuestionsNew = (props) => {
             <span>
               {props.text1012 ?? (
                 <Fragment>
-                  <span className="asked-questions-new-text38">+</span>
+                  <span className="asked-questions-new-text29">+</span>
                 </Fragment>
               )}
             </span>
             <span>
               {props.text1212 ?? (
                 <Fragment>
-                  <span className="asked-questions-new-text39">
+                  <span className="asked-questions-new-text35">
                     Is there a minimum contract time?
                   </span>
                 </Fragment>
@@ -213,7 +213,7 @@ const AskedQuestionsNew = (props) => {
             <span>
               {props.text1211 ?? (
                 <Fragment>
-                  <span className="asked-questions-new-text32">
+                  <span className="asked-questions-new-text27">
                     How do you determine the price for a lead?
                   </span>
                 </Fragment>
@@ -224,7 +224,7 @@ const AskedQuestionsNew = (props) => {
             <span>
               {props.text8211 ?? (
                 <Fragment>
-                  <span className="asked-questions-new-text33">
+                  <span className="asked-questions-new-text36">
                     No, there is no setup fee. We believe in the long-term value
                     of our service, so we focus on delivering results without
                     any upfront costs. This allows you to start without any
@@ -240,9 +240,9 @@ const AskedQuestionsNew = (props) => {
       {g4 === false && (
         <div
           onClick={() => {
-            setG1(false)
             setG2(false)
             setG3(false)
+            setG1(false)
             setG4(true)
           }}
           className="asked-questions-new-container32"
@@ -251,14 +251,14 @@ const AskedQuestionsNew = (props) => {
             <span>
               {props.text10111 ?? (
                 <Fragment>
-                  <span className="asked-questions-new-text40">+</span>
+                  <span className="asked-questions-new-text30">+</span>
                 </Fragment>
               )}
             </span>
             <span>
               {props.text12111 ?? (
                 <Fragment>
-                  <span className="asked-questions-new-text41">
+                  <span className="asked-questions-new-text26">
                     How do you determine the price for a lead?
                   </span>
                 </Fragment>
@@ -272,41 +272,41 @@ const AskedQuestionsNew = (props) => {
 }
 
 AskedQuestionsNew.defaultProps = {
-  text1: undefined,
-  text8: undefined,
-  text12: undefined,
-  text82: undefined,
-  text121: undefined,
-  text821: undefined,
-  text1211: undefined,
-  text8211: undefined,
-  text13: undefined,
-  text14: undefined,
-  text102: undefined,
-  text122: undefined,
-  text1012: undefined,
-  text1212: undefined,
-  text10111: undefined,
   text12111: undefined,
+  text1211: undefined,
+  text82: undefined,
+  text1012: undefined,
+  text10111: undefined,
+  text102: undefined,
+  text1: undefined,
+  text14: undefined,
+  text122: undefined,
+  text1212: undefined,
+  text8211: undefined,
+  text121: undefined,
+  text12: undefined,
+  text13: undefined,
+  text821: undefined,
+  text8: undefined,
 }
 
 AskedQuestionsNew.propTypes = {
-  text1: PropTypes.element,
-  text8: PropTypes.element,
-  text12: PropTypes.element,
-  text82: PropTypes.element,
-  text121: PropTypes.element,
-  text821: PropTypes.element,
-  text1211: PropTypes.element,
-  text8211: PropTypes.element,
-  text13: PropTypes.element,
-  text14: PropTypes.element,
-  text102: PropTypes.element,
-  text122: PropTypes.element,
-  text1012: PropTypes.element,
-  text1212: PropTypes.element,
-  text10111: PropTypes.element,
   text12111: PropTypes.element,
+  text1211: PropTypes.element,
+  text82: PropTypes.element,
+  text1012: PropTypes.element,
+  text10111: PropTypes.element,
+  text102: PropTypes.element,
+  text1: PropTypes.element,
+  text14: PropTypes.element,
+  text122: PropTypes.element,
+  text1212: PropTypes.element,
+  text8211: PropTypes.element,
+  text121: PropTypes.element,
+  text12: PropTypes.element,
+  text13: PropTypes.element,
+  text821: PropTypes.element,
+  text8: PropTypes.element,
 }
 
 export default AskedQuestionsNew
