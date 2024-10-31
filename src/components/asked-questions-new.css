@@ -6,7 +6,7 @@
   flex-direction: column;
 }
 .asked-questions-new-container10 {
-  gap: 40px;
+  gap: 10px;
   fill: var(--dl-color-primary-lila);
   flex: 0 0 auto;
   width: 100%;
@@ -37,6 +37,10 @@
   flex-direction: column;
   background-color: var(--dl-color-primary-lila);
 }
+.asked-questions-new-text10 {
+  font-style: normal;
+  font-weight: 700;
+}
 .asked-questions-new-container13 {
   gap: 20px;
   display: flex;
@@ -49,6 +53,11 @@
   border-top-width: 0px;
   border-right-width: 0px;
   border-bottom-width: 0px;
+}
+.asked-questions-new-text11 {
+  fill: rgb(153, 153, 153);
+  color: rgb(153, 153, 153);
+  line-height: 1.6;
 }
 .asked-questions-new-container14 {
   gap: 40px;
@@ -73,8 +82,19 @@
   display: flex;
   align-items: center;
 }
+.asked-questions-new-text12 {
+  fill: var(--dl-color-primary-lila);
+  color: var(--dl-color-primary-lila);
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+}
+.asked-questions-new-text13 {
+  font-style: normal;
+  font-weight: 700;
+}
 .asked-questions-new-container16 {
-  gap: 40px;
+  gap: 10px;
   fill: var(--dl-color-primary-lila);
   flex: 0 0 auto;
   width: 100%;
@@ -105,6 +125,10 @@
   flex-direction: column;
   background-color: var(--dl-color-primary-lila);
 }
+.asked-questions-new-text14 {
+  font-style: normal;
+  font-weight: 700;
+}
 .asked-questions-new-container19 {
   gap: 20px;
   display: flex;
@@ -117,6 +141,11 @@
   border-top-width: 0px;
   border-right-width: 0px;
   border-bottom-width: 0px;
+}
+.asked-questions-new-text15 {
+  fill: rgb(153, 153, 153);
+  color: rgb(153, 153, 153);
+  line-height: 1.6;
 }
 .asked-questions-new-container20 {
   gap: 40px;
@@ -141,8 +170,19 @@
   display: flex;
   align-items: center;
 }
+.asked-questions-new-text16 {
+  fill: var(--dl-color-primary-lila);
+  color: var(--dl-color-primary-lila);
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+}
+.asked-questions-new-text17 {
+  font-style: normal;
+  font-weight: 700;
+}
 .asked-questions-new-container22 {
-  gap: 40px;
+  gap: 10px;
   fill: var(--dl-color-primary-lila);
   flex: 0 0 auto;
   width: 100%;
@@ -173,6 +213,10 @@
   flex-direction: column;
   background-color: var(--dl-color-primary-lila);
 }
+.asked-questions-new-text18 {
+  font-style: normal;
+  font-weight: 700;
+}
 .asked-questions-new-container25 {
   gap: 20px;
   display: flex;
@@ -185,6 +229,11 @@
   border-top-width: 0px;
   border-right-width: 0px;
   border-bottom-width: 0px;
+}
+.asked-questions-new-text19 {
+  fill: rgb(153, 153, 153);
+  color: rgb(153, 153, 153);
+  line-height: 1.6;
 }
 .asked-questions-new-container26 {
   gap: 40px;
@@ -209,8 +258,19 @@
   display: flex;
   align-items: center;
 }
+.asked-questions-new-text20 {
+  fill: var(--dl-color-primary-lila);
+  color: var(--dl-color-primary-lila);
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+}
+.asked-questions-new-text21 {
+  font-style: normal;
+  font-weight: 700;
+}
 .asked-questions-new-container28 {
-  gap: 40px;
+  gap: 10px;
   fill: var(--dl-color-primary-lila);
   flex: 0 0 auto;
   width: 100%;
@@ -241,6 +301,10 @@
   flex-direction: column;
   background-color: var(--dl-color-primary-lila);
 }
+.asked-questions-new-text22 {
+  font-style: normal;
+  font-weight: 700;
+}
 .asked-questions-new-container31 {
   gap: 20px;
   display: flex;
@@ -253,6 +317,11 @@
   border-top-width: 0px;
   border-right-width: 0px;
   border-bottom-width: 0px;
+}
+.asked-questions-new-text23 {
+  fill: rgb(153, 153, 153);
+  color: rgb(153, 153, 153);
+  line-height: 1.6;
 }
 .asked-questions-new-container32 {
   gap: 40px;
@@ -277,99 +346,62 @@
   display: flex;
   align-items: center;
 }
-.asked-questions-new-text26 {
-  display: inline-block;
+.asked-questions-new-text24 {
+  fill: var(--dl-color-primary-lila);
+  color: var(--dl-color-primary-lila);
+  font-size: 35px;
   font-style: normal;
   font-weight: 700;
+}
+.asked-questions-new-text25 {
+  font-style: normal;
+  font-weight: 700;
+}
+.asked-questions-new-text26 {
+  display: inline-block;
 }
 .asked-questions-new-text27 {
   display: inline-block;
-  font-style: normal;
-  font-weight: 700;
 }
 .asked-questions-new-text28 {
-  fill: rgb(153, 153, 153);
-  color: rgb(153, 153, 153);
   display: inline-block;
-  line-height: 1.6;
 }
 .asked-questions-new-text29 {
-  fill: var(--dl-color-primary-lila);
-  color: var(--dl-color-primary-lila);
   display: inline-block;
-  font-size: 35px;
-  font-style: normal;
-  font-weight: 700;
 }
 .asked-questions-new-text30 {
-  fill: var(--dl-color-primary-lila);
-  color: var(--dl-color-primary-lila);
   display: inline-block;
-  font-size: 35px;
-  font-style: normal;
-  font-weight: 700;
 }
 .asked-questions-new-text31 {
-  fill: var(--dl-color-primary-lila);
-  color: var(--dl-color-primary-lila);
   display: inline-block;
-  font-size: 35px;
-  font-style: normal;
-  font-weight: 700;
 }
 .asked-questions-new-text32 {
   display: inline-block;
-  font-style: normal;
-  font-weight: 700;
 }
 .asked-questions-new-text33 {
   display: inline-block;
-  font-style: normal;
-  font-weight: 700;
 }
 .asked-questions-new-text34 {
   display: inline-block;
-  font-style: normal;
-  font-weight: 700;
 }
 .asked-questions-new-text35 {
   display: inline-block;
-  font-style: normal;
-  font-weight: 700;
 }
 .asked-questions-new-text36 {
-  fill: rgb(153, 153, 153);
-  color: rgb(153, 153, 153);
   display: inline-block;
-  line-height: 1.6;
 }
 .asked-questions-new-text37 {
   display: inline-block;
-  font-style: normal;
-  font-weight: 700;
 }
 .asked-questions-new-text38 {
   display: inline-block;
-  font-style: normal;
-  font-weight: 700;
 }
 .asked-questions-new-text39 {
-  fill: var(--dl-color-primary-lila);
-  color: var(--dl-color-primary-lila);
   display: inline-block;
-  font-size: 35px;
-  font-style: normal;
-  font-weight: 700;
 }
 .asked-questions-new-text40 {
-  fill: rgb(153, 153, 153);
-  color: rgb(153, 153, 153);
   display: inline-block;
-  line-height: 1.6;
 }
 .asked-questions-new-text41 {
-  fill: rgb(153, 153, 153);
-  color: rgb(153, 153, 153);
   display: inline-block;
-  line-height: 1.6;
 }

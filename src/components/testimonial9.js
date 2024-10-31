@@ -9,22 +9,20 @@ const Testimonial9 = (props) => {
     <div className="thq-section-padding">
       <div className="testimonial9-max-width thq-section-padding">
         <div className="testimonial9-section-title">
-          <h2>
+          <h2 className="testimonial9-title thq-heading-2">
             {props.heading1 ?? (
               <Fragment>
-                <h2 className="testimonial9-text39 thq-heading-2">
-                  Client Testimonials
-                </h2>
+                <span className="testimonial9-text39">Client Testimonials</span>
               </Fragment>
             )}
           </h2>
-          <p>
+          <p className="testimonial9-subtitle thq-body-large">
             {props.content1 ?? (
               <Fragment>
-                <p className="testimonial9-text45 thq-body-large">
+                <span className="testimonial9-text45">
                   Read what our clients have to say about our lead generation
                   service.
-                </p>
+                </span>
               </Fragment>
             )}
           </p>
@@ -58,10 +56,10 @@ const Testimonial9 = (props) => {
                     <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
                   </svg>
                 </div>
-                <span>
+                <span className="testimonial9-text10 thq-body-small">
                   {props.review1 ?? (
                     <Fragment>
-                      <span className="testimonial9-text47 thq-body-small">
+                      <span className="testimonial9-text47">
                         We have been using this service for a few months now,
                         and the quality of leads provided has exceeded our
                         expectations. Highly recommended!
@@ -76,19 +74,19 @@ const Testimonial9 = (props) => {
                     className="testimonial9-avatar-image1 thq-img-round thq-img-ratio-1-1"
                   />
                   <div className="testimonial9-avatar-content1">
-                    <span>
+                    <span className="testimonial9-text11 thq-body-small">
                       {props.author1Name ?? (
                         <Fragment>
-                          <span className="testimonial9-text42 thq-body-small">
+                          <span className="testimonial9-text42">
                             John Smith
                           </span>
                         </Fragment>
                       )}
                     </span>
-                    <span>
+                    <span className="testimonial9-text12 thq-body-small">
                       {props.author1Position ?? (
                         <Fragment>
-                          <span className="testimonial9-text46 thq-body-small">
+                          <span className="testimonial9-text46">
                             CEO, TechSaaS
                           </span>
                         </Fragment>
@@ -115,10 +113,10 @@ const Testimonial9 = (props) => {
                     <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
                   </svg>
                 </div>
-                <span>
+                <span className="testimonial9-text13 thq-body-small">
                   {props.review2 ?? (
                     <Fragment>
-                      <span className="testimonial9-text48 thq-body-small">
+                      <span className="testimonial9-text48">
                         The team at this lead generation service truly
                         understands our target market. We have seen a
                         significant increase in qualified leads since we started
@@ -134,19 +132,19 @@ const Testimonial9 = (props) => {
                     className="testimonial9-avatar-image2 thq-img-round thq-img-ratio-1-1"
                   />
                   <div className="testimonial9-avatar-content2">
-                    <span>
+                    <span className="testimonial9-text14 thq-body-small">
                       {props.author2Name ?? (
                         <Fragment>
-                          <span className="testimonial9-text43 thq-body-small">
+                          <span className="testimonial9-text43">
                             Alice Johnson
                           </span>
                         </Fragment>
                       )}
                     </span>
-                    <span>
+                    <span className="testimonial9-text15 thq-body-small">
                       {props.author2Position ?? (
                         <Fragment>
-                          <span className="testimonial9-text40 thq-body-small">
+                          <span className="testimonial9-text40">
                             Marketing Director, SoftCloud
                           </span>
                         </Fragment>
@@ -178,10 +176,10 @@ const Testimonial9 = (props) => {
                     <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
                   </svg>
                 </div>
-                <span>
+                <span className="testimonial9-text16 thq-body-small">
                   {props.review3 ?? (
                     <Fragment>
-                      <span className="testimonial9-text50 thq-body-small">
+                      <span className="testimonial9-text50">
                         I was skeptical at first, but the results speak for
                         themselves. The leads provided are highly relevant and
                         have helped us boost our sales pipeline.
@@ -196,19 +194,19 @@ const Testimonial9 = (props) => {
                     className="testimonial9-avatar-image3 thq-img-round thq-img-ratio-1-1"
                   />
                   <div className="testimonial9-avatar-content3">
-                    <span>
+                    <span className="testimonial9-text17 thq-body-small">
                       {props.author3Name ?? (
                         <Fragment>
-                          <span className="testimonial9-text41 thq-body-small">
+                          <span className="testimonial9-text41">
                             Mark Davis
                           </span>
                         </Fragment>
                       )}
                     </span>
-                    <span>
+                    <span className="testimonial9-text18 thq-body-small">
                       {props.author3Position ?? (
                         <Fragment>
-                          <span className="testimonial9-text44 thq-body-small">
+                          <span className="testimonial9-text44">
                             COO, DataTech
                           </span>
                         </Fragment>
@@ -235,10 +233,10 @@ const Testimonial9 = (props) => {
                     <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
                   </svg>
                 </div>
-                <span>
+                <span className="testimonial9-text19 thq-body-small">
                   {props.review4 ?? (
                     <Fragment>
-                      <span className="testimonial9-text52 thq-body-small">
+                      <span className="testimonial9-text52">
                         Working with this service has been a game-changer for
                         us. The leads are of high quality, and the best part is
                         that we only pay for results.
@@ -253,19 +251,19 @@ const Testimonial9 = (props) => {
                     className="testimonial9-avatar-image4 thq-img-round thq-img-ratio-1-1"
                   />
                   <div className="testimonial9-avatar-content4">
-                    <span>
+                    <span className="testimonial9-text20 thq-body-small">
                       {props.author4Name ?? (
                         <Fragment>
-                          <span className="testimonial9-text51 thq-body-small">
+                          <span className="testimonial9-text51">
                             Sarah Brown
                           </span>
                         </Fragment>
                       )}
                     </span>
-                    <span>
+                    <span className="testimonial9-text21 thq-body-small">
                       {props.author4Position ?? (
                         <Fragment>
-                          <span className="testimonial9-text49 thq-body-small">
+                          <span className="testimonial9-text49">
                             CFO, CloudWorks
                           </span>
                         </Fragment>
@@ -327,7 +325,7 @@ const Testimonial9 = (props) => {
                     <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
                   </svg>
                 </div>
-                <span>
+                <span className="testimonial9-text22 thq-body-small">
                   &quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Suspendisse varius enim in eros elementum tristique. Duis
                   cursus, mi quis viverra ornare.&quot;
@@ -339,21 +337,21 @@ const Testimonial9 = (props) => {
                     className="testimonial9-avatar-image5 thq-img-round thq-img-ratio-1-1"
                   />
                   <div className="testimonial9-avatar-content5">
-                    <span>
+                    <span className="testimonial9-text23 thq-body-small">
                       <span>Author Name</span>
                       {props.author1Name ?? (
                         <Fragment>
-                          <span className="testimonial9-text42 thq-body-small">
+                          <span className="testimonial9-text42">
                             John Smith
                           </span>
                         </Fragment>
                       )}
                     </span>
-                    <span>
+                    <span className="testimonial9-text25 thq-body-small">
                       <span>Position, Company name</span>
                       {props.author1Position ?? (
                         <Fragment>
-                          <span className="testimonial9-text46 thq-body-small">
+                          <span className="testimonial9-text46">
                             CEO, TechSaaS
                           </span>
                         </Fragment>
@@ -385,7 +383,7 @@ const Testimonial9 = (props) => {
                     <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
                   </svg>
                 </div>
-                <span>
+                <span className="testimonial9-text27 thq-body-small">
                   &quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Suspendisse varius enim in eros elementum tristique. Duis
                   cursus, mi quis viverra ornare.&quot;
@@ -397,12 +395,14 @@ const Testimonial9 = (props) => {
                     className="testimonial9-avatar-image6 thq-img-round thq-img-ratio-1-1"
                   />
                   <div className="testimonial9-avatar-content6">
-                    <span>Author Name</span>
-                    <span>
+                    <span className="testimonial9-text28 thq-body-small">
+                      Author Name
+                    </span>
+                    <span className="testimonial9-text29 thq-body-small">
                       <span>Position, Company name</span>
                       {props.author2Position ?? (
                         <Fragment>
-                          <span className="testimonial9-text40 thq-body-small">
+                          <span className="testimonial9-text40">
                             Marketing Director, SoftCloud
                           </span>
                         </Fragment>
@@ -434,7 +434,7 @@ const Testimonial9 = (props) => {
                     <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
                   </svg>
                 </div>
-                <span>
+                <span className="testimonial9-text31 thq-body-small">
                   &quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Suspendisse varius enim in eros elementum tristique. Duis
                   cursus, mi quis viverra ornare.&quot;
@@ -446,8 +446,12 @@ const Testimonial9 = (props) => {
                     className="testimonial9-avatar-image7 thq-img-round thq-img-ratio-1-1"
                   />
                   <div className="testimonial9-avatar-content7">
-                    <span>Author Name</span>
-                    <span>Position, Company name</span>
+                    <span className="testimonial9-text32 thq-body-small">
+                      Author Name
+                    </span>
+                    <span className="testimonial9-text33 thq-body-small">
+                      Position, Company name
+                    </span>
                   </div>
                 </div>
               </div>
@@ -474,7 +478,7 @@ const Testimonial9 = (props) => {
                     <path d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"></path>
                   </svg>
                 </div>
-                <span>
+                <span className="testimonial9-text34 thq-body-small">
                   &quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Suspendisse varius enim in eros elementum tristique. Duis
                   cursus, mi quis viverra ornare.&quot;
@@ -486,21 +490,21 @@ const Testimonial9 = (props) => {
                     className="testimonial9-avatar-image8 thq-img-round thq-img-ratio-1-1"
                   />
                   <div className="testimonial9-avatar-content8">
-                    <span>
+                    <span className="testimonial9-text35 thq-body-small">
                       <span>Author Name</span>
                       {props.author4Name ?? (
                         <Fragment>
-                          <span className="testimonial9-text51 thq-body-small">
+                          <span className="testimonial9-text51">
                             Sarah Brown
                           </span>
                         </Fragment>
                       )}
                     </span>
-                    <span>
+                    <span className="testimonial9-text37 thq-body-small">
                       <span>Position, Company name</span>
                       {props.author4Position ?? (
                         <Fragment>
-                          <span className="testimonial9-text49 thq-body-small">
+                          <span className="testimonial9-text49">
                             CFO, CloudWorks
                           </span>
                         </Fragment>

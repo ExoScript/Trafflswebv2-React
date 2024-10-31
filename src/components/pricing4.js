@@ -12,28 +12,24 @@ const Pricing4 = (props) => {
           <div className="pricing4-column1 thq-card">
             <div className="pricing4-content2">
               <div className="pricing4-price1">
-                <p>
+                <p className="pricing4-text10 thq-body-large">
                   {props.plan1 ?? (
                     <Fragment>
-                      <p className="pricing4-text29 thq-body-large">
-                        Pay Per Lead
-                      </p>
+                      <span className="pricing4-text29">Pay Per Lead</span>
                     </Fragment>
                   )}
                 </p>
-                <h3>
+                <h3 className="pricing4-text11 thq-heading-3">
                   {props.plan1Price ?? (
                     <Fragment>
-                      <h3 className="pricing4-text32 thq-heading-3">
-                        Varies per lead
-                      </h3>
+                      <span className="pricing4-text32">Varies per lead</span>
                     </Fragment>
                   )}
                 </h3>
-                <p>
+                <p className="pricing4-text12 thq-body-large">
                   {props.plan1Yearly ?? (
                     <Fragment>
-                      <p className="pricing4-text31 thq-body-large">N/A</p>
+                      <span className="pricing4-text31">N/A</span>
                     </Fragment>
                   )}
                 </p>
@@ -43,10 +39,10 @@ const Pricing4 = (props) => {
                   <svg viewBox="0 0 1024 1024" className="thq-icon-small">
                     <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
                   </svg>
-                  <span>
+                  <span className="thq-body-small">
                     {props.plan1Feature1 ?? (
                       <Fragment>
-                        <span className="pricing4-text33 thq-body-small">
+                        <span className="pricing4-text33">
                           Guaranteed leads
                         </span>
                       </Fragment>
@@ -57,10 +53,10 @@ const Pricing4 = (props) => {
                   <svg viewBox="0 0 1024 1024" className="thq-icon-small">
                     <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
                   </svg>
-                  <span>
+                  <span className="thq-body-small">
                     {props.plan1Feature2 ?? (
                       <Fragment>
-                        <span className="pricing4-text26 thq-body-small">
+                        <span className="pricing4-text26">
                           Positive ROI leads
                         </span>
                       </Fragment>
@@ -71,12 +67,10 @@ const Pricing4 = (props) => {
                   <svg viewBox="0 0 1024 1024" className="thq-icon-small">
                     <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
                   </svg>
-                  <span>
+                  <span className="thq-body-small">
                     {props.plan1Feature3 ?? (
                       <Fragment>
-                        <span className="pricing4-text36 thq-body-small">
-                          Ongoing support
-                        </span>
+                        <span className="pricing4-text36">Ongoing support</span>
                       </Fragment>
                     )}
                   </span>
@@ -84,12 +78,10 @@ const Pricing4 = (props) => {
               </div>
             </div>
             <button className="pricing4-button1 thq-button-outline">
-              <span>
+              <span className="thq-body-small">
                 {props.plan1Action ?? (
                   <Fragment>
-                    <span className="pricing4-text38 thq-body-small">
-                      Get Started
-                    </span>
+                    <span className="pricing4-text38">Get Started</span>
                   </Fragment>
                 )}
               </span>
@@ -98,28 +90,26 @@ const Pricing4 = (props) => {
           <div className="pricing4-column2 thq-card">
             <div className="pricing4-price2">
               <div className="pricing4-price3">
-                <p>
+                <p className="pricing4-text17 thq-body-large">
                   {props.plan2 ?? (
                     <Fragment>
-                      <p className="pricing4-text40 thq-body-large">
+                      <span className="pricing4-text40">
                         Custom Lead Generation
-                      </p>
+                      </span>
                     </Fragment>
                   )}
                 </p>
-                <h3>
+                <h3 className="pricing4-text18 thq-heading-3">
                   {props.plan2Price ?? (
                     <Fragment>
-                      <h3 className="pricing4-text35 thq-heading-3">
-                        Custom Quote
-                      </h3>
+                      <span className="pricing4-text35">Custom Quote</span>
                     </Fragment>
                   )}
                 </h3>
-                <p>
+                <p className="pricing4-text19 thq-body-large">
                   {props.plan2Yearly ?? (
                     <Fragment>
-                      <p className="pricing4-text30 thq-body-large">N/A</p>
+                      <span className="pricing4-text30">N/A</span>
                     </Fragment>
                   )}
                 </p>
@@ -129,10 +119,10 @@ const Pricing4 = (props) => {
                   <svg viewBox="0 0 1024 1024" className="thq-icon-small">
                     <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
                   </svg>
-                  <span>
+                  <span className="thq-body-small">
                     {props.plan2Feature1 ?? (
                       <Fragment>
-                        <span className="pricing4-text34 thq-body-small">
+                        <span className="pricing4-text34">
                           Tailored lead generation
                         </span>
                       </Fragment>
@@ -143,10 +133,10 @@ const Pricing4 = (props) => {
                   <svg viewBox="0 0 1024 1024" className="thq-icon-small">
                     <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
                   </svg>
-                  <span>
+                  <span className="thq-body-small">
                     {props.plan2Feature2 ?? (
                       <Fragment>
-                        <span className="pricing4-text27 thq-body-small">
+                        <span className="pricing4-text27">
                           Positive ROI leads
                         </span>
                       </Fragment>
@@ -157,10 +147,10 @@ const Pricing4 = (props) => {
                   <svg viewBox="0 0 1024 1024" className="thq-icon-small">
                     <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
                   </svg>
-                  <span>
+                  <span className="thq-body-small">
                     {props.plan2Feature3 ?? (
                       <Fragment>
-                        <span className="pricing4-text28 thq-body-small">
+                        <span className="pricing4-text28">
                           Dedicated account manager
                         </span>
                       </Fragment>
@@ -171,10 +161,10 @@ const Pricing4 = (props) => {
                   <svg viewBox="0 0 1024 1024" className="thq-icon-small">
                     <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
                   </svg>
-                  <span>
+                  <span className="thq-body-small">
                     {props.plan2Feature4 ?? (
                       <Fragment>
-                        <span className="pricing4-text41 thq-body-small">
+                        <span className="pricing4-text41">
                           Guaranteed leads
                         </span>
                       </Fragment>
@@ -185,10 +175,10 @@ const Pricing4 = (props) => {
                   <svg viewBox="0 0 1024 1024" className="thq-icon-small">
                     <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
                   </svg>
-                  <span>
+                  <span className="thq-body-small">
                     {props.plan2Feature5 ?? (
                       <Fragment>
-                        <span className="pricing4-text39 thq-body-small">
+                        <span className="pricing4-text39">
                           No minimum contract
                         </span>
                       </Fragment>
@@ -198,12 +188,10 @@ const Pricing4 = (props) => {
               </div>
             </div>
             <button className="pricing4-button2 thq-button-filled">
-              <span>
+              <span className="thq-body-small">
                 {props.plan2Action ?? (
                   <Fragment>
-                    <span className="pricing4-text37 thq-body-small">
-                      Contact Us
-                    </span>
+                    <span className="pricing4-text37">Contact Us</span>
                   </Fragment>
                 )}
               </span>

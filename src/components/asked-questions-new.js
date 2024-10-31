@@ -18,7 +18,7 @@ const AskedQuestionsNew = (props) => {
         >
           <div className="asked-questions-new-container11">
             <div className="asked-questions-new-container12"></div>
-            <span>
+            <span className="asked-questions-new-text10">
               {props.text1 ?? (
                 <Fragment>
                   <span className="asked-questions-new-text32">
@@ -29,7 +29,7 @@ const AskedQuestionsNew = (props) => {
             </span>
           </div>
           <div className="asked-questions-new-container13">
-            <span>
+            <span className="asked-questions-new-text11">
               {props.text8 ?? (
                 <Fragment>
                   <span className="asked-questions-new-text41">
@@ -56,14 +56,14 @@ const AskedQuestionsNew = (props) => {
           className="asked-questions-new-container14"
         >
           <div className="asked-questions-new-container15">
-            <span>
+            <span className="asked-questions-new-text12">
               {props.text13 ?? (
                 <Fragment>
                   <span className="asked-questions-new-text39">+</span>
                 </Fragment>
               )}
             </span>
-            <span>
+            <span className="asked-questions-new-text13">
               {props.text14 ?? (
                 <Fragment>
                   <span className="asked-questions-new-text33">
@@ -82,7 +82,7 @@ const AskedQuestionsNew = (props) => {
         >
           <div className="asked-questions-new-container17">
             <div className="asked-questions-new-container18"></div>
-            <span>
+            <span className="asked-questions-new-text14">
               {props.text12 ?? (
                 <Fragment>
                   <span className="asked-questions-new-text38">
@@ -93,7 +93,7 @@ const AskedQuestionsNew = (props) => {
             </span>
           </div>
           <div className="asked-questions-new-container19">
-            <span>
+            <span className="asked-questions-new-text15">
               {props.text82 ?? (
                 <Fragment>
                   <span className="asked-questions-new-text28">
@@ -120,14 +120,14 @@ const AskedQuestionsNew = (props) => {
           className="asked-questions-new-container20"
         >
           <div className="asked-questions-new-container21">
-            <span>
+            <span className="asked-questions-new-text16">
               {props.text102 ?? (
                 <Fragment>
                   <span className="asked-questions-new-text31">+</span>
                 </Fragment>
               )}
             </span>
-            <span>
+            <span className="asked-questions-new-text17">
               {props.text122 ?? (
                 <Fragment>
                   <span className="asked-questions-new-text34">
@@ -146,7 +146,7 @@ const AskedQuestionsNew = (props) => {
         >
           <div className="asked-questions-new-container23">
             <div className="asked-questions-new-container24"></div>
-            <span>
+            <span className="asked-questions-new-text18">
               {props.text121 ?? (
                 <Fragment>
                   <span className="asked-questions-new-text37">
@@ -157,7 +157,7 @@ const AskedQuestionsNew = (props) => {
             </span>
           </div>
           <div className="asked-questions-new-container25">
-            <span>
+            <span className="asked-questions-new-text19">
               {props.text821 ?? (
                 <Fragment>
                   <span className="asked-questions-new-text40">
@@ -184,14 +184,14 @@ const AskedQuestionsNew = (props) => {
           className="asked-questions-new-container26"
         >
           <div className="asked-questions-new-container27">
-            <span>
+            <span className="asked-questions-new-text20">
               {props.text1012 ?? (
                 <Fragment>
                   <span className="asked-questions-new-text29">+</span>
                 </Fragment>
               )}
             </span>
-            <span>
+            <span className="asked-questions-new-text21">
               {props.text1212 ?? (
                 <Fragment>
                   <span className="asked-questions-new-text35">
@@ -210,7 +210,7 @@ const AskedQuestionsNew = (props) => {
         >
           <div className="asked-questions-new-container29">
             <div className="asked-questions-new-container30"></div>
-            <span>
+            <span className="asked-questions-new-text22">
               {props.text1211 ?? (
                 <Fragment>
                   <span className="asked-questions-new-text27">
@@ -221,7 +221,7 @@ const AskedQuestionsNew = (props) => {
             </span>
           </div>
           <div className="asked-questions-new-container31">
-            <span>
+            <span className="asked-questions-new-text23">
               {props.text8211 ?? (
                 <Fragment>
                   <span className="asked-questions-new-text36">
@@ -248,14 +248,14 @@ const AskedQuestionsNew = (props) => {
           className="asked-questions-new-container32"
         >
           <div className="asked-questions-new-container33">
-            <span>
+            <span className="asked-questions-new-text24">
               {props.text10111 ?? (
                 <Fragment>
                   <span className="asked-questions-new-text30">+</span>
                 </Fragment>
               )}
             </span>
-            <span>
+            <span className="asked-questions-new-text25">
               {props.text12111 ?? (
                 <Fragment>
                   <span className="asked-questions-new-text26">
