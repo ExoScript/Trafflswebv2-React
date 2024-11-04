@@ -25,40 +25,66 @@ const Home = (props) => {
         />
       </Helmet>
       <MainContent
+        text={
+          <Fragment>
+            <span className="home-text10">
+              <span className="home-text11">Thank you for subscribing!</span>
+              <br></br>
+              <span>
+                You are now part of our exclusive newsletter. Look forward to
+                regular updates, exciting content, and exclusive offers straight
+                to your inbox.
+              </span>
+            </span>
+          </Fragment>
+        }
+        text1={
+          <Fragment>
+            <span className="home-text14">
+              <span className="home-text15">Thank you for subscribing!</span>
+              <br></br>
+              <span>
+                You are now part of our exclusive newsletter. Look forward to
+                regular updates, exciting content, and exclusive offers straight
+                to your inbox.
+              </span>
+            </span>
+          </Fragment>
+        }
         text55={
           <Fragment>
-            <span className="home-text10 text">Pricing</span>
+            <span className="home-text18 text">Pricing</span>
           </Fragment>
         }
         text56={
           <Fragment>
-            <span className="home-text11 text">How it Work</span>
+            <span className="home-text19 text">How it Work</span>
           </Fragment>
         }
         text57={
           <Fragment>
-            <span className="home-text12 text">Contact us</span>
+            <span className="home-text20 text">Contact us</span>
           </Fragment>
         }
         text58={
           <Fragment>
-            <span className="home-text13 text">Privacy Policy</span>
+            <span className="home-text21 text">Privacy Policy</span>
           </Fragment>
         }
         text59={
           <Fragment>
-            <span className="home-text14 text">Imprint</span>
+            <span className="home-text22 text">Imprint</span>
           </Fragment>
         }
         text60={
           <Fragment>
-            <span className="home-text15 text">info@traffls.com</span>
+            <span className="home-text23 text">info@traffls.com</span>
           </Fragment>
         }
         text61={
           <Fragment>
-            <span className="home-text16">
-              <span className="home-text17">Increase</span>
+            <span className="home-text24">
+              <span className="home-text25">Increase</span>
               <span> your</span>
               <br></br>
               <span>
@@ -69,7 +95,7 @@ const Home = (props) => {
                   }}
                 />
               </span>
-              <span className="home-text21">30%</span>
+              <span className="home-text29">30%</span>
               <span>
                 <span
                   dangerouslySetInnerHTML={{
@@ -86,32 +112,19 @@ const Home = (props) => {
                   }}
                 />
               </span>
-              <span className="home-text25">3 months</span>
-            </span>
-          </Fragment>
-        }
-        text62={
-          <Fragment>
-            <span className="home-text26">
-              We generate a constant flow of B2B leads for you with a predefined
-              ROI and without upfront costs. Only pay for what you get
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
+              <span className="home-text33">3 months</span>
             </span>
           </Fragment>
         }
         text63={
           <Fragment>
-            <span className="home-text27">Scroll down</span>
+            <span className="home-text34">Scroll down</span>
           </Fragment>
         }
         text64={
           <Fragment>
-            <span className="home-text28">
-              <span className="mainTitle home-text29">Why Choose</span>
+            <span className="home-text35">
+              <span className="mainTitle home-text36">Why Choose</span>
               <span className="mainTitle">
                 <span
                   dangerouslySetInnerHTML={{
@@ -119,98 +132,98 @@ const Home = (props) => {
                   }}
                 />
               </span>
-              <span className="home-text31">traffls?</span>
+              <span className="home-text38">traffls?</span>
             </span>
           </Fragment>
         }
         text65={
           <Fragment>
-            <span className="home-text32">Guaranteed Leads</span>
+            <span className="home-text39">Guaranteed Leads</span>
           </Fragment>
         }
         text66={
           <Fragment>
-            <span className="home-text33">Guaranteed positive ROI</span>
+            <span className="home-text40">Guaranteed positive ROI</span>
           </Fragment>
         }
         text67={
           <Fragment>
-            <span className="home-text34">Tailored lead generation</span>
+            <span className="home-text41">Tailored lead generation</span>
           </Fragment>
         }
         text68={
           <Fragment>
-            <span className="home-text35">Positive ROI leads</span>
+            <span className="home-text42">Positive ROI leads</span>
           </Fragment>
         }
         text69={
           <Fragment>
-            <span className="home-text36">Dedicated account manager</span>
+            <span className="home-text43">Dedicated account manager</span>
           </Fragment>
         }
         text70={
           <Fragment>
-            <span className="home-text37">Guaranteed leads</span>
+            <span className="home-text44">Guaranteed leads</span>
           </Fragment>
         }
         text71={
           <Fragment>
-            <span className="home-text38">No minimum contract</span>
+            <span className="home-text45">No minimum contract</span>
           </Fragment>
         }
         text76={
           <Fragment>
-            <span className="home-text39">1</span>
+            <span className="home-text46">1</span>
           </Fragment>
         }
         text77={
           <Fragment>
-            <span className="home-text40">2</span>
+            <span className="home-text47">2</span>
           </Fragment>
         }
         text78={
           <Fragment>
-            <span className="home-text41">3</span>
+            <span className="home-text48">3</span>
           </Fragment>
         }
         text79={
           <Fragment>
-            <span className="home-text42">4</span>
+            <span className="home-text49">4</span>
           </Fragment>
         }
         text80={
           <Fragment>
-            <span className="home-text43">Book a Call</span>
+            <span className="home-text50">Book a Call</span>
           </Fragment>
         }
         text81={
           <Fragment>
-            <span className="home-text44">Our Services</span>
+            <span className="home-text51">Our Services</span>
           </Fragment>
         }
         text82={
           <Fragment>
-            <span className="home-text45">Newslatter</span>
+            <span className="home-text52">Newslatter</span>
           </Fragment>
         }
         text722={
           <Fragment>
-            <span className="home-text46">First name*</span>
+            <span className="home-text53">First name*</span>
           </Fragment>
         }
         text732={
           <Fragment>
-            <span className="home-text47">Last name*</span>
+            <span className="home-text54">Last name*</span>
           </Fragment>
         }
         text742={
           <Fragment>
-            <span className="home-text48">Email*</span>
+            <span className="home-text55">Email*</span>
           </Fragment>
         }
         text752={
           <Fragment>
-            <span className="home-text49">Phone (Optional)</span>
+            <span className="home-text56">Phone (Optional)</span>
           </Fragment>
         }
       ></MainContent>
