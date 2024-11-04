@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 import Script from 'dangerous-html/react'
 
@@ -11,13 +12,13 @@ const Mobilv = (props) => {
   return (
     <div className="mobilv-mobilv">
       <div className="mobilv-top-bar">
-        <a href="#cld" className="mobilv-link1">
+        <Link to="/home-v2" className="mobilv-navlink">
           <img
             alt="image"
             src="/logo_lila_cut-200w.png"
             className="mobilv-image1"
           />
-        </a>
+        </Link>
         <span className="mobilv-text100">Traffls</span>
         <div onClick={() => setMenu(true)} className="mobilv-container10">
           <svg width="24" height="24" viewBox="0 0 24 24">
@@ -126,7 +127,7 @@ const Mobilv = (props) => {
             />
           </span>
           <div className="mobilv-container19">
-            <a href="#cld" className="mobilv-link2">
+            <a href="#cld" className="mobilv-link1">
               <div className="mobilv-container20 btn-1">
                 <span>Book a Call</span>
               </div>
@@ -546,7 +547,7 @@ const Mobilv = (props) => {
               <div className="mobilv-container99">
                 <a
                   href="mailto:info@up2data.io?subject="
-                  className="mobilv-link3"
+                  className="mobilv-link2"
                 >
                   <div className="mobilv-container100">
                     <span className="text">info@traffls.com</span>
@@ -570,7 +571,7 @@ const Mobilv = (props) => {
                   href="https://www.linkedin.com/company/traffls/"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="mobilv-link4"
+                  className="mobilv-link3"
                 >
                   <div className="mobilv-container103">
                     <svg
@@ -585,7 +586,7 @@ const Mobilv = (props) => {
                   href="https://www.instagram.com/traffls_com/"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="mobilv-link5"
+                  className="mobilv-link4"
                 >
                   <div className="mobilv-container104">
                     <svg

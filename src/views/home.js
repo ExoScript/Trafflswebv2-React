@@ -31,7 +31,7 @@ const Home = (props) => {
         <div className="home-container101">
           <div className="home-container102">
             <div className="home-container103">
-              <Link to="/page" className="home-navlink1">
+              <Link to="/home-v2" className="home-navlink1">
                 <img
                   alt="image"
                   src="/logo_lila_cut-200w.png"
