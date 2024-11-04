@@ -12,7 +12,7 @@ const Mobilv = (props) => {
   return (
     <div className="mobilv-mobilv">
       <div className="mobilv-top-bar">
-        <Link to="/home-v2" className="mobilv-navlink">
+        <Link to="/" className="mobilv-navlink">
           <img
             alt="image"
             src="/logo_lila_cut-200w.png"

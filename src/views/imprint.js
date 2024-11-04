@@ -35,32 +35,32 @@ const Imprint = (props) => {
           </div>
         </div>
         <div className="imprint-container14">
-          <Link to="/" className="imprint-navlink1">
+          <Link to="/home-v1" className="imprint-navlink1">
             <div className="imprint-container15 menu-btn">
               <span>Home</span>
             </div>
           </Link>
-          <Link to="/" className="imprint-navlink2">
+          <Link to="/home-v1" className="imprint-navlink2">
             <div className="imprint-container16 menu-btn">
               <span>About us</span>
             </div>
           </Link>
-          <Link to="/" className="imprint-navlink3">
+          <Link to="/home-v1" className="imprint-navlink3">
             <div className="imprint-container17 menu-btn">
               <span>Pricing</span>
             </div>
           </Link>
-          <Link to="/" className="imprint-navlink4">
+          <Link to="/home-v1" className="imprint-navlink4">
             <div className="imprint-container18 menu-btn">
               <span>How it Works</span>
             </div>
           </Link>
-          <Link to="/" className="imprint-navlink5">
+          <Link to="/home-v1" className="imprint-navlink5">
             <div className="imprint-container19 menu-btn">
               <span>Testimonials</span>
             </div>
           </Link>
-          <Link to="/" className="imprint-navlink6">
+          <Link to="/home-v1" className="imprint-navlink6">
             <div className="imprint-container20 menu-btn">
               <span>Contact us</span>
             </div>
