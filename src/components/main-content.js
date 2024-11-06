@@ -10,6 +10,7 @@ import './main-content.css'
 const MainContent = (props) => {
   const [contactForm, setContactForm] = useState(false)
   const [newslatter, setNewslatter] = useState(false)
+  const [menu, setMenu] = useState(false)
   return (
     <div className="main-content-main-content">
       <div className="main-content-container100">
@@ -50,113 +51,165 @@ const MainContent = (props) => {
               </div>
             </a>
           </div>
-          <div className="main-content-container109">
-            <svg width="24" height="24" viewBox="0 0 24 24">
-              <g fill="none">
-                <path d="M24 0v24H0V0zM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.019-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"></path>
+          {menu === true && (
+            <div
+              onClick={() => setMenu(false)}
+              className="main-content-container109"
+            >
+              <svg height="24" width="24" viewBox="0 0 1024 1024">
                 <path
-                  d="M20 17.5a1.5 1.5 0 0 1 .144 2.993L20 20.5H4a1.5 1.5 0 0 1-.144-2.993L4 17.5zm0-7a1.5 1.5 0 0 1 0 3H4a1.5 1.5 0 0 1 0-3zm0-7a1.5 1.5 0 0 1 0 3H4a1.5 1.5 0 1 1 0-3z"
                   fill="currentColor"
+                  d="M224 480h640a32 32 0 1 1 0 64H224a32 32 0 0 1 0-64"
                 ></path>
-              </g>
-            </svg>
-          </div>
+                <path
+                  fill="currentColor"
+                  d="m237.248 512l265.408 265.344a32 32 0 0 1-45.312 45.312l-288-288a32 32 0 0 1 0-45.312l288-288a32 32 0 1 1 45.312 45.312z"
+                ></path>
+              </svg>
+            </div>
+          )}
+          {menu === false && (
+            <div
+              onClick={() => setMenu(true)}
+              className="main-content-container110"
+            >
+              <svg width="24" height="24" viewBox="0 0 24 24">
+                <g fill="none">
+                  <path d="M24 0v24H0V0zM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.019-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"></path>
+                  <path
+                    d="M20 17.5a1.5 1.5 0 0 1 .144 2.993L20 20.5H4a1.5 1.5 0 0 1-.144-2.993L4 17.5zm0-7a1.5 1.5 0 0 1 0 3H4a1.5 1.5 0 0 1 0-3zm0-7a1.5 1.5 0 0 1 0 3H4a1.5 1.5 0 1 1 0-3z"
+                    fill="currentColor"
+                  ></path>
+                </g>
+              </svg>
+            </div>
+          )}
         </div>
-        <div className="main-content-container110">
+        {menu === false && (
           <div className="main-content-container111">
             <div className="main-content-container112">
               <div className="main-content-container113">
                 <div className="main-content-container114">
-                  <img
-                    alt="image"
-                    src="/external/logo_txt_w-200h-500h.png"
-                    className="main-content-image11"
-                  />
-                </div>
-                <span className="main-content-text104">
-                  {props.text61 ?? (
-                    <Fragment>
-                      <span className="main-content-text259">
-                        <span className="main-content-text260">Increase</span>
-                        <span> your</span>
-                        <br></br>
-                        <span>
-                          Leadflow by
-                          <span
-                            dangerouslySetInnerHTML={{
-                              __html: ' ',
-                            }}
-                          />
+                  <div className="main-content-container115">
+                    <img
+                      alt="image"
+                      src="/external/logo_txt_w-200h-500h.png"
+                      className="main-content-image11"
+                    />
+                  </div>
+                  <span className="main-content-text104">
+                    {props.text61 ?? (
+                      <Fragment>
+                        <span className="main-content-text263">
+                          <span className="main-content-text264">Increase</span>
+                          <span> your</span>
+                          <br></br>
+                          <span>
+                            Leadflow by
+                            <span
+                              dangerouslySetInnerHTML={{
+                                __html: ' ',
+                              }}
+                            />
+                          </span>
+                          <span className="main-content-text268">30%</span>
+                          <span>
+                            <span
+                              dangerouslySetInnerHTML={{
+                                __html: ' ',
+                              }}
+                            />
+                          </span>
+                          <br></br>
+                          <span>
+                            in
+                            <span
+                              dangerouslySetInnerHTML={{
+                                __html: ' ',
+                              }}
+                            />
+                          </span>
+                          <span className="main-content-text272">3 months</span>
                         </span>
-                        <span className="main-content-text264">30%</span>
-                        <span>
-                          <span
-                            dangerouslySetInnerHTML={{
-                              __html: ' ',
-                            }}
-                          />
-                        </span>
-                        <br></br>
-                        <span>
-                          in
-                          <span
-                            dangerouslySetInnerHTML={{
-                              __html: ' ',
-                            }}
-                          />
-                        </span>
-                        <span className="main-content-text268">3 months</span>
-                      </span>
-                    </Fragment>
-                  )}
-                </span>
-                <div className="main-content-container115">
+                      </Fragment>
+                    )}
+                  </span>
                   <div className="main-content-container116">
-                    <span className="main-content-text105">
-                      We generate a constant flow of B2B leads for you with a
-                      predefined ROI and without upfront costs. Only pay for
-                      what you get
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: ' ',
-                        }}
-                      />
-                    </span>
-                    <a href="#call" className="main-content-link15">
-                      <div className="main-content-container117 btn-1">
-                        <span>Book a Call</span>
-                        <div className="main-content-container118">
-                          <svg
-                            width="32"
-                            height="32"
-                            viewBox="0 0 32 32"
-                            className="main-content-icon14"
-                          >
-                            <path
-                              d="M22 16L12 26l-1.4-1.4l8.6-8.6l-8.6-8.6L12 6z"
-                              fill="currentColor"
-                            ></path>
-                          </svg>
+                    <div className="main-content-container117">
+                      <span className="main-content-text105">
+                        We generate a constant flow of B2B leads for you with a
+                        predefined ROI and without upfront costs. Only pay for
+                        what you get
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: ' ',
+                          }}
+                        />
+                      </span>
+                      <a href="#call" className="main-content-link15">
+                        <div className="main-content-container118 btn-1">
+                          <span>Book a Call</span>
+                          <div className="main-content-container119">
+                            <svg
+                              width="32"
+                              height="32"
+                              viewBox="0 0 32 32"
+                              className="main-content-icon17"
+                            >
+                              <path
+                                d="M22 16L12 26l-1.4-1.4l8.6-8.6l-8.6-8.6L12 6z"
+                                fill="currentColor"
+                              ></path>
+                            </svg>
+                          </div>
                         </div>
+                      </a>
+                    </div>
+                    <div className="main-content-container120">
+                      <input
+                        type="text"
+                        placeholder={props.textinputPlaceholder1}
+                        className="main-content-textinput1"
+                      />
+                      <a href="#howItWork" className="main-content-link16">
+                        <div
+                          onClick={() => setNewslatter(true)}
+                          className="main-content-container121 btn-1"
+                        >
+                          <span>
+                            {props.text82 ?? (
+                              <Fragment>
+                                <span className="main-content-text298">
+                                  Newslatter
+                                </span>
+                              </Fragment>
+                            )}
+                          </span>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div className="main-content-container122">
+                    <a href="#cld">
+                      <div className="main-content-container123 btn-1">
+                        <span>
+                          {props.text80 ?? (
+                            <Fragment>
+                              <span className="main-content-text292">
+                                Book a Call
+                              </span>
+                            </Fragment>
+                          )}
+                        </span>
                       </div>
                     </a>
-                  </div>
-                  <div className="main-content-container119">
-                    <input
-                      type="text"
-                      placeholder={props.textinputPlaceholder1}
-                      className="main-content-textinput1"
-                    />
-                    <a href="#howItWork" className="main-content-link16">
-                      <div
-                        onClick={() => setNewslatter(true)}
-                        className="main-content-container120 btn-1"
-                      >
+                    <a href="#howItWork">
+                      <div className="main-content-container124 btn-2">
                         <span>
-                          {props.text82 ?? (
+                          {props.text81 ?? (
                             <Fragment>
-                              <span className="main-content-text294">
-                                Newslatter
+                              <span className="main-content-text259">
+                                Our Services
                               </span>
                             </Fragment>
                           )}
@@ -164,114 +217,118 @@ const MainContent = (props) => {
                       </div>
                     </a>
                   </div>
-                </div>
-                <div className="main-content-container121">
-                  <a href="#cld">
-                    <div className="main-content-container122 btn-1">
-                      <span>
-                        {props.text80 ?? (
-                          <Fragment>
-                            <span className="main-content-text288">
-                              Book a Call
-                            </span>
-                          </Fragment>
-                        )}
-                      </span>
-                    </div>
-                  </a>
-                  <a href="#howItWork">
-                    <div className="main-content-container123 btn-2">
-                      <span>
-                        {props.text81 ?? (
-                          <Fragment>
-                            <span className="main-content-text255">
-                              Our Services
-                            </span>
-                          </Fragment>
-                        )}
-                      </span>
-                    </div>
-                  </a>
-                </div>
-                {newslatter === true && (
-                  <div className="main-content-container124">
+                  {newslatter === true && (
                     <div className="main-content-container125">
-                      <span className="main-content-text110">
-                        {props.text1 ?? (
-                          <Fragment>
-                            <span className="main-content-text277">
-                              <span className="main-content-text278">
-                                Thank you for subscribing!
+                      <div className="main-content-container126">
+                        <span className="main-content-text110">
+                          {props.text1 ?? (
+                            <Fragment>
+                              <span className="main-content-text281">
+                                <span className="main-content-text282">
+                                  Thank you for subscribing!
+                                </span>
+                                <br></br>
+                                <span>
+                                  You are now part of our exclusive newsletter.
+                                  Look forward to regular updates, exciting
+                                  content, and exclusive offers straight to your
+                                  inbox.
+                                </span>
                               </span>
-                              <br></br>
-                              <span>
-                                You are now part of our exclusive newsletter.
-                                Look forward to regular updates, exciting
-                                content, and exclusive offers straight to your
-                                inbox.
-                              </span>
-                            </span>
-                          </Fragment>
-                        )}
-                      </span>
-                    </div>
-                  </div>
-                )}
-              </div>
-            </div>
-            <div className="main-content-container126">
-              <img
-                alt="image"
-                src="/blockchain-hero-1-core-1500h.png"
-                className="main-content-image12"
-              />
-            </div>
-          </div>
-          <div className="main-content-container127">
-            <a href="#company" className="main-content-link19">
-              <div className="main-content-container128">
-                <div className="main-content-container129">
-                  <span className="main-content-text111">
-                    {props.text63 ?? (
-                      <Fragment>
-                        <span className="main-content-text256">
-                          Scroll down
+                            </Fragment>
+                          )}
                         </span>
-                      </Fragment>
-                    )}
-                  </span>
-                  <div className="main-content-container130">
-                    <svg
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      className="main-content-icon16"
-                    >
-                      <g fill="none">
-                        <path d="M24 0v24H0V0zM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.019-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"></path>
-                        <path
-                          d="M13 2a6 6 0 0 1 5.996 5.775L19 8v8a6 6 0 0 1-5.775 5.996L13 22h-2a6 6 0 0 1-5.996-5.775L5 16V8a6 6 0 0 1 5.775-5.996L11 2zm0 2h-2a4 4 0 0 0-3.995 3.8L7 8v8a4 4 0 0 0 3.8 3.995L11 20h2a4 4 0 0 0 3.995-3.8L17 16V8a4 4 0 0 0-3.8-3.995zm-1 2a1 1 0 0 1 .993.883L13 7v4a1 1 0 0 1-1.993.117L11 11V7a1 1 0 0 1 1-1"
-                          fill="currentColor"
-                        ></path>
-                      </g>
-                    </svg>
-                  </div>
+                      </div>
+                    </div>
+                  )}
                 </div>
               </div>
-            </a>
+              <div className="main-content-container127">
+                <img
+                  alt="image"
+                  src="/blockchain-hero-1-core-1500h.png"
+                  className="main-content-image12"
+                />
+              </div>
+            </div>
+            <div className="main-content-container128">
+              <a href="#company" className="main-content-link19">
+                <div className="main-content-container129">
+                  <div className="main-content-container130">
+                    <span className="main-content-text111">
+                      {props.text63 ?? (
+                        <Fragment>
+                          <span className="main-content-text260">
+                            Scroll down
+                          </span>
+                        </Fragment>
+                      )}
+                    </span>
+                    <div className="main-content-container131">
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        className="main-content-icon19"
+                      >
+                        <g fill="none">
+                          <path d="M24 0v24H0V0zM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.019-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"></path>
+                          <path
+                            d="M13 2a6 6 0 0 1 5.996 5.775L19 8v8a6 6 0 0 1-5.775 5.996L13 22h-2a6 6 0 0 1-5.996-5.775L5 16V8a6 6 0 0 1 5.775-5.996L11 2zm0 2h-2a4 4 0 0 0-3.995 3.8L7 8v8a4 4 0 0 0 3.8 3.995L11 20h2a4 4 0 0 0 3.995-3.8L17 16V8a4 4 0 0 0-3.8-3.995zm-1 2a1 1 0 0 1 .993.883L13 7v4a1 1 0 0 1-1.993.117L11 11V7a1 1 0 0 1 1-1"
+                            fill="currentColor"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
-        </div>
+        )}
+        {menu === true && (
+          <div className="main-content-container132">
+            <span>
+              {props.text3 ?? (
+                <Fragment>
+                  <span className="main-content-text307">Text</span>
+                </Fragment>
+              )}
+            </span>
+            <span>
+              {props.text33 ?? (
+                <Fragment>
+                  <span className="main-content-text310">Text</span>
+                </Fragment>
+              )}
+            </span>
+            <span>
+              {props.text32 ?? (
+                <Fragment>
+                  <span className="main-content-text309">Text</span>
+                </Fragment>
+              )}
+            </span>
+            <span>
+              {props.text31 ?? (
+                <Fragment>
+                  <span className="main-content-text308">Text</span>
+                </Fragment>
+              )}
+            </span>
+          </div>
+        )}
       </div>
-      <div id="company" className="main-content-container131">
-        <div className="main-content-container132">
-          <div className="main-content-container133">
-            <div className="main-content-container134">
-              <div className="main-content-container135">
-                <span className="main-content-text112">
+      <div id="company" className="main-content-container133">
+        <div className="main-content-container134">
+          <div className="main-content-container135">
+            <div className="main-content-container136">
+              <div className="main-content-container137">
+                <span className="main-content-text116">
                   {props.text64 ?? (
                     <Fragment>
-                      <span className="main-content-text283">
-                        <span className="mainTitle main-content-text284">
+                      <span className="main-content-text287">
+                        <span className="mainTitle main-content-text288">
                           Why Choose
                         </span>
                         <span className="mainTitle">
@@ -281,13 +338,13 @@ const MainContent = (props) => {
                             }}
                           />
                         </span>
-                        <span className="main-content-text286">traffls?</span>
+                        <span className="main-content-text290">traffls?</span>
                       </span>
                     </Fragment>
                   )}
                 </span>
               </div>
-              <span className="main-content-text113">
+              <span className="main-content-text117">
                 <span>
                   Traffls is the only service that not only guarantees you leads
                   but also guarantees a positive ROI on these leads. So you can
@@ -311,14 +368,14 @@ const MainContent = (props) => {
               </span>
             </div>
             <a href="#call" className="main-content-link20">
-              <div className="main-content-container136 btn-1">
+              <div className="main-content-container138 btn-1">
                 <span>Book a Call</span>
-                <div className="main-content-container137">
+                <div className="main-content-container139">
                   <svg
                     width="32"
                     height="32"
                     viewBox="0 0 32 32"
-                    className="main-content-icon20"
+                    className="main-content-icon23"
                   >
                     <path
                       d="M22 16L12 26l-1.4-1.4l8.6-8.6l-8.6-8.6L12 6z"
@@ -329,10 +386,10 @@ const MainContent = (props) => {
               </div>
             </a>
           </div>
-          <div className="main-content-container138">
-            <div className="main-content-container139">
-              <div className="main-content-container140">
-                <div className="main-content-container141">
+          <div className="main-content-container140">
+            <div className="main-content-container141">
+              <div className="main-content-container142">
+                <div className="main-content-container143">
                   <img
                     alt="image"
                     src="/user-engagement-200h.png"
@@ -342,21 +399,21 @@ const MainContent = (props) => {
                 <span>
                   {props.text65 ?? (
                     <Fragment>
-                      <span className="main-content-text300">
+                      <span className="main-content-text304">
                         Guaranteed Leads
                       </span>
                     </Fragment>
                   )}
                 </span>
               </div>
-              <span className="main-content-text121">
+              <span className="main-content-text125">
                 If we do not deliver, there is no cost involved. But do not
                 worry, we will deliver
               </span>
             </div>
-            <div className="main-content-container142">
-              <div className="main-content-container143">
-                <div className="main-content-container144">
+            <div className="main-content-container144">
+              <div className="main-content-container145">
+                <div className="main-content-container146">
                   <img
                     alt="image"
                     src="/growing-business-200h.png"
@@ -366,22 +423,22 @@ const MainContent = (props) => {
                 <span>
                   {props.text66 ?? (
                     <Fragment>
-                      <span className="main-content-text302">
+                      <span className="main-content-text306">
                         Guaranteed positive ROI
                       </span>
                     </Fragment>
                   )}
                 </span>
               </div>
-              <span className="main-content-text123">
+              <span className="main-content-text127">
                 After getting to know your business we will establish a ROI
                 positive case for you so that you can grow your business healthy
               </span>
             </div>
           </div>
         </div>
-        <div className="main-content-container145">
-          <span className="main-content-text124">
+        <div className="main-content-container147">
+          <span className="main-content-text128">
             <span>
               Start Your
               <span
@@ -390,112 +447,112 @@ const MainContent = (props) => {
                 }}
               />
             </span>
-            <span className="main-content-text126">Lead Engine</span>
+            <span className="main-content-text130">Lead Engine</span>
           </span>
-          <span className="main-content-text127">
+          <span className="main-content-text131">
             Our goal is to help companies solve the growth problem by providing
             continuos leads they can convert into longterm customers.
           </span>
         </div>
-        <div className="main-content-container146">
-          <div className="main-content-container147">
-            <div className="main-content-container148">
-              <div className="main-content-container149">
+        <div className="main-content-container148">
+          <div className="main-content-container149">
+            <div className="main-content-container150">
+              <div className="main-content-container151">
                 <img
                   alt="image"
                   src="/save-money%20(1)-200h.png"
                   className="main-content-image15"
                 />
               </div>
-              <span className="main-content-text128">No Upfront Costs</span>
-              <span className="main-content-text129">
+              <span className="main-content-text132">No Upfront Costs</span>
+              <span className="main-content-text133">
                 The onboarding, the system setup, and everything else is on us.
                 We want that you don&apos;t need to worry about anything other
                 than closing more leads
-              </span>
-            </div>
-            <div className="main-content-container150">
-              <div className="main-content-container151">
-                <img
-                  alt="image"
-                  src="/calendar1-200h.png"
-                  className="main-content-image16"
-                />
-              </div>
-              <span className="main-content-text130">No Monthly Fee</span>
-              <span className="main-content-text131">
-                There is also no monthly fee, as we do believe in performance.
-                It is on us to make you happy and you should not pay for
-                anything else
               </span>
             </div>
             <div className="main-content-container152">
               <div className="main-content-container153">
                 <img
                   alt="image"
-                  src="/agreement-200h.png"
-                  className="main-content-image17"
+                  src="/calendar1-200h.png"
+                  className="main-content-image16"
                 />
               </div>
-              <span className="main-content-text132">No Minimum Contract</span>
-              <span className="main-content-text133">
-                So we also do not believe in lenghty contract durations. If you
-                have the feeling that you want to move on, you can do it
-                anytime. The question is if this will ever happen
+              <span className="main-content-text134">No Monthly Fee</span>
+              <span className="main-content-text135">
+                There is also no monthly fee, as we do believe in performance.
+                It is on us to make you happy and you should not pay for
+                anything else
               </span>
             </div>
             <div className="main-content-container154">
               <div className="main-content-container155">
                 <img
                   alt="image"
+                  src="/agreement-200h.png"
+                  className="main-content-image17"
+                />
+              </div>
+              <span className="main-content-text136">No Minimum Contract</span>
+              <span className="main-content-text137">
+                So we also do not believe in lenghty contract durations. If you
+                have the feeling that you want to move on, you can do it
+                anytime. The question is if this will ever happen
+              </span>
+            </div>
+            <div className="main-content-container156">
+              <div className="main-content-container157">
+                <img
+                  alt="image"
                   src="/online-chat-200h.png"
                   className="main-content-image18"
                 />
               </div>
-              <span className="main-content-text134">Ongoing Support</span>
-              <span className="main-content-text135">
+              <span className="main-content-text138">Ongoing Support</span>
+              <span className="main-content-text139">
                 You will always have access to our team and your dedicated
                 account manager. The support channel is open 24/7. We will be
                 happy to make you happy
               </span>
             </div>
           </div>
-          <div className="main-content-container156">
-            <div className="main-content-container157">
-              <div className="main-content-container158"></div>
-              <div className="main-content-container159">
-                <div className="main-content-container160"></div>
+          <div className="main-content-container158">
+            <div className="main-content-container159">
+              <div className="main-content-container160"></div>
+              <div className="main-content-container161">
+                <div className="main-content-container162"></div>
               </div>
-              <div className="main-content-container161"></div>
-            </div>
-            <div className="main-content-container162">
               <div className="main-content-container163"></div>
-              <div className="main-content-container164">
-                <div className="main-content-container165"></div>
-              </div>
-              <div className="main-content-container166"></div>
             </div>
-            <div className="main-content-container167">
+            <div className="main-content-container164">
+              <div className="main-content-container165"></div>
+              <div className="main-content-container166">
+                <div className="main-content-container167"></div>
+              </div>
               <div className="main-content-container168"></div>
-              <div className="main-content-container169">
-                <div className="main-content-container170"></div>
-              </div>
-              <div className="main-content-container171"></div>
             </div>
-            <div className="main-content-container172">
-              <div className="main-content-container173"></div>
-              <div className="main-content-container174">
-                <div className="main-content-container175"></div>
+            <div className="main-content-container169">
+              <div className="main-content-container170"></div>
+              <div className="main-content-container171">
+                <div className="main-content-container172"></div>
               </div>
-              <div className="main-content-container176"></div>
+              <div className="main-content-container173"></div>
+            </div>
+            <div className="main-content-container174">
+              <div className="main-content-container175"></div>
+              <div className="main-content-container176">
+                <div className="main-content-container177"></div>
+              </div>
+              <div className="main-content-container178"></div>
             </div>
           </div>
         </div>
       </div>
-      <div className="main-content-container177">
-        <div className="main-content-container178">
-          <div className="main-content-container179">
-            <span className="main-content-text136">
+      <div className="main-content-container179">
+        <div className="main-content-container180">
+          <div className="main-content-container181">
+            <span className="main-content-text140">
               <span>
                 Book a
                 <span
@@ -504,10 +561,10 @@ const MainContent = (props) => {
                   }}
                 />
               </span>
-              <span className="main-content-text138">Discovery</span>
+              <span className="main-content-text142">Discovery</span>
               <span> Call</span>
             </span>
-            <span className="main-content-text140">
+            <span className="main-content-text144">
               <span>Ready to take your lead generation to the next level?</span>
               <br></br>
               <span>
@@ -519,12 +576,12 @@ const MainContent = (props) => {
           <a href="#call" className="main-content-link21">
             <div className="btn-1">
               <span>Book a Call</span>
-              <div className="main-content-container181">
+              <div className="main-content-container183">
                 <svg
                   width="32"
                   height="32"
                   viewBox="0 0 32 32"
-                  className="main-content-icon22"
+                  className="main-content-icon25"
                 >
                   <path
                     d="M22 16L12 26l-1.4-1.4l8.6-8.6l-8.6-8.6L12 6z"
@@ -536,14 +593,14 @@ const MainContent = (props) => {
           </a>
         </div>
       </div>
-      <div id="price" className="main-content-container182">
-        <div className="main-content-container183">
-          <div className="main-content-container184">
-            <span className="main-content-text145">
-              <span className="main-content-text146">Pricing</span>
+      <div id="price" className="main-content-container184">
+        <div className="main-content-container185">
+          <div className="main-content-container186">
+            <span className="main-content-text149">
+              <span className="main-content-text150">Pricing</span>
               <span> that fits you</span>
             </span>
-            <span className="main-content-text148">
+            <span className="main-content-text152">
               <span>In a call we will calculate your needs.</span>
               <br></br>
               <span>
@@ -557,14 +614,14 @@ const MainContent = (props) => {
             </span>
           </div>
           <a href="#call" className="main-content-link22">
-            <div className="main-content-container185 btn-1">
+            <div className="main-content-container187 btn-1">
               <span>Book a Call</span>
-              <div className="main-content-container186">
+              <div className="main-content-container188">
                 <svg
                   width="32"
                   height="32"
                   viewBox="0 0 32 32"
-                  className="main-content-icon24"
+                  className="main-content-icon27"
                 >
                   <path
                     d="M22 16L12 26l-1.4-1.4l8.6-8.6l-8.6-8.6L12 6z"
@@ -575,10 +632,10 @@ const MainContent = (props) => {
             </div>
           </a>
         </div>
-        <div className="main-content-container187">
-          <div className="main-content-container188">
-            <div className="main-content-container189">
-              <div className="main-content-container190">
+        <div className="main-content-container189">
+          <div className="main-content-container190">
+            <div className="main-content-container191">
+              <div className="main-content-container192">
                 <img
                   alt="image"
                   src="/logo_lila_cut-400w.png"
@@ -586,38 +643,15 @@ const MainContent = (props) => {
                 />
               </div>
             </div>
-            <div className="main-content-container191">
-              <span className="main-content-text155">Custom Quote</span>
-              <span className="main-content-text156">
+            <div className="main-content-container193">
+              <span className="main-content-text159">Custom Quote</span>
+              <span className="main-content-text160">
                 Lorem hatu redi gandu
               </span>
             </div>
           </div>
-          <div className="main-content-container192">
-            <div className="main-content-container193">
-              <div className="main-content-container194">
-                <div className="main-content-container195">
-                  <svg width="24" height="24" viewBox="0 0 24 24">
-                    <path
-                      d="m5 13l4 4L19 7"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    ></path>
-                  </svg>
-                </div>
-                <span className="main-content-text157">
-                  {props.text67 ?? (
-                    <Fragment>
-                      <span className="main-content-text301">
-                        Tailored lead generation
-                      </span>
-                    </Fragment>
-                  )}
-                </span>
-              </div>
+          <div className="main-content-container194">
+            <div className="main-content-container195">
               <div className="main-content-container196">
                 <div className="main-content-container197">
                   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -631,11 +665,11 @@ const MainContent = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <span className="main-content-text158">
-                  {props.text68 ?? (
+                <span className="main-content-text161">
+                  {props.text67 ?? (
                     <Fragment>
-                      <span className="main-content-text258">
-                        Positive ROI leads
+                      <span className="main-content-text305">
+                        Tailored lead generation
                       </span>
                     </Fragment>
                   )}
@@ -654,20 +688,18 @@ const MainContent = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <span className="main-content-text159">
-                  {props.text69 ?? (
+                <span className="main-content-text162">
+                  {props.text68 ?? (
                     <Fragment>
-                      <span className="main-content-text290">
-                        Dedicated account manager
+                      <span className="main-content-text262">
+                        Positive ROI leads
                       </span>
                     </Fragment>
                   )}
                 </span>
               </div>
-            </div>
-            <div className="main-content-container200">
-              <div className="main-content-container201">
-                <div className="main-content-container202">
+              <div className="main-content-container200">
+                <div className="main-content-container201">
                   <svg width="24" height="24" viewBox="0 0 24 24">
                     <path
                       d="m5 13l4 4L19 7"
@@ -679,16 +711,18 @@ const MainContent = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <span className="main-content-text160">
-                  {props.text70 ?? (
+                <span className="main-content-text163">
+                  {props.text69 ?? (
                     <Fragment>
-                      <span className="main-content-text293">
-                        Guaranteed leads
+                      <span className="main-content-text294">
+                        Dedicated account manager
                       </span>
                     </Fragment>
                   )}
                 </span>
               </div>
+            </div>
+            <div className="main-content-container202">
               <div className="main-content-container203">
                 <div className="main-content-container204">
                   <svg width="24" height="24" viewBox="0 0 24 24">
@@ -702,10 +736,33 @@ const MainContent = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <span className="main-content-text161">
+                <span className="main-content-text164">
+                  {props.text70 ?? (
+                    <Fragment>
+                      <span className="main-content-text297">
+                        Guaranteed leads
+                      </span>
+                    </Fragment>
+                  )}
+                </span>
+              </div>
+              <div className="main-content-container205">
+                <div className="main-content-container206">
+                  <svg width="24" height="24" viewBox="0 0 24 24">
+                    <path
+                      d="m5 13l4 4L19 7"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </div>
+                <span className="main-content-text165">
                   {props.text71 ?? (
                     <Fragment>
-                      <span className="main-content-text287">
+                      <span className="main-content-text291">
                         No minimum contract
                       </span>
                     </Fragment>
@@ -716,9 +773,9 @@ const MainContent = (props) => {
           </div>
         </div>
       </div>
-      <div id="hoeItWork" className="main-content-container205">
-        <span className="main-content-text162">
-          <span className="main-content-text163">
+      <div id="hoeItWork" className="main-content-container207">
+        <span className="main-content-text166">
+          <span className="main-content-text167">
             Getting
             <span
               dangerouslySetInnerHTML={{
@@ -726,9 +783,9 @@ const MainContent = (props) => {
               }}
             />
           </span>
-          <span className="main-content-text164">More Leads</span>
-          <br className="main-content-text165"></br>
-          <span className="main-content-text166">
+          <span className="main-content-text168">More Leads</span>
+          <br className="main-content-text169"></br>
+          <span className="main-content-text170">
             Has Never Been This
             <span
               dangerouslySetInnerHTML={{
@@ -736,80 +793,80 @@ const MainContent = (props) => {
               }}
             />
           </span>
-          <span className="main-content-text167">Easy</span>
+          <span className="main-content-text171">Easy</span>
         </span>
-        <div className="main-content-container206">
-          <div className="main-content-container207">
-            <div className="main-content-container208">
-              <div className="main-content-container209">
-                <div className="main-content-container210">
+        <div className="main-content-container208">
+          <div className="main-content-container209">
+            <div className="main-content-container210">
+              <div className="main-content-container211">
+                <div className="main-content-container212">
                   <span>
                     {props.text76 ?? (
                       <Fragment>
-                        <span className="main-content-text276">1</span>
+                        <span className="main-content-text280">1</span>
                       </Fragment>
                     )}
                   </span>
                 </div>
               </div>
-              <span className="main-content-text169">Book A Call</span>
-              <span className="main-content-text170">
+              <span className="main-content-text173">Book A Call</span>
+              <span className="main-content-text174">
                 We will get you know your company and answer some questions to
                 better understand your needs
               </span>
             </div>
-            <div className="main-content-container211">
-              <div className="main-content-container212">
-                <div className="main-content-container213">
+            <div className="main-content-container213">
+              <div className="main-content-container214">
+                <div className="main-content-container215">
                   <span>
                     {props.text77 ?? (
                       <Fragment>
-                        <span className="main-content-text270">2</span>
+                        <span className="main-content-text274">2</span>
                       </Fragment>
                     )}
                   </span>
                 </div>
               </div>
-              <span className="main-content-text172">Offer</span>
-              <span className="main-content-text173">
+              <span className="main-content-text176">Offer</span>
+              <span className="main-content-text177">
                 We will send you an offer which fulfills your needs so that your
                 happiness can be guaranteed
               </span>
             </div>
           </div>
-          <div className="main-content-container214">
-            <div className="main-content-container215">
-              <div className="main-content-container216">
-                <div className="main-content-container217">
+          <div className="main-content-container216">
+            <div className="main-content-container217">
+              <div className="main-content-container218">
+                <div className="main-content-container219">
                   <span>
                     {props.text78 ?? (
                       <Fragment>
-                        <span className="main-content-text296">3</span>
+                        <span className="main-content-text300">3</span>
                       </Fragment>
                     )}
                   </span>
                 </div>
               </div>
-              <span className="main-content-text175">Onboarding</span>
-              <span className="main-content-text176">
+              <span className="main-content-text179">Onboarding</span>
+              <span className="main-content-text180">
                 We will prepare everything on our side and setup the system so
                 that we can send new leads to your systems
               </span>
             </div>
-            <div className="main-content-container218">
-              <div className="main-content-container219">
-                <div className="main-content-container220">
+            <div className="main-content-container220">
+              <div className="main-content-container221">
+                <div className="main-content-container222">
                   <span>
                     {props.text79 ?? (
                       <Fragment>
-                        <span className="main-content-text299">4</span>
+                        <span className="main-content-text303">4</span>
                       </Fragment>
                     )}
                   </span>
                 </div>
               </div>
-              <span className="main-content-text178">Done</span>
-              <span className="main-content-text179">
+              <span className="main-content-text182">Done</span>
+              <span className="main-content-text183">
                 You are now ready to get more leads on a constant basis to grow
                 your business faster
               </span>
@@ -817,17 +874,17 @@ const MainContent = (props) => {
           </div>
         </div>
       </div>
-      <div className="main-content-container221">
-        <div className="main-content-container222">
+      <div className="main-content-container223">
+        <div className="main-content-container224">
           <img
             alt="image"
             src="/external/logo_txt_w-200h-500h.png"
             className="main-content-image20"
           />
         </div>
-        <div className="main-content-container223">
-          <span className="main-content-text180">
-            <span className="main-content-text181">Sing up for</span>
+        <div className="main-content-container225">
+          <span className="main-content-text184">
+            <span className="main-content-text185">Sing up for</span>
             <span>
               <span
                 dangerouslySetInnerHTML={{
@@ -835,16 +892,16 @@ const MainContent = (props) => {
                 }}
               />
             </span>
-            <span className="main-content-text183">Newslatter</span>
+            <span className="main-content-text187">Newslatter</span>
           </span>
           {newslatter === false && (
-            <span className="main-content-text184">
-              <span className="main-content-text185">
+            <span className="main-content-text188">
+              <span className="main-content-text189">
                 You&apos;ll be informed about updates, special offers and
                 planned
               </span>
-              <br className="main-content-text186"></br>
-              <span className="main-content-text187">
+              <br className="main-content-text190"></br>
+              <span className="main-content-text191">
                 changes to
                 <span
                   dangerouslySetInnerHTML={{
@@ -852,13 +909,13 @@ const MainContent = (props) => {
                   }}
                 />
               </span>
-              <span className="main-content-text188">Traffls</span>
-              <span className="main-content-text189">!</span>
+              <span className="main-content-text192">Traffls</span>
+              <span className="main-content-text193">!</span>
             </span>
           )}
         </div>
         {newslatter === false && (
-          <div className="main-content-container224">
+          <div className="main-content-container226">
             <input
               type="text"
               placeholder={props.textinputPlaceholder}
@@ -867,15 +924,15 @@ const MainContent = (props) => {
             <a href="#howItWork" className="main-content-link23">
               <div
                 onClick={() => setNewslatter(true)}
-                className="main-content-container225"
+                className="main-content-container227"
               >
                 <span>Sing up</span>
-                <div className="main-content-container226">
+                <div className="main-content-container228">
                   <svg
                     width="24"
                     height="24"
                     viewBox="0 0 24 24"
-                    className="main-content-icon36"
+                    className="main-content-icon39"
                   >
                     <path
                       d="m5 13l4 4L19 7"
@@ -892,12 +949,12 @@ const MainContent = (props) => {
           </div>
         )}
         {newslatter === true && (
-          <div className="main-content-container227">
-            <span className="main-content-text191">
+          <div className="main-content-container229">
+            <span className="main-content-text195">
               {props.text ?? (
                 <Fragment>
-                  <span className="main-content-text271">
-                    <span className="main-content-text272">
+                  <span className="main-content-text275">
+                    <span className="main-content-text276">
                       Thank you for subscribing!
                     </span>
                     <br></br>
@@ -913,10 +970,10 @@ const MainContent = (props) => {
           </div>
         )}
       </div>
-      <div className="main-content-container228">
-        <div className="main-content-container229">
-          <span className="main-content-text192">
-            <span className="mainTitle main-content-text193">
+      <div className="main-content-container230">
+        <div className="main-content-container231">
+          <span className="main-content-text196">
+            <span className="mainTitle main-content-text197">
               Frequently Asked
             </span>
             <span className="mainTitle">
@@ -926,47 +983,17 @@ const MainContent = (props) => {
                 }}
               />
             </span>
-            <span className="main-content-text195">Questions</span>
+            <span className="main-content-text199">Questions</span>
           </span>
           <AskedQuestionsNew
             text1={
-              <Fragment>
-                <span className="main-content-text196">
-                  Does the setup cost anything?
-                </span>
-              </Fragment>
-            }
-            text8={
-              <Fragment>
-                <span className="main-content-text197">
-                  No, there is no setup fee. We believe in the long-term value
-                  of our service, so we focus on delivering results without any
-                  upfront costs. This allows you to start without any financial
-                  barriers, trusting that our service will prove its value over
-                  time.
-                </span>
-              </Fragment>
-            }
-            text12={
-              <Fragment>
-                <span className="main-content-text198">
-                  Is there a monthly fee?
-                </span>
-              </Fragment>
-            }
-            text13={
-              <Fragment>
-                <span className="main-content-text199">+</span>
-              </Fragment>
-            }
-            text14={
               <Fragment>
                 <span className="main-content-text200">
                   Does the setup cost anything?
                 </span>
               </Fragment>
             }
-            text82={
+            text8={
               <Fragment>
                 <span className="main-content-text201">
                   No, there is no setup fee. We believe in the long-term value
@@ -977,26 +1004,26 @@ const MainContent = (props) => {
                 </span>
               </Fragment>
             }
-            text102={
+            text12={
               <Fragment>
-                <span className="main-content-text202">+</span>
-              </Fragment>
-            }
-            text121={
-              <Fragment>
-                <span className="main-content-text203">
-                  Is there a minimum contract time?
-                </span>
-              </Fragment>
-            }
-            text122={
-              <Fragment>
-                <span className="main-content-text204">
+                <span className="main-content-text202">
                   Is there a monthly fee?
                 </span>
               </Fragment>
             }
-            text821={
+            text13={
+              <Fragment>
+                <span className="main-content-text203">+</span>
+              </Fragment>
+            }
+            text14={
+              <Fragment>
+                <span className="main-content-text204">
+                  Does the setup cost anything?
+                </span>
+              </Fragment>
+            }
+            text82={
               <Fragment>
                 <span className="main-content-text205">
                   No, there is no setup fee. We believe in the long-term value
@@ -1007,26 +1034,26 @@ const MainContent = (props) => {
                 </span>
               </Fragment>
             }
-            text1012={
+            text102={
               <Fragment>
                 <span className="main-content-text206">+</span>
               </Fragment>
             }
-            text1211={
+            text121={
               <Fragment>
                 <span className="main-content-text207">
-                  How do you determine the price for a lead?
-                </span>
-              </Fragment>
-            }
-            text1212={
-              <Fragment>
-                <span className="main-content-text208">
                   Is there a minimum contract time?
                 </span>
               </Fragment>
             }
-            text8211={
+            text122={
+              <Fragment>
+                <span className="main-content-text208">
+                  Is there a monthly fee?
+                </span>
+              </Fragment>
+            }
+            text821={
               <Fragment>
                 <span className="main-content-text209">
                   No, there is no setup fee. We believe in the long-term value
@@ -1037,40 +1064,70 @@ const MainContent = (props) => {
                 </span>
               </Fragment>
             }
-            text10111={
+            text1012={
               <Fragment>
                 <span className="main-content-text210">+</span>
               </Fragment>
             }
-            text12111={
+            text1211={
               <Fragment>
                 <span className="main-content-text211">
                   How do you determine the price for a lead?
                 </span>
               </Fragment>
             }
+            text1212={
+              <Fragment>
+                <span className="main-content-text212">
+                  Is there a minimum contract time?
+                </span>
+              </Fragment>
+            }
+            text8211={
+              <Fragment>
+                <span className="main-content-text213">
+                  No, there is no setup fee. We believe in the long-term value
+                  of our service, so we focus on delivering results without any
+                  upfront costs. This allows you to start without any financial
+                  barriers, trusting that our service will prove its value over
+                  time.
+                </span>
+              </Fragment>
+            }
+            text10111={
+              <Fragment>
+                <span className="main-content-text214">+</span>
+              </Fragment>
+            }
+            text12111={
+              <Fragment>
+                <span className="main-content-text215">
+                  How do you determine the price for a lead?
+                </span>
+              </Fragment>
+            }
           ></AskedQuestionsNew>
         </div>
-        <div className="main-content-container230">
-          <div className="main-content-container231">
-            <span className="main-content-text212">
+        <div className="main-content-container232">
+          <div className="main-content-container233">
+            <span className="main-content-text216">
               Do you have more questions?
             </span>
-            <span className="main-content-text213">
+            <span className="main-content-text217">
               If you have any further questions or need additional information,
               feel free to reach out to us! We’re here to help and would love to
               assist you in any way we can. Don’t hesitate to contact us – we’re
               just a message away!
             </span>
             <a href="#call" className="main-content-link24">
-              <div className="main-content-container232 btn-1">
+              <div className="main-content-container234 btn-1">
                 <span>Book a Call</span>
-                <div className="main-content-container233">
+                <div className="main-content-container235">
                   <svg
                     width="32"
                     height="32"
                     viewBox="0 0 32 32"
-                    className="main-content-icon38"
+                    className="main-content-icon41"
                   >
                     <path
                       d="M22 16L12 26l-1.4-1.4l8.6-8.6l-8.6-8.6L12 6z"
@@ -1083,9 +1140,9 @@ const MainContent = (props) => {
           </div>
         </div>
       </div>
-      <div id="Contact" className="main-content-container234">
-        <div className="main-content-container235">
-          <span className="main-content-text215">
+      <div id="Contact" className="main-content-container236">
+        <div className="main-content-container237">
+          <span className="main-content-text219">
             <span>
               Start Your
               <span
@@ -1094,25 +1151,25 @@ const MainContent = (props) => {
                 }}
               />
             </span>
-            <span className="main-content-text217">Lead Engine</span>
+            <span className="main-content-text221">Lead Engine</span>
           </span>
-          <span className="main-content-text218">
+          <span className="main-content-text222">
             Our goal is to help companies solve the growth problem by providing
             continuos leads they can convert into longterm customers.
           </span>
         </div>
-        <div className="main-content-container236">
-          <div className="main-content-container237">
-            <div className="main-content-container238">
-              <div className="main-content-container239">
+        <div className="main-content-container238">
+          <div className="main-content-container239">
+            <div className="main-content-container240">
+              <div className="main-content-container241">
                 <span>
                   {props.text722 ?? (
                     <Fragment>
-                      <span className="main-content-text282">First name*</span>
+                      <span className="main-content-text286">First name*</span>
                     </Fragment>
                   )}
                 </span>
-                <div className="main-content-container240">
+                <div className="main-content-container242">
                   <input
                     type="text"
                     placeholder={props.textinputPlaceholder22}
@@ -1120,15 +1177,15 @@ const MainContent = (props) => {
                   />
                 </div>
               </div>
-              <div className="main-content-container241">
+              <div className="main-content-container243">
                 <span>
                   {props.text732 ?? (
                     <Fragment>
-                      <span className="main-content-text295">Last name*</span>
+                      <span className="main-content-text299">Last name*</span>
                     </Fragment>
                   )}
                 </span>
-                <div className="main-content-container242">
+                <div className="main-content-container244">
                   <input
                     type="text"
                     placeholder={props.textinputPlaceholder32}
@@ -1137,16 +1194,16 @@ const MainContent = (props) => {
                 </div>
               </div>
             </div>
-            <div className="main-content-container243">
-              <div className="main-content-container244">
+            <div className="main-content-container245">
+              <div className="main-content-container246">
                 <span>
                   {props.text742 ?? (
                     <Fragment>
-                      <span className="main-content-text289">Email*</span>
+                      <span className="main-content-text293">Email*</span>
                     </Fragment>
                   )}
                 </span>
-                <div className="main-content-container245">
+                <div className="main-content-container247">
                   <input
                     type="text"
                     placeholder={props.textinputPlaceholder42}
@@ -1154,17 +1211,17 @@ const MainContent = (props) => {
                   />
                 </div>
               </div>
-              <div className="main-content-container246">
+              <div className="main-content-container248">
                 <span>
                   {props.text752 ?? (
                     <Fragment>
-                      <span className="main-content-text298">
+                      <span className="main-content-text302">
                         Phone (Optional)
                       </span>
                     </Fragment>
                   )}
                 </span>
-                <div className="main-content-container247">
+                <div className="main-content-container249">
                   <input
                     type="text"
                     placeholder={props.textinputPlaceholder52}
@@ -1174,9 +1231,9 @@ const MainContent = (props) => {
               </div>
             </div>
           </div>
-          <div className="main-content-container248">
-            <span className="main-content-text223">Message*</span>
-            <div className="main-content-container249">
+          <div className="main-content-container250">
+            <span className="main-content-text227">Message*</span>
+            <div className="main-content-container251">
               <textarea
                 placeholder={props.textareaPlaceholder2}
                 className="main-content-textarea textarea"
@@ -1184,18 +1241,18 @@ const MainContent = (props) => {
             </div>
           </div>
         </div>
-        <div className="main-content-container250">
+        <div className="main-content-container252">
           <div
             onClick={() => setContactForm(true)}
-            className="main-content-container251 btn-1"
+            className="main-content-container253 btn-1"
           >
             <span>Submit</span>
           </div>
           {contactForm === true && (
-            <span className="main-content-text225">
+            <span className="main-content-text229">
               {props.text2 ?? (
                 <Fragment>
-                  <span className="main-content-text297">
+                  <span className="main-content-text301">
                     Thank you for your contact request. We have sent you a
                     confirmation. Please also check your spam folder.
                   </span>
@@ -1205,9 +1262,9 @@ const MainContent = (props) => {
           )}
         </div>
       </div>
-      <div id="call" className="main-content-container252">
-        <div className="main-content-container253">
-          <span className="main-content-text226">
+      <div id="call" className="main-content-container254">
+        <div className="main-content-container255">
+          <span className="main-content-text230">
             <span>
               Start Your
               <span
@@ -1216,16 +1273,16 @@ const MainContent = (props) => {
                 }}
               />
             </span>
-            <span className="main-content-text228">Lead Engine</span>
+            <span className="main-content-text232">Lead Engine</span>
           </span>
-          <span className="main-content-text229">
+          <span className="main-content-text233">
             Our goal is to help companies solve the growth problem by providing
             continuos leads they can convert into longterm customers.
           </span>
         </div>
-        <div className="main-content-container254">
-          <div className="main-content-container255">
-            <div className="main-content-container256">
+        <div className="main-content-container256">
+          <div className="main-content-container257">
+            <div className="main-content-container258">
               <React.Fragment>
                 <React.Fragment>
                   {/* Calendly inline widget begin */}
@@ -1250,32 +1307,32 @@ const MainContent = (props) => {
           </div>
         </div>
       </div>
-      <div className="main-content-container257">
-        <div className="main-content-container258">
-          <div className="main-content-container259">
-            <div className="main-content-container260">
-              <div className="main-content-container261">
+      <div className="main-content-container259">
+        <div className="main-content-container260">
+          <div className="main-content-container261">
+            <div className="main-content-container262">
+              <div className="main-content-container263">
                 <img
                   alt="image"
                   src="/external/logo_txt_w-200h-500h.png"
                   className="main-content-image21"
                 />
               </div>
-              <span className="main-content-text230">
+              <span className="main-content-text234">
                 Elevate your sales game by thinking outside the box
               </span>
             </div>
-            <div className="main-content-container262">
+            <div className="main-content-container264">
               <a
                 href="https://www.linkedin.com/company/traffls/"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="main-content-link25"
               >
-                <div className="main-content-container263">
+                <div className="main-content-container265">
                   <svg
                     viewBox="0 0 877.7142857142857 1024"
-                    className="main-content-icon40"
+                    className="main-content-icon43"
                   >
                     <path d="M135.429 808h132v-396.571h-132v396.571zM276 289.143c-0.571-38.857-28.571-68.571-73.714-68.571s-74.857 29.714-74.857 68.571c0 37.714 28.571 68.571 73.143 68.571h0.571c46.286 0 74.857-30.857 74.857-68.571zM610.286 808h132v-227.429c0-121.714-65.143-178.286-152-178.286-70.857 0-102.286 39.429-119.429 66.857h1.143v-57.714h-132s1.714 37.143 0 396.571v0h132v-221.714c0-11.429 0.571-23.429 4-32 9.714-23.429 31.429-48 68-48 47.429 0 66.286 36 66.286 89.714v212zM877.714 237.714v548.571c0 90.857-73.714 164.571-164.571 164.571h-548.571c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571c90.857 0 164.571 73.714 164.571 164.571z"></path>
                   </svg>
@@ -1287,10 +1344,10 @@ const MainContent = (props) => {
                 rel="noreferrer noopener"
                 className="main-content-link26"
               >
-                <div className="main-content-container264">
+                <div className="main-content-container266">
                   <svg
                     viewBox="0 0 877.7142857142857 1024"
-                    className="main-content-icon42"
+                    className="main-content-icon45"
                   >
                     <path d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"></path>
                   </svg>
@@ -1299,39 +1356,39 @@ const MainContent = (props) => {
             </div>
           </div>
         </div>
-        <div className="main-content-container265">
-          <div className="main-content-container266">
+        <div className="main-content-container267">
+          <div className="main-content-container268">
             <span>EXPLORE</span>
-            <div className="main-content-container267">
+            <div className="main-content-container269">
               <a href="#company" className="main-content-link27">
                 Company
               </a>
             </div>
-            <div className="main-content-container268">
+            <div className="main-content-container270">
               <a href="#price" className="main-content-link28">
                 {props.text55 ?? (
                   <Fragment>
-                    <span className="main-content-text292 text">Pricing</span>
+                    <span className="main-content-text296 text">Pricing</span>
                   </Fragment>
                 )}
               </a>
             </div>
-            <div className="main-content-container269">
+            <div className="main-content-container271">
               <a href="#hoeItWork" className="main-content-link29">
                 {props.text56 ?? (
                   <Fragment>
-                    <span className="main-content-text275 text">
+                    <span className="main-content-text279 text">
                       How it Work
                     </span>
                   </Fragment>
                 )}
               </a>
             </div>
-            <div className="main-content-container270">
+            <div className="main-content-container272">
               <a href="#Contact" className="main-content-link30">
                 {props.text57 ?? (
                   <Fragment>
-                    <span className="main-content-text257 text">
+                    <span className="main-content-text261 text">
                       Contact us
                     </span>
                   </Fragment>
@@ -1339,14 +1396,14 @@ const MainContent = (props) => {
               </a>
             </div>
           </div>
-          <div className="main-content-container271">
+          <div className="main-content-container273">
             <span>SUPPORT</span>
             <Link to="/privacy-policy" className="main-content-navlink1">
-              <div className="main-content-container272">
-                <span className="main-content-text233">
+              <div className="main-content-container274">
+                <span className="main-content-text237">
                   {props.text58 ?? (
                     <Fragment>
-                      <span className="main-content-text281 text">
+                      <span className="main-content-text285 text">
                         Privacy Policy
                       </span>
                     </Fragment>
@@ -1355,28 +1412,28 @@ const MainContent = (props) => {
               </div>
             </Link>
             <Link to="/imprint" className="main-content-navlink2">
-              <div className="main-content-container273">
-                <span className="main-content-text234">
+              <div className="main-content-container275">
+                <span className="main-content-text238">
                   {props.text59 ?? (
                     <Fragment>
-                      <span className="main-content-text291 text">Imprint</span>
+                      <span className="main-content-text295 text">Imprint</span>
                     </Fragment>
                   )}
                 </span>
               </div>
             </Link>
           </div>
-          <div className="main-content-container274">
+          <div className="main-content-container276">
             <span>Contact info</span>
             <a
               href="mailto:info@up2data.io?subject="
               className="main-content-link31"
             >
-              <div className="main-content-container275">
+              <div className="main-content-container277">
                 <span>
                   {props.text60 ?? (
                     <Fragment>
-                      <span className="main-content-text269 text">
+                      <span className="main-content-text273 text">
                         info@traffls.com
                       </span>
                     </Fragment>
@@ -1394,25 +1451,25 @@ const MainContent = (props) => {
           </div>
         </div>
       </div>
-      <div className="main-content-container276">
-        <span className="main-content-text243">Traffls </span>
-        <div className="main-content-container277">
-          <div className="main-content-container278">
+      <div className="main-content-container278">
+        <span className="main-content-text247">Traffls </span>
+        <div className="main-content-container279">
+          <div className="main-content-container280">
             <span>Privacy Policy</span>
             <span>Imprint</span>
           </div>
-          <div className="main-content-container279">
-            <span className="main-content-text246 titel-2">Contact info</span>
-            <div className="main-content-container280">
+          <div className="main-content-container281">
+            <span className="main-content-text250 titel-2">Contact info</span>
+            <div className="main-content-container282">
               <a
                 href="mailto:info@up2data.io?subject="
                 className="main-content-link32"
               >
-                <div className="main-content-container281">
+                <div className="main-content-container283">
                   <span className="text">info@traffls.com</span>
                 </div>
               </a>
-              <span className="text main-content-text248">
+              <span className="text main-content-text252">
                 <span>Up2Data GmbH</span>
                 <br></br>
                 <span>Prinz-Ludwig-Straße 4</span>
@@ -1421,21 +1478,21 @@ const MainContent = (props) => {
               </span>
             </div>
           </div>
-          <div className="main-content-container282">
-            <span className="main-content-text254">
+          <div className="main-content-container284">
+            <span className="main-content-text258">
               Elevate your sales game by thinking outside the box
             </span>
-            <div className="main-content-container283">
+            <div className="main-content-container285">
               <a
                 href="https://www.linkedin.com/company/traffls/"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="main-content-link33"
               >
-                <div className="main-content-container284">
+                <div className="main-content-container286">
                   <svg
                     viewBox="0 0 877.7142857142857 1024"
-                    className="main-content-icon44"
+                    className="main-content-icon47"
                   >
                     <path d="M135.429 808h132v-396.571h-132v396.571zM276 289.143c-0.571-38.857-28.571-68.571-73.714-68.571s-74.857 29.714-74.857 68.571c0 37.714 28.571 68.571 73.143 68.571h0.571c46.286 0 74.857-30.857 74.857-68.571zM610.286 808h132v-227.429c0-121.714-65.143-178.286-152-178.286-70.857 0-102.286 39.429-119.429 66.857h1.143v-57.714h-132s1.714 37.143 0 396.571v0h132v-221.714c0-11.429 0.571-23.429 4-32 9.714-23.429 31.429-48 68-48 47.429 0 66.286 36 66.286 89.714v212zM877.714 237.714v548.571c0 90.857-73.714 164.571-164.571 164.571h-548.571c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571c90.857 0 164.571 73.714 164.571 164.571z"></path>
                   </svg>
@@ -1447,10 +1504,10 @@ const MainContent = (props) => {
                 rel="noreferrer noopener"
                 className="main-content-link34"
               >
-                <div className="main-content-container285">
+                <div className="main-content-container287">
                   <svg
                     viewBox="0 0 877.7142857142857 1024"
-                    className="main-content-icon46"
+                    className="main-content-icon49"
                   >
                     <path d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"></path>
                   </svg>
@@ -1502,6 +1559,10 @@ MainContent.defaultProps = {
   text67: undefined,
   text66: undefined,
   textareaPlaceholder2: 'Please write your message here...',
+  text3: undefined,
+  text31: undefined,
+  text32: undefined,
+  text33: undefined,
 }
 
 MainContent.propTypes = {
@@ -1542,6 +1603,10 @@ MainContent.propTypes = {
   text67: PropTypes.element,
   text66: PropTypes.element,
   textareaPlaceholder2: PropTypes.string,
+  text3: PropTypes.element,
+  text31: PropTypes.element,
+  text32: PropTypes.element,
+  text33: PropTypes.element,
 }
 
 export default MainContent

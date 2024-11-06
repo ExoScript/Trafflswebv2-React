@@ -184,6 +184,18 @@
   font-style: normal;
   font-weight: 700;
 }
+.home-text58 {
+  display: inline-block;
+}
+.home-text59 {
+  display: inline-block;
+}
+.home-text60 {
+  display: inline-block;
+}
+.home-text61 {
+  display: inline-block;
+}
 @media(max-width: 479px) {
   .home-text36 {
     font-size: 28px;

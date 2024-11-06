@@ -234,6 +234,26 @@ const Home = (props) => {
             <span className="home-text57">Phone (Optional)</span>
           </Fragment>
         }
+        text3={
+          <Fragment>
+            <span className="home-text58">Text</span>
+          </Fragment>
+        }
+        text31={
+          <Fragment>
+            <span className="home-text59">Text</span>
+          </Fragment>
+        }
+        text32={
+          <Fragment>
+            <span className="home-text60">Text</span>
+          </Fragment>
+        }
+        text33={
+          <Fragment>
+            <span className="home-text61">Text</span>
+          </Fragment>
+        }
       ></MainContent>
     </div>
   )
