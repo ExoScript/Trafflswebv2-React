@@ -100,8 +100,8 @@ const MainContent = (props) => {
                   <span className="main-content-text104">
                     {props.text61 ?? (
                       <Fragment>
-                        <span className="main-content-text263">
-                          <span className="main-content-text264">Increase</span>
+                        <span className="main-content-text259">
+                          <span className="main-content-text260">Increase</span>
                           <span> your</span>
                           <br></br>
                           <span>
@@ -112,7 +112,7 @@ const MainContent = (props) => {
                               }}
                             />
                           </span>
-                          <span className="main-content-text268">30%</span>
+                          <span className="main-content-text264">30%</span>
                           <span>
                             <span
                               dangerouslySetInnerHTML={{
@@ -129,7 +129,7 @@ const MainContent = (props) => {
                               }}
                             />
                           </span>
-                          <span className="main-content-text272">3 months</span>
+                          <span className="main-content-text268">3 months</span>
                         </span>
                       </Fragment>
                     )}
@@ -179,7 +179,7 @@ const MainContent = (props) => {
                           <span>
                             {props.text82 ?? (
                               <Fragment>
-                                <span className="main-content-text298">
+                                <span className="main-content-text294">
                                   Newslatter
                                 </span>
                               </Fragment>
@@ -195,7 +195,7 @@ const MainContent = (props) => {
                         <span>
                           {props.text80 ?? (
                             <Fragment>
-                              <span className="main-content-text292">
+                              <span className="main-content-text288">
                                 Book a Call
                               </span>
                             </Fragment>
@@ -208,7 +208,7 @@ const MainContent = (props) => {
                         <span>
                           {props.text81 ?? (
                             <Fragment>
-                              <span className="main-content-text259">
+                              <span className="main-content-text255">
                                 Our Services
                               </span>
                             </Fragment>
@@ -223,8 +223,8 @@ const MainContent = (props) => {
                         <span className="main-content-text110">
                           {props.text1 ?? (
                             <Fragment>
-                              <span className="main-content-text281">
-                                <span className="main-content-text282">
+                              <span className="main-content-text277">
+                                <span className="main-content-text278">
                                   Thank you for subscribing!
                                 </span>
                                 <br></br>
@@ -258,7 +258,7 @@ const MainContent = (props) => {
                     <span className="main-content-text111">
                       {props.text63 ?? (
                         <Fragment>
-                          <span className="main-content-text260">
+                          <span className="main-content-text256">
                             Scroll down
                           </span>
                         </Fragment>
@@ -288,34 +288,50 @@ const MainContent = (props) => {
         )}
         {menu === true && (
           <div className="main-content-container132">
-            <span>
+            <a
+              href="#company"
+              onClick={() => setMenu(false)}
+              className="main-content-link20"
+            >
               {props.text3 ?? (
                 <Fragment>
-                  <span className="main-content-text307">Text</span>
+                  <span className="main-content-text303">Company</span>
                 </Fragment>
               )}
-            </span>
-            <span>
+            </a>
+            <a
+              href="#price"
+              onClick={() => setMenu(false)}
+              className="main-content-link21"
+            >
               {props.text33 ?? (
                 <Fragment>
-                  <span className="main-content-text310">Text</span>
+                  <span className="main-content-text306">Pricing</span>
                 </Fragment>
               )}
-            </span>
-            <span>
+            </a>
+            <a
+              href="#hoeItWork"
+              onClick={() => setMenu(false)}
+              className="main-content-link22"
+            >
               {props.text32 ?? (
                 <Fragment>
-                  <span className="main-content-text309">Text</span>
+                  <span className="main-content-text305">How it work</span>
                 </Fragment>
               )}
-            </span>
-            <span>
+            </a>
+            <a
+              href="#Contact"
+              onClick={() => setMenu(false)}
+              className="main-content-link23"
+            >
               {props.text31 ?? (
                 <Fragment>
-                  <span className="main-content-text308">Text</span>
+                  <span className="main-content-text304">Contact us</span>
                 </Fragment>
               )}
-            </span>
+            </a>
           </div>
         )}
       </div>
@@ -324,11 +340,11 @@ const MainContent = (props) => {
           <div className="main-content-container135">
             <div className="main-content-container136">
               <div className="main-content-container137">
-                <span className="main-content-text116">
+                <span className="main-content-text112">
                   {props.text64 ?? (
                     <Fragment>
-                      <span className="main-content-text287">
-                        <span className="mainTitle main-content-text288">
+                      <span className="main-content-text283">
+                        <span className="mainTitle main-content-text284">
                           Why Choose
                         </span>
                         <span className="mainTitle">
@@ -338,13 +354,13 @@ const MainContent = (props) => {
                             }}
                           />
                         </span>
-                        <span className="main-content-text290">traffls?</span>
+                        <span className="main-content-text286">traffls?</span>
                       </span>
                     </Fragment>
                   )}
                 </span>
               </div>
-              <span className="main-content-text117">
+              <span className="main-content-text113">
                 <span>
                   Traffls is the only service that not only guarantees you leads
                   but also guarantees a positive ROI on these leads. So you can
@@ -367,7 +383,7 @@ const MainContent = (props) => {
                 </span>
               </span>
             </div>
-            <a href="#call" className="main-content-link20">
+            <a href="#call" className="main-content-link24">
               <div className="main-content-container138 btn-1">
                 <span>Book a Call</span>
                 <div className="main-content-container139">
@@ -399,14 +415,14 @@ const MainContent = (props) => {
                 <span>
                   {props.text65 ?? (
                     <Fragment>
-                      <span className="main-content-text304">
+                      <span className="main-content-text300">
                         Guaranteed Leads
                       </span>
                     </Fragment>
                   )}
                 </span>
               </div>
-              <span className="main-content-text125">
+              <span className="main-content-text121">
                 If we do not deliver, there is no cost involved. But do not
                 worry, we will deliver
               </span>
@@ -423,14 +439,14 @@ const MainContent = (props) => {
                 <span>
                   {props.text66 ?? (
                     <Fragment>
-                      <span className="main-content-text306">
+                      <span className="main-content-text302">
                         Guaranteed positive ROI
                       </span>
                     </Fragment>
                   )}
                 </span>
               </div>
-              <span className="main-content-text127">
+              <span className="main-content-text123">
                 After getting to know your business we will establish a ROI
                 positive case for you so that you can grow your business healthy
               </span>
@@ -438,7 +454,7 @@ const MainContent = (props) => {
           </div>
         </div>
         <div className="main-content-container147">
-          <span className="main-content-text128">
+          <span className="main-content-text124">
             <span>
               Start Your
               <span
@@ -447,9 +463,9 @@ const MainContent = (props) => {
                 }}
               />
             </span>
-            <span className="main-content-text130">Lead Engine</span>
+            <span className="main-content-text126">Lead Engine</span>
           </span>
-          <span className="main-content-text131">
+          <span className="main-content-text127">
             Our goal is to help companies solve the growth problem by providing
             continuos leads they can convert into longterm customers.
           </span>
@@ -464,8 +480,8 @@ const MainContent = (props) => {
                   className="main-content-image15"
                 />
               </div>
-              <span className="main-content-text132">No Upfront Costs</span>
-              <span className="main-content-text133">
+              <span className="main-content-text128">No Upfront Costs</span>
+              <span className="main-content-text129">
                 The onboarding, the system setup, and everything else is on us.
                 We want that you don&apos;t need to worry about anything other
                 than closing more leads
@@ -479,8 +495,8 @@ const MainContent = (props) => {
                   className="main-content-image16"
                 />
               </div>
-              <span className="main-content-text134">No Monthly Fee</span>
-              <span className="main-content-text135">
+              <span className="main-content-text130">No Monthly Fee</span>
+              <span className="main-content-text131">
                 There is also no monthly fee, as we do believe in performance.
                 It is on us to make you happy and you should not pay for
                 anything else
@@ -494,8 +510,8 @@ const MainContent = (props) => {
                   className="main-content-image17"
                 />
               </div>
-              <span className="main-content-text136">No Minimum Contract</span>
-              <span className="main-content-text137">
+              <span className="main-content-text132">No Minimum Contract</span>
+              <span className="main-content-text133">
                 So we also do not believe in lenghty contract durations. If you
                 have the feeling that you want to move on, you can do it
                 anytime. The question is if this will ever happen
@@ -509,8 +525,8 @@ const MainContent = (props) => {
                   className="main-content-image18"
                 />
               </div>
-              <span className="main-content-text138">Ongoing Support</span>
-              <span className="main-content-text139">
+              <span className="main-content-text134">Ongoing Support</span>
+              <span className="main-content-text135">
                 You will always have access to our team and your dedicated
                 account manager. The support channel is open 24/7. We will be
                 happy to make you happy
@@ -552,7 +568,7 @@ const MainContent = (props) => {
       <div className="main-content-container179">
         <div className="main-content-container180">
           <div className="main-content-container181">
-            <span className="main-content-text140">
+            <span className="main-content-text136">
               <span>
                 Book a
                 <span
@@ -561,10 +577,10 @@ const MainContent = (props) => {
                   }}
                 />
               </span>
-              <span className="main-content-text142">Discovery</span>
+              <span className="main-content-text138">Discovery</span>
               <span> Call</span>
             </span>
-            <span className="main-content-text144">
+            <span className="main-content-text140">
               <span>Ready to take your lead generation to the next level?</span>
               <br></br>
               <span>
@@ -573,7 +589,7 @@ const MainContent = (props) => {
               </span>
             </span>
           </div>
-          <a href="#call" className="main-content-link21">
+          <a href="#call" className="main-content-link25">
             <div className="btn-1">
               <span>Book a Call</span>
               <div className="main-content-container183">
@@ -596,11 +612,11 @@ const MainContent = (props) => {
       <div id="price" className="main-content-container184">
         <div className="main-content-container185">
           <div className="main-content-container186">
-            <span className="main-content-text149">
-              <span className="main-content-text150">Pricing</span>
+            <span className="main-content-text145">
+              <span className="main-content-text146">Pricing</span>
               <span> that fits you</span>
             </span>
-            <span className="main-content-text152">
+            <span className="main-content-text148">
               <span>In a call we will calculate your needs.</span>
               <br></br>
               <span>
@@ -613,7 +629,7 @@ const MainContent = (props) => {
               </span>
             </span>
           </div>
-          <a href="#call" className="main-content-link22">
+          <a href="#call" className="main-content-link26">
             <div className="main-content-container187 btn-1">
               <span>Book a Call</span>
               <div className="main-content-container188">
@@ -644,8 +660,8 @@ const MainContent = (props) => {
               </div>
             </div>
             <div className="main-content-container193">
-              <span className="main-content-text159">Custom Quote</span>
-              <span className="main-content-text160">
+              <span className="main-content-text155">Custom Quote</span>
+              <span className="main-content-text156">
                 Lorem hatu redi gandu
               </span>
             </div>
@@ -665,10 +681,10 @@ const MainContent = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <span className="main-content-text161">
+                <span className="main-content-text157">
                   {props.text67 ?? (
                     <Fragment>
-                      <span className="main-content-text305">
+                      <span className="main-content-text301">
                         Tailored lead generation
                       </span>
                     </Fragment>
@@ -688,10 +704,10 @@ const MainContent = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <span className="main-content-text162">
+                <span className="main-content-text158">
                   {props.text68 ?? (
                     <Fragment>
-                      <span className="main-content-text262">
+                      <span className="main-content-text258">
                         Positive ROI leads
                       </span>
                     </Fragment>
@@ -711,10 +727,10 @@ const MainContent = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <span className="main-content-text163">
+                <span className="main-content-text159">
                   {props.text69 ?? (
                     <Fragment>
-                      <span className="main-content-text294">
+                      <span className="main-content-text290">
                         Dedicated account manager
                       </span>
                     </Fragment>
@@ -736,10 +752,10 @@ const MainContent = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <span className="main-content-text164">
+                <span className="main-content-text160">
                   {props.text70 ?? (
                     <Fragment>
-                      <span className="main-content-text297">
+                      <span className="main-content-text293">
                         Guaranteed leads
                       </span>
                     </Fragment>
@@ -759,10 +775,10 @@ const MainContent = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <span className="main-content-text165">
+                <span className="main-content-text161">
                   {props.text71 ?? (
                     <Fragment>
-                      <span className="main-content-text291">
+                      <span className="main-content-text287">
                         No minimum contract
                       </span>
                     </Fragment>
@@ -774,8 +790,8 @@ const MainContent = (props) => {
         </div>
       </div>
       <div id="hoeItWork" className="main-content-container207">
-        <span className="main-content-text166">
-          <span className="main-content-text167">
+        <span className="main-content-text162">
+          <span className="main-content-text163">
             Getting
             <span
               dangerouslySetInnerHTML={{
@@ -783,9 +799,9 @@ const MainContent = (props) => {
               }}
             />
           </span>
-          <span className="main-content-text168">More Leads</span>
-          <br className="main-content-text169"></br>
-          <span className="main-content-text170">
+          <span className="main-content-text164">More Leads</span>
+          <br className="main-content-text165"></br>
+          <span className="main-content-text166">
             Has Never Been This
             <span
               dangerouslySetInnerHTML={{
@@ -793,7 +809,7 @@ const MainContent = (props) => {
               }}
             />
           </span>
-          <span className="main-content-text171">Easy</span>
+          <span className="main-content-text167">Easy</span>
         </span>
         <div className="main-content-container208">
           <div className="main-content-container209">
@@ -803,14 +819,14 @@ const MainContent = (props) => {
                   <span>
                     {props.text76 ?? (
                       <Fragment>
-                        <span className="main-content-text280">1</span>
+                        <span className="main-content-text276">1</span>
                       </Fragment>
                     )}
                   </span>
                 </div>
               </div>
-              <span className="main-content-text173">Book A Call</span>
-              <span className="main-content-text174">
+              <span className="main-content-text169">Book A Call</span>
+              <span className="main-content-text170">
                 We will get you know your company and answer some questions to
                 better understand your needs
               </span>
@@ -821,14 +837,14 @@ const MainContent = (props) => {
                   <span>
                     {props.text77 ?? (
                       <Fragment>
-                        <span className="main-content-text274">2</span>
+                        <span className="main-content-text270">2</span>
                       </Fragment>
                     )}
                   </span>
                 </div>
               </div>
-              <span className="main-content-text176">Offer</span>
-              <span className="main-content-text177">
+              <span className="main-content-text172">Offer</span>
+              <span className="main-content-text173">
                 We will send you an offer which fulfills your needs so that your
                 happiness can be guaranteed
               </span>
@@ -841,14 +857,14 @@ const MainContent = (props) => {
                   <span>
                     {props.text78 ?? (
                       <Fragment>
-                        <span className="main-content-text300">3</span>
+                        <span className="main-content-text296">3</span>
                       </Fragment>
                     )}
                   </span>
                 </div>
               </div>
-              <span className="main-content-text179">Onboarding</span>
-              <span className="main-content-text180">
+              <span className="main-content-text175">Onboarding</span>
+              <span className="main-content-text176">
                 We will prepare everything on our side and setup the system so
                 that we can send new leads to your systems
               </span>
@@ -859,14 +875,14 @@ const MainContent = (props) => {
                   <span>
                     {props.text79 ?? (
                       <Fragment>
-                        <span className="main-content-text303">4</span>
+                        <span className="main-content-text299">4</span>
                       </Fragment>
                     )}
                   </span>
                 </div>
               </div>
-              <span className="main-content-text182">Done</span>
-              <span className="main-content-text183">
+              <span className="main-content-text178">Done</span>
+              <span className="main-content-text179">
                 You are now ready to get more leads on a constant basis to grow
                 your business faster
               </span>
@@ -883,8 +899,8 @@ const MainContent = (props) => {
           />
         </div>
         <div className="main-content-container225">
-          <span className="main-content-text184">
-            <span className="main-content-text185">Sing up for</span>
+          <span className="main-content-text180">
+            <span className="main-content-text181">Sing up for</span>
             <span>
               <span
                 dangerouslySetInnerHTML={{
@@ -892,16 +908,16 @@ const MainContent = (props) => {
                 }}
               />
             </span>
-            <span className="main-content-text187">Newslatter</span>
+            <span className="main-content-text183">Newslatter</span>
           </span>
           {newslatter === false && (
-            <span className="main-content-text188">
-              <span className="main-content-text189">
+            <span className="main-content-text184">
+              <span className="main-content-text185">
                 You&apos;ll be informed about updates, special offers and
                 planned
               </span>
-              <br className="main-content-text190"></br>
-              <span className="main-content-text191">
+              <br className="main-content-text186"></br>
+              <span className="main-content-text187">
                 changes to
                 <span
                   dangerouslySetInnerHTML={{
@@ -909,8 +925,8 @@ const MainContent = (props) => {
                   }}
                 />
               </span>
-              <span className="main-content-text192">Traffls</span>
-              <span className="main-content-text193">!</span>
+              <span className="main-content-text188">Traffls</span>
+              <span className="main-content-text189">!</span>
             </span>
           )}
         </div>
@@ -921,7 +937,7 @@ const MainContent = (props) => {
               placeholder={props.textinputPlaceholder}
               className="main-content-textinput2"
             />
-            <a href="#howItWork" className="main-content-link23">
+            <a href="#howItWork" className="main-content-link27">
               <div
                 onClick={() => setNewslatter(true)}
                 className="main-content-container227"
@@ -950,11 +966,11 @@ const MainContent = (props) => {
         )}
         {newslatter === true && (
           <div className="main-content-container229">
-            <span className="main-content-text195">
+            <span className="main-content-text191">
               {props.text ?? (
                 <Fragment>
-                  <span className="main-content-text275">
-                    <span className="main-content-text276">
+                  <span className="main-content-text271">
+                    <span className="main-content-text272">
                       Thank you for subscribing!
                     </span>
                     <br></br>
@@ -972,8 +988,8 @@ const MainContent = (props) => {
       </div>
       <div className="main-content-container230">
         <div className="main-content-container231">
-          <span className="main-content-text196">
-            <span className="mainTitle main-content-text197">
+          <span className="main-content-text192">
+            <span className="mainTitle main-content-text193">
               Frequently Asked
             </span>
             <span className="mainTitle">
@@ -983,19 +999,19 @@ const MainContent = (props) => {
                 }}
               />
             </span>
-            <span className="main-content-text199">Questions</span>
+            <span className="main-content-text195">Questions</span>
           </span>
           <AskedQuestionsNew
             text1={
               <Fragment>
-                <span className="main-content-text200">
+                <span className="main-content-text196">
                   Does the setup cost anything?
                 </span>
               </Fragment>
             }
             text8={
               <Fragment>
-                <span className="main-content-text201">
+                <span className="main-content-text197">
                   No, there is no setup fee. We believe in the long-term value
                   of our service, so we focus on delivering results without any
                   upfront costs. This allows you to start without any financial
@@ -1006,26 +1022,26 @@ const MainContent = (props) => {
             }
             text12={
               <Fragment>
-                <span className="main-content-text202">
+                <span className="main-content-text198">
                   Is there a monthly fee?
                 </span>
               </Fragment>
             }
             text13={
               <Fragment>
-                <span className="main-content-text203">+</span>
+                <span className="main-content-text199">+</span>
               </Fragment>
             }
             text14={
               <Fragment>
-                <span className="main-content-text204">
+                <span className="main-content-text200">
                   Does the setup cost anything?
                 </span>
               </Fragment>
             }
             text82={
               <Fragment>
-                <span className="main-content-text205">
+                <span className="main-content-text201">
                   No, there is no setup fee. We believe in the long-term value
                   of our service, so we focus on delivering results without any
                   upfront costs. This allows you to start without any financial
@@ -1036,26 +1052,26 @@ const MainContent = (props) => {
             }
             text102={
               <Fragment>
-                <span className="main-content-text206">+</span>
+                <span className="main-content-text202">+</span>
               </Fragment>
             }
             text121={
               <Fragment>
-                <span className="main-content-text207">
+                <span className="main-content-text203">
                   Is there a minimum contract time?
                 </span>
               </Fragment>
             }
             text122={
               <Fragment>
-                <span className="main-content-text208">
+                <span className="main-content-text204">
                   Is there a monthly fee?
                 </span>
               </Fragment>
             }
             text821={
               <Fragment>
-                <span className="main-content-text209">
+                <span className="main-content-text205">
                   No, there is no setup fee. We believe in the long-term value
                   of our service, so we focus on delivering results without any
                   upfront costs. This allows you to start without any financial
@@ -1066,26 +1082,26 @@ const MainContent = (props) => {
             }
             text1012={
               <Fragment>
-                <span className="main-content-text210">+</span>
+                <span className="main-content-text206">+</span>
               </Fragment>
             }
             text1211={
               <Fragment>
-                <span className="main-content-text211">
+                <span className="main-content-text207">
                   How do you determine the price for a lead?
                 </span>
               </Fragment>
             }
             text1212={
               <Fragment>
-                <span className="main-content-text212">
+                <span className="main-content-text208">
                   Is there a minimum contract time?
                 </span>
               </Fragment>
             }
             text8211={
               <Fragment>
-                <span className="main-content-text213">
+                <span className="main-content-text209">
                   No, there is no setup fee. We believe in the long-term value
                   of our service, so we focus on delivering results without any
                   upfront costs. This allows you to start without any financial
@@ -1096,12 +1112,12 @@ const MainContent = (props) => {
             }
             text10111={
               <Fragment>
-                <span className="main-content-text214">+</span>
+                <span className="main-content-text210">+</span>
               </Fragment>
             }
             text12111={
               <Fragment>
-                <span className="main-content-text215">
+                <span className="main-content-text211">
                   How do you determine the price for a lead?
                 </span>
               </Fragment>
@@ -1110,16 +1126,16 @@ const MainContent = (props) => {
         </div>
         <div className="main-content-container232">
           <div className="main-content-container233">
-            <span className="main-content-text216">
+            <span className="main-content-text212">
               Do you have more questions?
             </span>
-            <span className="main-content-text217">
+            <span className="main-content-text213">
               If you have any further questions or need additional information,
               feel free to reach out to us! We’re here to help and would love to
               assist you in any way we can. Don’t hesitate to contact us – we’re
               just a message away!
             </span>
-            <a href="#call" className="main-content-link24">
+            <a href="#call" className="main-content-link28">
               <div className="main-content-container234 btn-1">
                 <span>Book a Call</span>
                 <div className="main-content-container235">
@@ -1142,7 +1158,7 @@ const MainContent = (props) => {
       </div>
       <div id="Contact" className="main-content-container236">
         <div className="main-content-container237">
-          <span className="main-content-text219">
+          <span className="main-content-text215">
             <span>
               Start Your
               <span
@@ -1151,9 +1167,9 @@ const MainContent = (props) => {
                 }}
               />
             </span>
-            <span className="main-content-text221">Lead Engine</span>
+            <span className="main-content-text217">Lead Engine</span>
           </span>
-          <span className="main-content-text222">
+          <span className="main-content-text218">
             Our goal is to help companies solve the growth problem by providing
             continuos leads they can convert into longterm customers.
           </span>
@@ -1165,7 +1181,7 @@ const MainContent = (props) => {
                 <span>
                   {props.text722 ?? (
                     <Fragment>
-                      <span className="main-content-text286">First name*</span>
+                      <span className="main-content-text282">First name*</span>
                     </Fragment>
                   )}
                 </span>
@@ -1181,7 +1197,7 @@ const MainContent = (props) => {
                 <span>
                   {props.text732 ?? (
                     <Fragment>
-                      <span className="main-content-text299">Last name*</span>
+                      <span className="main-content-text295">Last name*</span>
                     </Fragment>
                   )}
                 </span>
@@ -1199,7 +1215,7 @@ const MainContent = (props) => {
                 <span>
                   {props.text742 ?? (
                     <Fragment>
-                      <span className="main-content-text293">Email*</span>
+                      <span className="main-content-text289">Email*</span>
                     </Fragment>
                   )}
                 </span>
@@ -1215,7 +1231,7 @@ const MainContent = (props) => {
                 <span>
                   {props.text752 ?? (
                     <Fragment>
-                      <span className="main-content-text302">
+                      <span className="main-content-text298">
                         Phone (Optional)
                       </span>
                     </Fragment>
@@ -1232,7 +1248,7 @@ const MainContent = (props) => {
             </div>
           </div>
           <div className="main-content-container250">
-            <span className="main-content-text227">Message*</span>
+            <span className="main-content-text223">Message*</span>
             <div className="main-content-container251">
               <textarea
                 placeholder={props.textareaPlaceholder2}
@@ -1249,10 +1265,10 @@ const MainContent = (props) => {
             <span>Submit</span>
           </div>
           {contactForm === true && (
-            <span className="main-content-text229">
+            <span className="main-content-text225">
               {props.text2 ?? (
                 <Fragment>
-                  <span className="main-content-text301">
+                  <span className="main-content-text297">
                     Thank you for your contact request. We have sent you a
                     confirmation. Please also check your spam folder.
                   </span>
@@ -1264,7 +1280,7 @@ const MainContent = (props) => {
       </div>
       <div id="call" className="main-content-container254">
         <div className="main-content-container255">
-          <span className="main-content-text230">
+          <span className="main-content-text226">
             <span>
               Start Your
               <span
@@ -1273,9 +1289,9 @@ const MainContent = (props) => {
                 }}
               />
             </span>
-            <span className="main-content-text232">Lead Engine</span>
+            <span className="main-content-text228">Lead Engine</span>
           </span>
-          <span className="main-content-text233">
+          <span className="main-content-text229">
             Our goal is to help companies solve the growth problem by providing
             continuos leads they can convert into longterm customers.
           </span>
@@ -1318,7 +1334,7 @@ const MainContent = (props) => {
                   className="main-content-image21"
                 />
               </div>
-              <span className="main-content-text234">
+              <span className="main-content-text230">
                 Elevate your sales game by thinking outside the box
               </span>
             </div>
@@ -1327,7 +1343,7 @@ const MainContent = (props) => {
                 href="https://www.linkedin.com/company/traffls/"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="main-content-link25"
+                className="main-content-link29"
               >
                 <div className="main-content-container265">
                   <svg
@@ -1342,7 +1358,7 @@ const MainContent = (props) => {
                 href="https://www.instagram.com/traffls_com/"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="main-content-link26"
+                className="main-content-link30"
               >
                 <div className="main-content-container266">
                   <svg
@@ -1360,24 +1376,24 @@ const MainContent = (props) => {
           <div className="main-content-container268">
             <span>EXPLORE</span>
             <div className="main-content-container269">
-              <a href="#company" className="main-content-link27">
+              <a href="#company" className="main-content-link31">
                 Company
               </a>
             </div>
             <div className="main-content-container270">
-              <a href="#price" className="main-content-link28">
+              <a href="#price" className="main-content-link32">
                 {props.text55 ?? (
                   <Fragment>
-                    <span className="main-content-text296 text">Pricing</span>
+                    <span className="main-content-text292 text">Pricing</span>
                   </Fragment>
                 )}
               </a>
             </div>
             <div className="main-content-container271">
-              <a href="#hoeItWork" className="main-content-link29">
+              <a href="#hoeItWork" className="main-content-link33">
                 {props.text56 ?? (
                   <Fragment>
-                    <span className="main-content-text279 text">
+                    <span className="main-content-text275 text">
                       How it Work
                     </span>
                   </Fragment>
@@ -1385,10 +1401,10 @@ const MainContent = (props) => {
               </a>
             </div>
             <div className="main-content-container272">
-              <a href="#Contact" className="main-content-link30">
+              <a href="#Contact" className="main-content-link34">
                 {props.text57 ?? (
                   <Fragment>
-                    <span className="main-content-text261 text">
+                    <span className="main-content-text257 text">
                       Contact us
                     </span>
                   </Fragment>
@@ -1400,10 +1416,10 @@ const MainContent = (props) => {
             <span>SUPPORT</span>
             <Link to="/privacy-policy" className="main-content-navlink1">
               <div className="main-content-container274">
-                <span className="main-content-text237">
+                <span className="main-content-text233">
                   {props.text58 ?? (
                     <Fragment>
-                      <span className="main-content-text285 text">
+                      <span className="main-content-text281 text">
                         Privacy Policy
                       </span>
                     </Fragment>
@@ -1413,10 +1429,10 @@ const MainContent = (props) => {
             </Link>
             <Link to="/imprint" className="main-content-navlink2">
               <div className="main-content-container275">
-                <span className="main-content-text238">
+                <span className="main-content-text234">
                   {props.text59 ?? (
                     <Fragment>
-                      <span className="main-content-text295 text">Imprint</span>
+                      <span className="main-content-text291 text">Imprint</span>
                     </Fragment>
                   )}
                 </span>
@@ -1427,13 +1443,13 @@ const MainContent = (props) => {
             <span>Contact info</span>
             <a
               href="mailto:info@up2data.io?subject="
-              className="main-content-link31"
+              className="main-content-link35"
             >
               <div className="main-content-container277">
                 <span>
                   {props.text60 ?? (
                     <Fragment>
-                      <span className="main-content-text273 text">
+                      <span className="main-content-text269 text">
                         info@traffls.com
                       </span>
                     </Fragment>
@@ -1452,24 +1468,24 @@ const MainContent = (props) => {
         </div>
       </div>
       <div className="main-content-container278">
-        <span className="main-content-text247">Traffls </span>
+        <span className="main-content-text243">Traffls </span>
         <div className="main-content-container279">
           <div className="main-content-container280">
             <span>Privacy Policy</span>
             <span>Imprint</span>
           </div>
           <div className="main-content-container281">
-            <span className="main-content-text250 titel-2">Contact info</span>
+            <span className="main-content-text246 titel-2">Contact info</span>
             <div className="main-content-container282">
               <a
                 href="mailto:info@up2data.io?subject="
-                className="main-content-link32"
+                className="main-content-link36"
               >
                 <div className="main-content-container283">
                   <span className="text">info@traffls.com</span>
                 </div>
               </a>
-              <span className="text main-content-text252">
+              <span className="text main-content-text248">
                 <span>Up2Data GmbH</span>
                 <br></br>
                 <span>Prinz-Ludwig-Straße 4</span>
@@ -1479,7 +1495,7 @@ const MainContent = (props) => {
             </div>
           </div>
           <div className="main-content-container284">
-            <span className="main-content-text258">
+            <span className="main-content-text254">
               Elevate your sales game by thinking outside the box
             </span>
             <div className="main-content-container285">
@@ -1487,7 +1503,7 @@ const MainContent = (props) => {
                 href="https://www.linkedin.com/company/traffls/"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="main-content-link33"
+                className="main-content-link37"
               >
                 <div className="main-content-container286">
                   <svg
@@ -1502,7 +1518,7 @@ const MainContent = (props) => {
                 href="https://www.instagram.com/traffls_com/"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="main-content-link34"
+                className="main-content-link38"
               >
                 <div className="main-content-container287">
                   <svg

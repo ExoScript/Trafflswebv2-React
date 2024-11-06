@@ -236,22 +236,22 @@ const Home = (props) => {
         }
         text3={
           <Fragment>
-            <span className="home-text58">Text</span>
+            <span className="home-text58">Company</span>
           </Fragment>
         }
         text31={
           <Fragment>
-            <span className="home-text59">Text</span>
+            <span className="home-text59">Contact us</span>
           </Fragment>
         }
         text32={
           <Fragment>
-            <span className="home-text60">Text</span>
+            <span className="home-text60">How it work</span>
           </Fragment>
         }
         text33={
           <Fragment>
-            <span className="home-text61">Text</span>
+            <span className="home-text61">Pricing</span>
           </Fragment>
         }
       ></MainContent>
