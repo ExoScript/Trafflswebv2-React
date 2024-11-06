@@ -24,12 +24,7 @@
   font-weight: 700;
 }
 .home-text18 {
-  cursor: pointer;
   display: inline-block;
-  transition: 0.1s;
-}
-.home-text18:hover {
-  opacity: 1;
 }
 .home-text19 {
   cursor: pointer;
@@ -48,7 +43,9 @@
   opacity: 1;
 }
 .home-text21 {
+  cursor: pointer;
   display: inline-block;
+  transition: 0.1s;
 }
 .home-text21:hover {
   opacity: 1;
@@ -62,7 +59,13 @@
 .home-text23 {
   display: inline-block;
 }
+.home-text23:hover {
+  opacity: 1;
+}
 .home-text24 {
+  display: inline-block;
+}
+.home-text25 {
   fill: #444f60;
   color: rgb(68, 79, 96);
   display: inline-block;
@@ -77,28 +80,28 @@
   animation-iteration-count: 1;
   animation-timing-function: ease;
 }
-.home-text25 {
+.home-text26 {
   color: var(--dl-color-primary-lila);
   font-style: normal;
   font-weight: 700;
 }
-.home-text29 {
-  color: var(--dl-color-primary-lila);
-  font-style: normal;
-  font-weight: 700;
-}
-.home-text33 {
+.home-text30 {
   color: var(--dl-color-primary-lila);
   font-style: normal;
   font-weight: 700;
 }
 .home-text34 {
+  color: var(--dl-color-primary-lila);
+  font-style: normal;
+  font-weight: 700;
+}
+.home-text35 {
   fill: rgb(153, 153, 153);
   color: rgb(153, 153, 153);
   display: inline-block;
   letter-spacing: 1px;
 }
-.home-text35 {
+.home-text36 {
   display: inline-block;
   font-size: 38px;
   font-family: "Open Sans";
@@ -106,13 +109,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.home-text38 {
-  font-weight: 700;
-}
 .home-text39 {
-  display: inline-block;
-  font-size: 16px;
-  font-style: normal;
   font-weight: 700;
 }
 .home-text40 {
@@ -123,6 +120,9 @@
 }
 .home-text41 {
   display: inline-block;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
 }
 .home-text42 {
   display: inline-block;
@@ -138,7 +138,6 @@
 }
 .home-text46 {
   display: inline-block;
-  font-size: 22px;
 }
 .home-text47 {
   display: inline-block;
@@ -154,6 +153,7 @@
 }
 .home-text50 {
   display: inline-block;
+  font-size: 22px;
 }
 .home-text51 {
   display: inline-block;
@@ -163,8 +163,6 @@
 }
 .home-text53 {
   display: inline-block;
-  font-style: normal;
-  font-weight: 700;
 }
 .home-text54 {
   display: inline-block;
@@ -181,11 +179,16 @@
   font-style: normal;
   font-weight: 700;
 }
+.home-text57 {
+  display: inline-block;
+  font-style: normal;
+  font-weight: 700;
+}
 @media(max-width: 479px) {
-  .home-text35 {
+  .home-text36 {
     font-size: 28px;
   }
-  .home-text36 {
+  .home-text37 {
     font-size: 28px;
     font-family: Open Sans;
     font-weight: 300;
@@ -194,7 +197,7 @@
     text-transform: none;
     text-decoration: none;
   }
-  .home-text38 {
+  .home-text39 {
     font-weight: 700;
   }
 }

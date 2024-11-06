@@ -8,6 +8,7 @@ import AskedQuestionsNew from './asked-questions-new'
 import './main-content.css'
 
 const MainContent = (props) => {
+  const [contactForm, setContactForm] = useState(false)
   const [newslatter, setNewslatter] = useState(false)
   return (
     <div className="main-content-main-content">
@@ -75,8 +76,8 @@ const MainContent = (props) => {
                 <span className="main-content-text104">
                   {props.text61 ?? (
                     <Fragment>
-                      <span className="main-content-text258">
-                        <span className="main-content-text259">Increase</span>
+                      <span className="main-content-text259">
+                        <span className="main-content-text260">Increase</span>
                         <span> your</span>
                         <br></br>
                         <span>
@@ -87,7 +88,7 @@ const MainContent = (props) => {
                             }}
                           />
                         </span>
-                        <span className="main-content-text263">30%</span>
+                        <span className="main-content-text264">30%</span>
                         <span>
                           <span
                             dangerouslySetInnerHTML={{
@@ -104,7 +105,7 @@ const MainContent = (props) => {
                             }}
                           />
                         </span>
-                        <span className="main-content-text267">3 months</span>
+                        <span className="main-content-text268">3 months</span>
                       </span>
                     </Fragment>
                   )}
@@ -154,7 +155,7 @@ const MainContent = (props) => {
                         <span>
                           {props.text82 ?? (
                             <Fragment>
-                              <span className="main-content-text293">
+                              <span className="main-content-text294">
                                 Newslatter
                               </span>
                             </Fragment>
@@ -170,7 +171,7 @@ const MainContent = (props) => {
                       <span>
                         {props.text80 ?? (
                           <Fragment>
-                            <span className="main-content-text287">
+                            <span className="main-content-text288">
                               Book a Call
                             </span>
                           </Fragment>
@@ -183,7 +184,7 @@ const MainContent = (props) => {
                       <span>
                         {props.text81 ?? (
                           <Fragment>
-                            <span className="main-content-text254">
+                            <span className="main-content-text255">
                               Our Services
                             </span>
                           </Fragment>
@@ -198,8 +199,8 @@ const MainContent = (props) => {
                       <span className="main-content-text110">
                         {props.text1 ?? (
                           <Fragment>
-                            <span className="main-content-text276">
-                              <span className="main-content-text277">
+                            <span className="main-content-text277">
+                              <span className="main-content-text278">
                                 Thank you for subscribing!
                               </span>
                               <br></br>
@@ -233,7 +234,7 @@ const MainContent = (props) => {
                   <span className="main-content-text111">
                     {props.text63 ?? (
                       <Fragment>
-                        <span className="main-content-text255">
+                        <span className="main-content-text256">
                           Scroll down
                         </span>
                       </Fragment>
@@ -269,8 +270,8 @@ const MainContent = (props) => {
                 <span className="main-content-text112">
                   {props.text64 ?? (
                     <Fragment>
-                      <span className="main-content-text282">
-                        <span className="mainTitle main-content-text283">
+                      <span className="main-content-text283">
+                        <span className="mainTitle main-content-text284">
                           Why Choose
                         </span>
                         <span className="mainTitle">
@@ -280,7 +281,7 @@ const MainContent = (props) => {
                             }}
                           />
                         </span>
-                        <span className="main-content-text285">traffls?</span>
+                        <span className="main-content-text286">traffls?</span>
                       </span>
                     </Fragment>
                   )}
@@ -341,7 +342,7 @@ const MainContent = (props) => {
                 <span>
                   {props.text65 ?? (
                     <Fragment>
-                      <span className="main-content-text298">
+                      <span className="main-content-text300">
                         Guaranteed Leads
                       </span>
                     </Fragment>
@@ -365,7 +366,7 @@ const MainContent = (props) => {
                 <span>
                   {props.text66 ?? (
                     <Fragment>
-                      <span className="main-content-text300">
+                      <span className="main-content-text302">
                         Guaranteed positive ROI
                       </span>
                     </Fragment>
@@ -610,7 +611,7 @@ const MainContent = (props) => {
                 <span className="main-content-text157">
                   {props.text67 ?? (
                     <Fragment>
-                      <span className="main-content-text299">
+                      <span className="main-content-text301">
                         Tailored lead generation
                       </span>
                     </Fragment>
@@ -633,7 +634,7 @@ const MainContent = (props) => {
                 <span className="main-content-text158">
                   {props.text68 ?? (
                     <Fragment>
-                      <span className="main-content-text257">
+                      <span className="main-content-text258">
                         Positive ROI leads
                       </span>
                     </Fragment>
@@ -656,7 +657,7 @@ const MainContent = (props) => {
                 <span className="main-content-text159">
                   {props.text69 ?? (
                     <Fragment>
-                      <span className="main-content-text289">
+                      <span className="main-content-text290">
                         Dedicated account manager
                       </span>
                     </Fragment>
@@ -681,7 +682,7 @@ const MainContent = (props) => {
                 <span className="main-content-text160">
                   {props.text70 ?? (
                     <Fragment>
-                      <span className="main-content-text292">
+                      <span className="main-content-text293">
                         Guaranteed leads
                       </span>
                     </Fragment>
@@ -704,7 +705,7 @@ const MainContent = (props) => {
                 <span className="main-content-text161">
                   {props.text71 ?? (
                     <Fragment>
-                      <span className="main-content-text286">
+                      <span className="main-content-text287">
                         No minimum contract
                       </span>
                     </Fragment>
@@ -745,7 +746,7 @@ const MainContent = (props) => {
                   <span>
                     {props.text76 ?? (
                       <Fragment>
-                        <span className="main-content-text275">1</span>
+                        <span className="main-content-text276">1</span>
                       </Fragment>
                     )}
                   </span>
@@ -763,7 +764,7 @@ const MainContent = (props) => {
                   <span>
                     {props.text77 ?? (
                       <Fragment>
-                        <span className="main-content-text269">2</span>
+                        <span className="main-content-text270">2</span>
                       </Fragment>
                     )}
                   </span>
@@ -783,7 +784,7 @@ const MainContent = (props) => {
                   <span>
                     {props.text78 ?? (
                       <Fragment>
-                        <span className="main-content-text295">3</span>
+                        <span className="main-content-text296">3</span>
                       </Fragment>
                     )}
                   </span>
@@ -801,7 +802,7 @@ const MainContent = (props) => {
                   <span>
                     {props.text79 ?? (
                       <Fragment>
-                        <span className="main-content-text297">4</span>
+                        <span className="main-content-text299">4</span>
                       </Fragment>
                     )}
                   </span>
@@ -895,8 +896,8 @@ const MainContent = (props) => {
             <span className="main-content-text191">
               {props.text ?? (
                 <Fragment>
-                  <span className="main-content-text270">
-                    <span className="main-content-text271">
+                  <span className="main-content-text271">
+                    <span className="main-content-text272">
                       Thank you for subscribing!
                     </span>
                     <br></br>
@@ -1107,7 +1108,7 @@ const MainContent = (props) => {
                 <span>
                   {props.text722 ?? (
                     <Fragment>
-                      <span className="main-content-text281">First name*</span>
+                      <span className="main-content-text282">First name*</span>
                     </Fragment>
                   )}
                 </span>
@@ -1123,7 +1124,7 @@ const MainContent = (props) => {
                 <span>
                   {props.text732 ?? (
                     <Fragment>
-                      <span className="main-content-text294">Last name*</span>
+                      <span className="main-content-text295">Last name*</span>
                     </Fragment>
                   )}
                 </span>
@@ -1141,7 +1142,7 @@ const MainContent = (props) => {
                 <span>
                   {props.text742 ?? (
                     <Fragment>
-                      <span className="main-content-text288">Email*</span>
+                      <span className="main-content-text289">Email*</span>
                     </Fragment>
                   )}
                 </span>
@@ -1157,7 +1158,7 @@ const MainContent = (props) => {
                 <span>
                   {props.text752 ?? (
                     <Fragment>
-                      <span className="main-content-text296">
+                      <span className="main-content-text298">
                         Phone (Optional)
                       </span>
                     </Fragment>
@@ -1183,15 +1184,30 @@ const MainContent = (props) => {
             </div>
           </div>
         </div>
-        <a href="#cld" className="main-content-link25">
-          <div className="main-content-container250 btn-1">
+        <div className="main-content-container250">
+          <div
+            onClick={() => setContactForm(true)}
+            className="main-content-container251 btn-1"
+          >
             <span>Submit</span>
           </div>
-        </a>
+          {contactForm === true && (
+            <span className="main-content-text225">
+              {props.text2 ?? (
+                <Fragment>
+                  <span className="main-content-text297">
+                    Thank you for your contact request. We have sent you a
+                    confirmation. Please also check your spam folder.
+                  </span>
+                </Fragment>
+              )}
+            </span>
+          )}
+        </div>
       </div>
-      <div id="call" className="main-content-container251">
-        <div className="main-content-container252">
-          <span className="main-content-text225">
+      <div id="call" className="main-content-container252">
+        <div className="main-content-container253">
+          <span className="main-content-text226">
             <span>
               Start Your
               <span
@@ -1200,16 +1216,16 @@ const MainContent = (props) => {
                 }}
               />
             </span>
-            <span className="main-content-text227">Lead Engine</span>
+            <span className="main-content-text228">Lead Engine</span>
           </span>
-          <span className="main-content-text228">
+          <span className="main-content-text229">
             Our goal is to help companies solve the growth problem by providing
             continuos leads they can convert into longterm customers.
           </span>
         </div>
-        <div className="main-content-container253">
-          <div className="main-content-container254">
-            <div className="main-content-container255">
+        <div className="main-content-container254">
+          <div className="main-content-container255">
+            <div className="main-content-container256">
               <React.Fragment>
                 <React.Fragment>
                   {/* Calendly inline widget begin */}
@@ -1234,29 +1250,29 @@ const MainContent = (props) => {
           </div>
         </div>
       </div>
-      <div className="main-content-container256">
-        <div className="main-content-container257">
-          <div className="main-content-container258">
-            <div className="main-content-container259">
-              <div className="main-content-container260">
+      <div className="main-content-container257">
+        <div className="main-content-container258">
+          <div className="main-content-container259">
+            <div className="main-content-container260">
+              <div className="main-content-container261">
                 <img
                   alt="image"
                   src="/external/logo_txt_w-200h-500h.png"
                   className="main-content-image21"
                 />
               </div>
-              <span className="main-content-text229">
+              <span className="main-content-text230">
                 Elevate your sales game by thinking outside the box
               </span>
             </div>
-            <div className="main-content-container261">
+            <div className="main-content-container262">
               <a
                 href="https://www.linkedin.com/company/traffls/"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="main-content-link26"
+                className="main-content-link25"
               >
-                <div className="main-content-container262">
+                <div className="main-content-container263">
                   <svg
                     viewBox="0 0 877.7142857142857 1024"
                     className="main-content-icon40"
@@ -1269,9 +1285,9 @@ const MainContent = (props) => {
                 href="https://www.instagram.com/traffls_com/"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="main-content-link27"
+                className="main-content-link26"
               >
-                <div className="main-content-container263">
+                <div className="main-content-container264">
                   <svg
                     viewBox="0 0 877.7142857142857 1024"
                     className="main-content-icon42"
@@ -1283,39 +1299,39 @@ const MainContent = (props) => {
             </div>
           </div>
         </div>
-        <div className="main-content-container264">
-          <div className="main-content-container265">
+        <div className="main-content-container265">
+          <div className="main-content-container266">
             <span>EXPLORE</span>
-            <div className="main-content-container266">
-              <a href="#company" className="main-content-link28">
+            <div className="main-content-container267">
+              <a href="#company" className="main-content-link27">
                 Company
               </a>
             </div>
-            <div className="main-content-container267">
-              <a href="#price" className="main-content-link29">
+            <div className="main-content-container268">
+              <a href="#price" className="main-content-link28">
                 {props.text55 ?? (
                   <Fragment>
-                    <span className="main-content-text291 text">Pricing</span>
+                    <span className="main-content-text292 text">Pricing</span>
                   </Fragment>
                 )}
               </a>
             </div>
-            <div className="main-content-container268">
-              <a href="#hoeItWork" className="main-content-link30">
+            <div className="main-content-container269">
+              <a href="#hoeItWork" className="main-content-link29">
                 {props.text56 ?? (
                   <Fragment>
-                    <span className="main-content-text274 text">
+                    <span className="main-content-text275 text">
                       How it Work
                     </span>
                   </Fragment>
                 )}
               </a>
             </div>
-            <div className="main-content-container269">
-              <a href="#Contact" className="main-content-link31">
+            <div className="main-content-container270">
+              <a href="#Contact" className="main-content-link30">
                 {props.text57 ?? (
                   <Fragment>
-                    <span className="main-content-text256 text">
+                    <span className="main-content-text257 text">
                       Contact us
                     </span>
                   </Fragment>
@@ -1323,14 +1339,14 @@ const MainContent = (props) => {
               </a>
             </div>
           </div>
-          <div className="main-content-container270">
+          <div className="main-content-container271">
             <span>SUPPORT</span>
             <Link to="/privacy-policy" className="main-content-navlink1">
-              <div className="main-content-container271">
-                <span className="main-content-text232">
+              <div className="main-content-container272">
+                <span className="main-content-text233">
                   {props.text58 ?? (
                     <Fragment>
-                      <span className="main-content-text280 text">
+                      <span className="main-content-text281 text">
                         Privacy Policy
                       </span>
                     </Fragment>
@@ -1339,28 +1355,28 @@ const MainContent = (props) => {
               </div>
             </Link>
             <Link to="/imprint" className="main-content-navlink2">
-              <div className="main-content-container272">
-                <span className="main-content-text233">
+              <div className="main-content-container273">
+                <span className="main-content-text234">
                   {props.text59 ?? (
                     <Fragment>
-                      <span className="main-content-text290 text">Imprint</span>
+                      <span className="main-content-text291 text">Imprint</span>
                     </Fragment>
                   )}
                 </span>
               </div>
             </Link>
           </div>
-          <div className="main-content-container273">
+          <div className="main-content-container274">
             <span>Contact info</span>
             <a
               href="mailto:info@up2data.io?subject="
-              className="main-content-link32"
+              className="main-content-link31"
             >
-              <div className="main-content-container274">
+              <div className="main-content-container275">
                 <span>
                   {props.text60 ?? (
                     <Fragment>
-                      <span className="main-content-text268 text">
+                      <span className="main-content-text269 text">
                         info@traffls.com
                       </span>
                     </Fragment>
@@ -1378,25 +1394,25 @@ const MainContent = (props) => {
           </div>
         </div>
       </div>
-      <div className="main-content-container275">
-        <span className="main-content-text242">Traffls </span>
-        <div className="main-content-container276">
-          <div className="main-content-container277">
+      <div className="main-content-container276">
+        <span className="main-content-text243">Traffls </span>
+        <div className="main-content-container277">
+          <div className="main-content-container278">
             <span>Privacy Policy</span>
             <span>Imprint</span>
           </div>
-          <div className="main-content-container278">
-            <span className="main-content-text245 titel-2">Contact info</span>
-            <div className="main-content-container279">
+          <div className="main-content-container279">
+            <span className="main-content-text246 titel-2">Contact info</span>
+            <div className="main-content-container280">
               <a
                 href="mailto:info@up2data.io?subject="
-                className="main-content-link33"
+                className="main-content-link32"
               >
-                <div className="main-content-container280">
+                <div className="main-content-container281">
                   <span className="text">info@traffls.com</span>
                 </div>
               </a>
-              <span className="text main-content-text247">
+              <span className="text main-content-text248">
                 <span>Up2Data GmbH</span>
                 <br></br>
                 <span>Prinz-Ludwig-Straße 4</span>
@@ -1405,18 +1421,18 @@ const MainContent = (props) => {
               </span>
             </div>
           </div>
-          <div className="main-content-container281">
-            <span className="main-content-text253">
+          <div className="main-content-container282">
+            <span className="main-content-text254">
               Elevate your sales game by thinking outside the box
             </span>
-            <div className="main-content-container282">
+            <div className="main-content-container283">
               <a
                 href="https://www.linkedin.com/company/traffls/"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="main-content-link34"
+                className="main-content-link33"
               >
-                <div className="main-content-container283">
+                <div className="main-content-container284">
                   <svg
                     viewBox="0 0 877.7142857142857 1024"
                     className="main-content-icon44"
@@ -1429,9 +1445,9 @@ const MainContent = (props) => {
                 href="https://www.instagram.com/traffls_com/"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="main-content-link35"
+                className="main-content-link34"
               >
-                <div className="main-content-container284">
+                <div className="main-content-container285">
                   <svg
                     viewBox="0 0 877.7142857142857 1024"
                     className="main-content-icon46"
@@ -1476,6 +1492,7 @@ MainContent.defaultProps = {
   text82: undefined,
   text732: undefined,
   text78: undefined,
+  text2: undefined,
   text752: undefined,
   textinputPlaceholder22: 'John',
   text79: undefined,
@@ -1515,6 +1532,7 @@ MainContent.propTypes = {
   text82: PropTypes.element,
   text732: PropTypes.element,
   text78: PropTypes.element,
+  text2: PropTypes.element,
   text752: PropTypes.element,
   textinputPlaceholder22: PropTypes.string,
   text79: PropTypes.element,
